@@ -12,6 +12,7 @@ module.exports = {
     },
     `gatsby-plugin-netlify`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sitemap`
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-offline`
   ],
 }
