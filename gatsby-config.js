@@ -2,5 +2,13 @@ module.exports = {
   siteMetadata: {
     title: `2018 JSConf US`,
   },
-  plugins: [`gatsby-plugin-react-helmet`],
+  plugins: [
+    {
+      options: {
+        throw: true
+      },
+      resolve: 'gatsby-plugin-react-a11y'
+    },
+    `gatsby-plugin-react-helmet`
+  ],
 }
