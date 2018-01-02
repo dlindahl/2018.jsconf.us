@@ -1,7 +1,7 @@
 import { absoluteUrl } from '../util/urlFilters'
 import Head from 'react-helmet'
 import Link from 'gatsby-link'
-import PropTypes from 'prop-types'
+import { func, shape, string } from 'prop-types'
 import React from 'react'
 
 import './index.css'
@@ -10,23 +10,23 @@ const Header = () => (
   <div
     style={{
       background: 'rebeccapurple',
-      marginBottom: '1.45rem',
+      marginBottom: '1.45rem'
     }}
   >
     <div
       style={{
         margin: '0 auto',
         maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
+        padding: '1.45rem 1.0875rem'
       }}
     >
       <h1 style={{ margin: 0 }}>
         <Link
-          to="/"
           style={{
             color: 'white',
-            textDecoration: 'none',
+            textDecoration: 'none'
           }}
+          to="/"
         >
           Gatsby
         </Link>
@@ -35,9 +35,12 @@ const Header = () => (
   </div>
 )
 
-const TemplateWrapper = ({ children, data: { site }, location: { pathname }, ...props }) => {
-  console.info('yo', site, props)
-  return (
+const TemplateWrapper = ({
+  children,
+  data: { site },
+  location: { pathname },
+  ...props
+}) => (
   <div>
     <Head>
       <html lang="en"/>
@@ -49,38 +52,62 @@ const TemplateWrapper = ({ children, data: { site }, location: { pathname }, ...
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
         name="viewport"
       />
-      <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png"/>
-      <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png"/>
-      <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png"/>
-      <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#f0db4f"/>
-      <link rel="shortcut icon" href="/img/favicons/favicon.ico"/>
-      <meta name="msapplication-config" content="/img/favicons/browserconfig.xml"/>
+      <link
+        href="/img/favicons/apple-touch-icon.png"
+        rel="apple-touch-icon"
+        sizes="180x180"
+      />
+      <link
+        href="/img/favicons/favicon-32x32.png"
+        rel="icon"
+        sizes="32x32"
+        type="image/png"
+      />
+      <link
+        href="/img/favicons/favicon-16x16.png"
+        rel="icon"
+        sizes="16x16"
+        type="image/png"
+      />
+      <link
+        color="#f0db4f"
+        href="/img/favicons/safari-pinned-tab.svg"
+        rel="mask-icon"
+      />
+      <link href="/img/favicons/favicon.ico" rel="shortcut icon"/>
+      <meta
+        content="/img/favicons/browserconfig.xml"
+        name="msapplication-config"
+      />
       <link href={absoluteUrl(pathname)} rel="canonical"/>
     </Head>
-    <Header />
+    <Header/>
     <div
       style={{
         margin: '0 auto',
         maxWidth: 960,
         padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
+        paddingTop: 0
       }}
     >
       {children()}
     </div>
   </div>
-)}
+)
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func,
-  data: PropTypes.shape({
-    site: PropTypes.shape({
-      siteMetadata: PropTypes.shape({
-        description: PropTypes.string,
-        siteUrl: PropTypes.string,
-        title: PropTypes.string
+  children: func,
+  data: shape({
+    site: shape({
+      siteMetadata: shape({
+        description: string,
+        siteUrl: string,
+        title: string
       })
     })
+  }),
+  location: shape({
+    pathname: string
   })
 }
 

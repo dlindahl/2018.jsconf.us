@@ -1,10 +1,4 @@
 module.exports = {
-  siteMetadata: {
-    baseUrl: '',
-    description: `2018 iteration of JSConf US`,
-    siteUrl: `http://jsconf.us`,
-    title: `JSConf US 2018`,
-  },
   plugins: [
     {
       options: {
@@ -21,29 +15,35 @@ module.exports = {
     `gatsby-plugin-netlify`,
     `gatsby-plugin-react-helmet`,
     {
-    options: {
-      background_color: `#f0db4f`,
-      display: 'standalone',
-      icons: [
-        {
-          sizes: '192x192',
-          src: '/img/favicons/android-chrome-192x192.png',
-          type: 'image/png'
-        },
-        {
-          sizes: '512x512',
-          src: '/img/favicons/android-chrome-512x512.png',
-          type: 'image/png'
-        }
-      ],
-      name: `JSConf US`,
-      short_name: `JSConf US`,
-      start_url: '/',
-      theme_color: `#f0db4f`
+      options: {
+        background_color: `#f0db4f`,
+        display: 'standalone',
+        icons: [
+          {
+            sizes: '192x192',
+            src: '/img/favicons/android-chrome-192x192.png',
+            type: 'image/png'
+          },
+          {
+            sizes: '512x512',
+            src: '/img/favicons/android-chrome-512x512.png',
+            type: 'image/png'
+          }
+        ],
+        name: `JSConf US`,
+        short_name: `JSConf US`,
+        start_url: '/',
+        theme_color: `#f0db4f`
+      },
+      resolve: 'gatsby-plugin-manifest'
     },
-    resolve: 'gatsby-plugin-manifest'
-  },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`
   ],
+  siteMetadata: {
+    baseUrl: '',
+    description: `2018 iteration of JSConf US`,
+    siteUrl: `http://jsconf.us`,
+    title: `JSConf US 2018`
+  }
 }
