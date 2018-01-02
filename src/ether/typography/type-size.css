@@ -1,0 +1,68 @@
+:root {
+  /* Typography */
+
+  /* Scale Modifiers */
+  --desk-d: 1.4;
+  --mobile-d: 1.2;
+
+  /* Desktop Sizes */
+  --d-b0: 1.6ex;
+  --d-b1: calc(var(--d-b0) * var(--desk-d));
+  --d-b2: calc(var(--d-b1) * var(--desk-d));
+  --d-b3: calc(var(--d-b2) * var(--desk-d));
+  --d-b4: calc(var(--d-b3) * var(--desk-d));
+  --d-b5: calc(var(--d-b4) * var(--desk-d));
+  --d-b6: calc(var(--d-b5) * var(--desk-d));
+
+  /* Mobile Sizes */
+  --m-b0: 1.7ex;
+  --m-b1: calc(var(--m-b0) * var(--mobile-d));
+  --m-b2: calc(var(--m-b1) * var(--mobile-d));
+  --m-b3: calc(var(--m-b2) * var(--mobile-d));
+  --m-b4: calc(var(--m-b3) * var(--mobile-d));
+  --m-b5: calc(var(--m-b4) * var(--mobile-d));
+  --m-b6: calc(var(--m-b5) * var(--mobile-d));
+
+  --size--base-0: {
+    font-size: var(--m-b0);
+    @media (--small-screen) {
+      font-size: var(--d-b0);
+    }
+  }
+  --size--base-1: {
+    font-size: var(--m-b1);
+    @media (--small-screen) {
+      font-size: var(--d-b1);
+    }
+  }
+  --size--base-2: {
+    font-size: var(--m-b2);
+    @media (--small-screen) {
+      font-size: var(--d-b2);
+    }
+  }
+  --size--base-3: {
+    font-size: var(--m-b3);
+    @media (--small-screen) {
+      font-size: var(--d-b3);
+    }
+  }
+  --size--base-4: {
+    font-size: var(--m-b4);
+    @media (--small-screen) {
+      font-size: var(--d-b4);
+    }
+  }
+  --size--base-5: {
+    font-size: var(--m-b5);
+    @media (--small-screen) {
+      font-size: var(--d-b5);
+    }
+  }
+  --size--base-6: {
+    font-size: var(--m-b6);
+    @media (--small-screen) {
+      font-size: var(--d-b6);
+    }
+  }
+}

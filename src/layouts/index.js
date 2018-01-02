@@ -4,34 +4,13 @@ import Link from 'gatsby-link'
 import { func, shape, string } from 'prop-types'
 import React from 'react'
 
-import './index.css'
+import './DefaultLayout.css'
 
 const Header = () => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem'
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem'
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          style={{
-            color: 'white',
-            textDecoration: 'none'
-          }}
-          to="/"
-        >
-          Gatsby
-        </Link>
-      </h1>
-    </div>
+  <div>
+    <h1>
+      <Link to="/">JSConf US</Link>
+    </h1>
   </div>
 )
 
@@ -51,6 +30,10 @@ const TemplateWrapper = ({
       <meta
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
         name="viewport"
+      />
+      <link
+        href="https://fonts.googleapis.com/css?family=Fanwood+Text|Shrikhand"
+        rel="stylesheet"
       />
       <link
         href="/img/favicons/apple-touch-icon.png"
@@ -82,16 +65,7 @@ const TemplateWrapper = ({
       <link href={absoluteUrl(pathname)} rel="canonical"/>
     </Head>
     <Header/>
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0
-      }}
-    >
-      {children()}
-    </div>
+    <main>{children()}</main>
   </div>
 )
 

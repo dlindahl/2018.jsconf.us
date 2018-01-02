@@ -1,0 +1,11 @@
+@import './base';
+
+body {
+  @apply --body;
+  color: var(--type-dark);
+  margin-top: var(--spacer-2xl);
+}
+
+h1 {
+  @apply --heading-2xl;
+}

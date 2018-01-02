@@ -1,0 +1,17 @@
+:root {
+  --body: {
+    @apply --size--base-1;
+    @apply --font--primary-regular;
+    line-height: 1.5;
+  }
+  --fine-print: {
+    @apply --size--base-0;
+    @apply --font--primary-regular;
+    line-height: 1.5;
+  }
+  --heading-2xl: {
+    @apply --size--base-6;
+    @apply --font--accent-regular;
+    line-height: 1.2;
+  }
+}

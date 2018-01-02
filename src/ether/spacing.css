@@ -1,0 +1,48 @@
+:root {
+  --mobile-modifier: 0.7;
+
+  --spacing-spacer-2xs: calc(var(--font-primary-cap) * 0.5);
+  --spacing-spacer-xs: var(--font-primary-cap);
+  --spacing-spacer-sm: calc(var(--font-primary-cap) * 1.5);
+  --spacing-spacer-md: calc(var(--font-primary-cap) * 2.5);
+  --spacing-spacer-lg: calc(var(--font-primary-cap) * 4);
+  --spacing-spacer-xl: calc(var(--font-primary-cap) * 6.5);
+  --spacing-spacer-2xl: calc(var(--font-primary-cap) * 10.5);
+
+  --spacer-none: 0;
+
+  --spacer-2xs: var(--spacing-spacer-2xs);
+  @media (--small-screen) {
+    --spacer-2xs: calc(var(--spacer-2xs) * var(--mobile-modifier));
+  }
+
+  --spacer-xs: var(--spacing-spacer-xs);
+  @media (--small-screen) {
+    --spacer-xs: calc(var(--spacer-xs) * var(--mobile-modifier));
+  }
+
+  --spacer-sm: var(--spacing-spacer-sm);
+  @media (--small-screen) {
+    --spacer-sm: calc(var(--spacer-sm) * var(--mobile-modifier));
+  }
+
+  --spacer-md: var(--spacing-spacer-md);
+  @media (--small-screen) {
+    --spacer-md: calc(var(--spacer-md) * var(--mobile-modifier));
+  }
+
+  --spacer-lg: var(--spacing-spacer-lg);
+  @media (--small-screen) {
+    --spacer-lg: calc(var(--spacer-lg) * var(--mobile-modifier));
+  }
+
+  --spacer-xl: var(--spacing-spacer-xl);
+  @media (--small-screen) {
+    --spacer-xl: calc(var(--spacer-xl) * var(--mobile-modifier));
+  }
+
+  --spacer-2xl: var(--spacing-spacer-2xl);
+  @media (--small-screen) {
+    --spacer-2xl: calc(var(--spacer-2xl) * var(--mobile-modifier));
+  }
+}

@@ -1,0 +1,13 @@
+:root {
+  --font--primary-regular {
+    font-family: Fanwood Text, serif;
+    font-style: normal;
+    font-weight: 400;
+  }
+  --font-primary-cap: 0.87ex; /* From https://codepen.io/MisterCurtis/pen/doEzzx */
+  --font--accent-regular {
+    font-family: Shrikhand, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+  }
+}

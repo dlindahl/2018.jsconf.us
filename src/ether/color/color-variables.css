@@ -1,0 +1,8 @@
+:root {
+  --type-dark: var(--dark);
+  --type-medium: var(--dark-75);
+  --type-light: var(--dark-50);
+
+  --selection-bg: var(--js-yellow);
+  --selection-color: var(--js-dark);
+}

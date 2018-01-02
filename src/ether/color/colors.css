@@ -1,0 +1,13 @@
+:root {
+  --dark: #0f1d2b;
+  --dark-85: #3f4f5f;
+  --dark-75: #5b6b7c;
+  --dark-50: #91a3b0;
+  --light-110: #b6c7d4;
+  --light: #e2eaf0;
+  --light-90: #eff4f8;
+  --white: #fff;
+
+  --js-yellow: #f0db4f;
+  --js-dark: #323330;
+}
