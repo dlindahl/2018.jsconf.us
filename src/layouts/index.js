@@ -1,3 +1,4 @@
+import { absoluteUrl } from '../util/urlFilters'
 import Head from 'react-helmet'
 import Link from 'gatsby-link'
 import PropTypes from 'prop-types'
@@ -34,14 +35,16 @@ const Header = () => (
   </div>
 )
 
-const TemplateWrapper = ({ children }) => (
+const TemplateWrapper = ({ children, data: { site }, location: { pathname }, ...props }) => {
+  console.info('yo', site, props)
+  return (
   <div>
     <Head>
       <html lang="en"/>
       <meta content="text/html;charSet=UTF-8" httpEquiv="Content-type"/>
       <meta content="ie=edge" httpEquiv="x-ua-compatible"/>
-      <title>JSConf US 2018</title>
-      <meta content="2018 iteration of JSConf US" name="description"/>
+      <title>{site.siteMetadata.title}</title>
+      <meta content={site.siteMetadata.description} name="description"/>
       <meta
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
         name="viewport"
@@ -52,7 +55,7 @@ const TemplateWrapper = ({ children }) => (
       <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#f0db4f"/>
       <link rel="shortcut icon" href="/img/favicons/favicon.ico"/>
       <meta name="msapplication-config" content="/img/favicons/browserconfig.xml"/>
-      <title>JSConf US 2018</title>
+      <link href={absoluteUrl(pathname)} rel="canonical"/>
     </Head>
     <Header />
     <div
@@ -66,10 +69,31 @@ const TemplateWrapper = ({ children }) => (
       {children()}
     </div>
   </div>
-)
+)}
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func,
+  data: PropTypes.shape({
+    site: PropTypes.shape({
+      siteMetadata: PropTypes.shape({
+        description: PropTypes.string,
+        siteUrl: PropTypes.string,
+        title: PropTypes.string
+      })
+    })
+  })
 }
 
 export default TemplateWrapper
+
+export const pageQuery = graphql`
+  query BlogPostLayoutBySlug {
+    site {
+      siteMetadata {
+        description
+        siteUrl
+        title
+      }
+    }
+  }
+`

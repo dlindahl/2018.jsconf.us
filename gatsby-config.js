@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
+    baseUrl: '',
+    description: `2018 iteration of JSConf US`,
     siteUrl: `http://jsconf.us`,
-    title: `2018 JSConf US`,
+    title: `JSConf US 2018`,
   },
   plugins: [
     {

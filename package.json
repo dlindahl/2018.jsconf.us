@@ -1,6 +1,6 @@
 {
   "name": "2018.jsconf.us",
-  "description": "2018 JSConf US site",
+  "description": "JSConf US 2018 site",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
