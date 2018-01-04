@@ -1,7 +1,19 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+const addSlugToNode = require('./src/util/slugGenerator')
+const getMarkdownPages = require('./src/util/getMarkdownPages')
+const generateMarkdownPages = require('./src/util/generateMarkdownPages')
 
-// You can delete this file if you're not using it
+exports.onCreateNode = ({ boundActionCreators, node, getNode }) => {
+  const { createNodeField } = boundActionCreators
+  if (node.internal.type === 'MarkdownRemark') {
+    addSlugToNode(createNodeField, getNode, node)
+  }
+}
+
+exports.createPages = async ({ boundActionCreators, graphql }) => {
+  const markdownPages = await getMarkdownPages(graphql)
+  return Promise.all(
+    markdownPages.data.allMarkdownRemark.edges.map((page) =>
+      generateMarkdownPages(page.node, boundActionCreators)
+    )
+  )
+}
