@@ -4,14 +4,20 @@
     @apply --font--primary-regular;
     line-height: 1.5;
   }
-  --fine-print: {
+  --smallcaps-regular: {
     @apply --size--base-0;
-    @apply --font--primary-regular;
-    line-height: 1.5;
+    @apply --font--smallcaps-regular;
+    letter-spacing: 2px;
+    text-transform: uppercase;
   }
-  --heading-2xl: {
-    @apply --size--base-6;
-    @apply --font--accent-regular;
-    line-height: 1.2;
+  --smallcaps-black: {
+    @apply --size--base-0;
+    @apply --font--smallcaps-black;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  --button-label-regular: {
+    @apply --smallcaps-regular;
+    @apply --size--base-1;
   }
 }

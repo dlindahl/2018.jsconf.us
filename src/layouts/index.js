@@ -15,7 +15,7 @@ const MasterLayout = ({
       link={[
         {
           href:
-            'https://fonts.googleapis.com/css?family=Fanwood+Text|Shrikhand',
+            'https://fonts.googleapis.com/css?family=Lato:400,700,900|Fanwood+Text:400',
           rel: 'stylesheet'
         },
         {

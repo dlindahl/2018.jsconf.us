@@ -1,0 +1,87 @@
+@import '../../layouts/variables.css';
+
+.Hero {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Hero-Background {
+  background-blend-mode: multiply;
+  background-color: color(var(--js-yellow) shade(5%));
+  background-image: url(https://c1.staticflickr.com/1/620/31430524134_bb15765a8e_b.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+.Hero-Title {
+  @apply --smallcaps-black;
+  color: #888;
+  font-size: 35vw !important;
+  letter-spacing: -2vw;
+  line-height: 24vw;
+  mix-blend-mode: color-dodge;
+  overflow: hidden;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.Hero-CallToAction {
+  @apply --smallcaps-regular;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: absolute;
+  text-transform: uppercase;
+  text-align: center;
+  top: 0;
+  pointer-events: none;
+}
+
+.Hero-CallToActionWrapper {
+  position: relative;
+  pointer-events: all;
+}
+
+.Hero-CallToActionOverlay {
+  background-color: var(--light-lighter);
+  height: 100%;
+  mix-blend-mode: saturation;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.Hero-CallToActionBody {
+  align-items: center;
+  background: var(--js-yellow);
+  color: #f4004a;
+  display: flex;
+  justify-content: center;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  margin: 5vw;
+  text-align: left;
+  isolation: isolate;
+}
+
+.Hero-CallToActionLede {
+  font-size: 5vw;
+  padding-right: 0.5ch;
+  white-space: nowrap;
+}
+
+.Hero-CallToActionText {
+  font-size: 1.5vw;
+  white-space: nowrap;
+}

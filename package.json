@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "classnames": "^2.2.5",
     "gatsby": "^1.9.145",
     "gatsby-link": "^1.6.32",
     "gatsby-plugin-google-analytics": "^1.0.14",
@@ -14,7 +15,8 @@
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-sitemap": "^1.2.9",
     "gatsby-source-filesystem": "^1.5.11",
-    "gatsby-transformer-remark": "^1.7.26"
+    "gatsby-transformer-remark": "^1.7.26",
+    "postcss-discard-duplicates": "^2.1.0"
   },
   "license": "",
   "main": "n/a",

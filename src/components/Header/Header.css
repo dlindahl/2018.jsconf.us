@@ -1,0 +1,49 @@
+@import '../../layouts/variables.css';
+
+.Header {
+  padding-bottom: var(--spacer-md);
+  padding-left: var(--spacer-md);
+  padding-right: var(--spacer-md);
+  padding-top: var(--spacer-md);
+  position: relative;
+}
+
+.Header-Background {
+  background-color: var(--js-yellow-dark);
+  height: 100%;
+  left: 0;
+  mix-blend-mode: color-burn;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.Header-Content {
+  align-items: center;
+  display: flex;
+  isolation: isolate;
+}
+
+.Header-Nav {
+  flex: 1;
+}
+
+.Header-Links {
+  justify-content: space-around;
+  display: flex;
+  list-style: none;
+}
+
+.Header-Link {
+  @apply --smallcaps-regular;
+  flex: 1;
+  text-align: center;
+  & a {
+    color: var(--light-lighter);
+    display: inline-block;
+    text-decoration: none;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}

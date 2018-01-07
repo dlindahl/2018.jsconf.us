@@ -120,7 +120,7 @@ module.exports = {
       }
     ],
     'react/no-string-refs': 'error',
-    'react/no-unescaped-entities': 'error',
+    'react/no-unescaped-entities': 'off',
     'react/no-unused-prop-types': 'warn',
     'react/prefer-es6-class': 'error',
     'react/prefer-stateless-function': 'warn',

@@ -1,13 +1,25 @@
 import DefaultLayout from '../layouts/DefaultLayout'
+import Hero from '../components/Hero'
 import React from 'react'
-import Link from 'gatsby-link'
+
+import './index.css'
 
 const IndexPage = (props) => (
-  <DefaultLayout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+  <DefaultLayout
+    hero={
+      <Hero
+        lede="JSConf US 2018"
+        title={
+          <span>
+            We're<br/>Back
+          </span>
+        }
+      >
+        August 8th - August 10th<br/>Location TBA
+      </Hero>
+    }
+  >
+    <p>Homepage Content</p>
   </DefaultLayout>
 )
 

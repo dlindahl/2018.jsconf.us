@@ -2,10 +2,12 @@
 
 body {
   @apply --body;
-  color: var(--type-dark);
-  margin-top: var(--spacer-2xl);
+  color: var(--type-regular);
 }
 
-h1 {
-  @apply --heading-2xl;
+.Site-Header--withHeader {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
 }

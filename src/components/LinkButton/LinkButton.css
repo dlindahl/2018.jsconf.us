@@ -1,0 +1,17 @@
+@import '../../layouts/variables.css';
+
+.LinkButton {
+  @apply --button-label-regular;
+  outline: solid 3px var(--js-yellow-darker);
+  background: linear-gradient(to bottom, var(--dark-lighter), var(--dark));
+  color: var(--js-yellow-lighter);
+  display: block;
+  padding: var(--spacer-sm);
+  position: relative;
+  text-decoration: none;
+  box-shadow: inset 1px 1px 1px var(--shadow);
+  &:hover {
+    transform: translate(0, -3px);
+    box-shadow: inset 1px 1px 1px var(--shadow), 0 3px 5px var(--shadow);
+  }
+}
