@@ -20,9 +20,21 @@ const Header = () => (
       </aside>
       <nav className="Header-Nav">
         <ul className="Header-Links">
-          <li className="Header-Link">Schedule</li>
-          <li className="Header-Link">Speakers</li>
-          <li className="Header-Link">Sponsors</li>
+          <li className="Header-Link">
+            <a href="/call-for-speakers/">Call for Speakers</a>
+          </li>
+          <li className="Header-Link">
+            <a href="/scholarships/">Scholarships</a>
+          </li>
+          <li className="Header-Link">
+            <a href="/schedule/">Schedule</a>
+          </li>
+          <li className="Header-Link">
+            <a href="/speakers/">Speakers</a>
+          </li>
+          <li className="Header-Link">
+            <a href="/sponsors/">Sponsors</a>
+          </li>
         </ul>
       </nav>
       <aside>
