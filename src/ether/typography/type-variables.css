@@ -4,9 +4,19 @@
     @apply --font--primary-regular;
     line-height: 1.5;
   }
+  --fine-print: {
+    @apply --size--base-0;
+    @apply --font--smallcaps-regular;
+  }
   --smallcaps-regular: {
     @apply --size--base-0;
     @apply --font--smallcaps-regular;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  --smallcaps-bold: {
+    @apply --size--base-0;
+    @apply --font--smallcaps-bold;
     letter-spacing: 2px;
     text-transform: uppercase;
   }

@@ -1,0 +1,38 @@
+@import '../../layouts/variables.css';
+
+.Footer {
+  background: var(--dark);
+  color: var(--light-darker);
+  margin-top: var(--spacer-xl);
+}
+
+.Footer-LinkGroups {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Footer-LinkGroup {
+  list-style: none;
+  padding-top: var(--spacer-md);
+}
+
+.Footer-LinkGroupHeader {
+  @apply --smallcaps-bold;
+  color: var(--js-yellow-dark);
+  padding-top: var(--spacer-md);
+}
+
+.Footer-Link {
+  @apply --fine-print;
+  & a {
+    color: inherit;
+    text-decoration-skip: ink;
+  }
+}
+
+.Footer-Legal {
+  @apply --fine-print;
+  padding-bottom: var(--spacer-md);
+  padding-top: var(--spacer-md);
+  text-align: center;
+}
