@@ -38,7 +38,9 @@ const Header = () => (
         </ul>
       </nav>
       <aside>
-        <LinkButton href="https://tickets.jsconf.us">Get Tickets</LinkButton>
+        <LinkButton dark href="https://tickets.jsconf.us">
+          Get Tickets
+        </LinkButton>
       </aside>
     </div>
   </header>

@@ -1,12 +1,10 @@
 :root {
-  /*--button: var(--dark-dark);*/
+  --color-cta: var(--accent);
   --type-regular: var(--dark);
-  /*--type-dark: var(--dark);*/
-  /*--type-medium: var(--dark-darker);*/
-  /*--type-light: var(--dark-dark);*/
 
   --selection-bg: var(--js-yellow);
   --selection-color: var(--js-gray);
 
-  --shadow: var(--dark-darker);
+  --shadow--dark: var(--dark-darker);
+  --shadow: var(--dark-lighter);
 }

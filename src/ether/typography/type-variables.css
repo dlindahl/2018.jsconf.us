@@ -8,6 +8,10 @@
     @apply --size--base-0;
     @apply --font--smallcaps-regular;
   }
+  --heading-md: {
+    @apply --size--base-3;
+    @apply --font--accent-regular;
+  }
   --smallcaps-regular: {
     @apply --size--base-0;
     @apply --font--smallcaps-regular;

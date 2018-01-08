@@ -25,7 +25,7 @@
 
 .Hero-Title {
   @apply --smallcaps-black;
-  color: #888;
+  color: var(--dark-lighter);
   font-size: 35vw !important;
   letter-spacing: -2vw;
   line-height: 24vw;
@@ -65,7 +65,7 @@
 .Hero-CallToActionBody {
   align-items: center;
   background: var(--js-yellow);
-  color: #f4004a;
+  color: var(--color-cta);
   display: flex;
   justify-content: center;
   padding-left: 1vw;

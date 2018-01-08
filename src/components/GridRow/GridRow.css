@@ -1,0 +1,57 @@
+@import '../../layouts/variables';
+
+.GridRow {
+  display: grid;
+  margin-top: var(--spacer-lg);
+  grid-template-columns:
+    [full-start] minmax(1em, 2fr)
+    [offsetleft-start] minmax(1em, 1fr)
+    [main-start] minmax(0, 3fr)
+    [offsetleft-end] minmax(0, 3fr)
+    [offsetright-start] minmax(0, 3fr)
+    [main-end] minmax(1em, 1fr)
+    [offsetright-end] minmax(1em, 2fr) [full-end];
+}
+
+.GridRow-Header {
+  @apply --heading-md;
+  color: var(--color-cta);
+}
+
+.GridRow-Content {
+  grid-column: main;
+  & a {
+    color: var(--color-cta);
+  }
+  & p {
+    margin-top: var(--spacer-md);
+  }
+}
+
+.GridRow-FullWidth {
+  grid-column: full;
+}
+
+.GridRow-Media {
+  display: none;
+}
+
+.GridRow-MediaLeft {
+  display: block;
+  grid-column: offsetleft;
+}
+
+.GridRow-MediaRight {
+  display: block;
+  grid-column: offsetright;
+  order: 2;
+}
+
+.GridRow-OffsetLeft {
+  grid-column: main / offsetright-start;
+  order: 1;
+}
+
+.GridRow-OffsetRight {
+  grid-column: offsetleft-end / main;
+}

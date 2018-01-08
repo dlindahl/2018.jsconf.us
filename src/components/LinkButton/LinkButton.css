@@ -2,16 +2,28 @@
 
 .LinkButton {
   @apply --button-label-regular;
-  outline: solid 3px var(--js-yellow-darker);
-  background: linear-gradient(to bottom, var(--dark-lighter), var(--dark));
-  color: var(--js-yellow-lighter);
-  display: block;
+  background: linear-gradient(
+    to bottom,
+    var(--js-yellow),
+    var(--js-yellow-dark)
+  );
+  color: var(--dark) !important;
+  display: inline-block;
   padding: var(--spacer-sm);
-  position: relative;
   text-decoration: none;
+  &:hover {
+    transform: translate(0, -1px);
+    box-shadow: 0 1px 3px color(var(--shadow) a(40%));
+  }
+}
+
+.LinkButton--dark {
+  background: linear-gradient(to bottom, var(--dark-lighter), var(--dark));
   box-shadow: inset 1px 1px 1px var(--shadow);
+  color: var(--js-yellow-lighter);
+  outline: solid 3px var(--js-yellow-darker);
   &:hover {
     transform: translate(0, -3px);
-    box-shadow: inset 1px 1px 1px var(--shadow), 0 3px 5px var(--shadow);
+    box-shadow: inset 1px 1px 1px var(--shadow), 0 3px 5px var(--shadow--dark);
   }
 }
