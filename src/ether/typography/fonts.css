@@ -1,10 +1,12 @@
 :root {
   --font--primary-regular {
-    font-family: Fanwood Text, serif;
+    /* System font https://medium.com/designing-medium/system-shock-6b1dc6d6596f */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+      Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 400;
   }
-  --font-primary-cap: 0.87ex; /* From https://codepen.io/MisterCurtis/pen/doEzzx */
+  --font-primary-cap: 0.9ex; /* From https://codepen.io/MisterCurtis/pen/doEzzx */
   --font--smallcaps-regular {
     font-family: Lato, sans-serif;
     font-style: normal;

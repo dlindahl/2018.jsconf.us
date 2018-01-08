@@ -14,8 +14,7 @@ const MasterLayout = ({
       defaultTitle={siteMetadata.title}
       link={[
         {
-          href:
-            'https://fonts.googleapis.com/css?family=Lato:400,700,900|Fanwood+Text:400',
+          href: 'https://fonts.googleapis.com/css?family=Lato:400,700,900',
           rel: 'stylesheet'
         },
         {
