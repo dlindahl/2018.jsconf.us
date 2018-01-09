@@ -6,6 +6,7 @@
   padding-right: var(--spacer-md);
   padding-top: var(--spacer-md);
   position: relative;
+  min-height: 108px;
 }
 
 .Header-Background {
@@ -22,6 +23,11 @@
   align-items: center;
   display: flex;
   isolation: isolate;
+}
+
+.Header-LogoImg {
+  height: 50px;
+  width: 50px;
 }
 
 .Header-Nav {

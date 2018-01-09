@@ -12,9 +12,10 @@ const Header = () => (
         <Link to="/">
           <img
             alt="JSConf US"
-            height="50"
-            src="http://2015.jsconf.us/img/js-sized.png"
-            width="50"
+            className="Header-LogoImg"
+            height="100"
+            src="/img/header/logo.png"
+            width="100"
           />
         </Link>
       </aside>

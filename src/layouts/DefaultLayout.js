@@ -9,7 +9,7 @@ import './DefaultLayout.css'
 
 const DefaultLayout = ({ children, description, title, hero }) => {
   const headerCls = classnames({
-    'Site-Header--withHeader': Boolean(hero)
+    'Site-Header--withHero': Boolean(hero)
   })
   return (
     <div>

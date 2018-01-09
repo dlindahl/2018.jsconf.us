@@ -20,7 +20,7 @@
 .LinkButton--dark {
   background: linear-gradient(to bottom, var(--dark-lighter), var(--dark));
   box-shadow: inset 1px 1px 1px var(--shadow);
-  color: var(--js-yellow-lighter);
+  color: var(--js-yellow-lighter) !important;
   outline: solid 3px var(--js-yellow-darker);
   &:hover {
     transform: translate(0, -3px);

@@ -26,7 +26,7 @@
 .Hero-Title {
   @apply --smallcaps-black;
   color: var(--dark-lighter);
-  font-size: 35vw !important;
+  font-size: 37vw !important;
   letter-spacing: -2vw;
   line-height: 24vw;
   mix-blend-mode: color-dodge;

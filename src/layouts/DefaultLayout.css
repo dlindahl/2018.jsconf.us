@@ -5,7 +5,7 @@ body {
   color: var(--type-regular);
 }
 
-.Site-Header--withHeader {
+.Site-Header--withHero {
   display: flex;
   flex-direction: column;
   height: 100vh;
