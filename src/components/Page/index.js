@@ -1,10 +1,13 @@
+import GridRow from '../GridRow'
 import React from 'react'
 import { string } from 'prop-types'
 
+import './Page.css'
+
 const Page = ({ content }) => (
-  <article>
+  <GridRow className="Page">
     <div dangerouslySetInnerHTML={{ __html: content }}/>
-  </article>
+  </GridRow>
 )
 
 Page.propTypes = {

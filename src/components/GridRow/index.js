@@ -7,6 +7,7 @@ import './GridRow.css'
 
 const GridRow = ({
   children,
+  className,
   feature,
   flourish,
   full,
@@ -17,7 +18,8 @@ const GridRow = ({
 }) => {
   const rootCls = classnames({
     GridRow: true,
-    'GridRow--feature': feature
+    'GridRow--feature': feature,
+    [className]: className
   })
   const mediaCls = classnames({
     'GridRow-Media': true,
@@ -66,6 +68,7 @@ GridRow.defaultProps = {
 
 GridRow.propTypes = {
   children: any,
+  className: string,
   feature: bool,
   flourish: oneOf(['triangle']),
   full: bool,
