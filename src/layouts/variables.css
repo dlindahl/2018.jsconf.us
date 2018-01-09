@@ -1,4 +1,4 @@
-@import '../ether';
+@import '../ether/index.css';
 
 @custom-media --large-screen (min-width: 1200px);
 @custom-media --medium-screen (min-width: 992px);

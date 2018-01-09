@@ -1,4 +1,4 @@
-@import '../../layouts/variables';
+@import '../../layouts/variables.css';
 
 :root {
   --media-width-max: calc(300px - var(--spacer-lg));

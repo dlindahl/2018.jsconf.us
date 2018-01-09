@@ -1,3 +1,3 @@
-@import './typography/fonts';
-@import './typography/type-size';
-@import './typography/type-variables';
+@import './typography/fonts.css';
+@import './typography/type-size.css';
+@import './typography/type-variables.css';
