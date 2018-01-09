@@ -1,4 +1,5 @@
 ---
+description: Scholarships
 title: Scholarships
 ---
 
