@@ -3,8 +3,14 @@ import GridRow from '../GridRow'
 import Link from 'gatsby-link'
 import LinkButton from '../LinkButton'
 
-const CallForProposals = () => (
-  <GridRow title="Call for Proposals">
+const CallForSpeakers = () => (
+  <GridRow
+    flourish="triangle"
+    mediaAlign="left"
+    mediaCredit="Photo by Jason Rosewell on Unsplash"
+    mediaSrc="/img/homepage/cfp-callout.jpg"
+    title="Call for Speakers"
+  >
     <p>We will be opening our Call for Proposals soon!</p>
     <p>
       JSConf has been the launchpad for many of the greatest things that we now
@@ -19,4 +25,4 @@ const CallForProposals = () => (
   </GridRow>
 )
 
-export default CallForProposals
+export default CallForSpeakers

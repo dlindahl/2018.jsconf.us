@@ -1,5 +1,7 @@
-import CallForProposals from './CallForProposals'
+import CallForSpeakers from './CallForSpeakers'
+import CodeOfConduct from './CodeOfConduct'
 import DefaultLayout from '../../layouts/DefaultLayout'
+import DiversityInclusion from './DiversityInclusion'
 import Hero from '../Hero'
 import React from 'react'
 
@@ -20,7 +22,9 @@ const Homepage = (props) => (
       </Hero>
     }
   >
-    <CallForProposals/>
+    <CallForSpeakers/>
+    <DiversityInclusion/>
+    <CodeOfConduct/>
   </DefaultLayout>
 )
 
