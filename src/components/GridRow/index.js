@@ -78,7 +78,7 @@ GridRow.propTypes = {
   id: string,
   mediaAlign: oneOf(['left', 'right']),
   mediaCredit: string,
-  mediaSrc: bool,
+  mediaSrc: string,
   title: string
 }
 
