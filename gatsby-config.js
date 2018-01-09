@@ -16,11 +16,19 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     {
       options: {
+        name: 'jsonData',
+        path: `${__dirname}/data/`
+      },
+      resolve: 'gatsby-source-filesystem'
+    },
+    {
+      options: {
         name: 'markdownPages',
         path: `${__dirname}/content/`
       },
       resolve: 'gatsby-source-filesystem'
     },
+    'gatsby-transformer-json',
     `gatsby-transformer-remark`,
     {
       options: {

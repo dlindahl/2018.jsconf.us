@@ -1,0 +1,17 @@
+@import '../../layouts/variables';
+
+.Schedule-NavRow {
+  background: var(--white);
+  padding-bottom: var(--spacer-sm);
+  padding-top: var(--spacer-sm);
+  position: sticky;
+  top: 0;
+}
+
+.Schedule-NavItems {
+  display: flex;
+  flex-direction: row;
+  grid-column: main;
+  justify-content: space-around;
+  list-style: none;
+}

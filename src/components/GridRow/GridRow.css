@@ -7,7 +7,7 @@
 
 .GridRow {
   display: grid;
-  margin-top: var(--spacer-2xl);
+  padding-top: var(--spacer-2xl);
   grid-template-columns:
     [full-start] minmax(1em, 2fr)
     [offsetleft-start] minmax(1em, calc(var(--media-width-max) / 3))

@@ -1,7 +1,7 @@
 @import '../../layouts/variables';
 
 .Page {
-  margin-top: 0;
+  padding-top: 0;
   & h1 {
     @apply --heading-md;
     color: var(--color-cta);

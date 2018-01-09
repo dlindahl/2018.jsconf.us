@@ -1,0 +1,132 @@
+[
+  {
+    "duration": 90,
+    "description": "Hot Breakfast, Coffee, and Registration"
+  },
+  {
+    "duration": 30,
+    "description": "Opening Remarks by the JSConf US Curators"
+  },
+  {
+    "duration": 45,
+    "trackA": {
+      "speaker": "TBD",
+      "title": "TBD"
+    },
+    "trackB": {
+      "speaker": "TBD",
+      "title": "TBD"
+    }
+  },
+  {
+    "duration": 45,
+    "trackA": {
+      "speaker": "TBD",
+      "title": "TBD"
+    },
+    "trackB": {
+      "speaker": "TBD",
+      "title": "TBD"
+    }
+  },
+  {
+    "duration": 45,
+    "trackA": {
+      "speaker": "TBD",
+      "title": "TBD"
+    },
+    "trackB": {
+      "speaker": "TBD",
+      "title": "TBD"
+    }
+  },
+  {
+    "duration": 60,
+    "description": "Lunch"
+  },
+  {
+    "duration": 45,
+    "trackA": {
+      "speaker": "TBD",
+      "title": "TBD"
+    },
+    "trackB": {
+      "speaker": "TBD",
+      "title": "TBD"
+    }
+  },
+  {
+    "duration": 45,
+    "trackA": {
+      "speaker": "TBD",
+      "title": "TBD"
+    },
+    "trackB": {
+      "speaker": "TBD",
+      "title": "TBD"
+    }
+  },
+  {
+    "duration": 45,
+    "trackA": {
+      "speaker": "TBD",
+      "title": "TBD"
+    },
+    "trackB": {
+      "speaker": "TBD",
+      "title": "TBD"
+    }
+  },
+  {
+    "duration": 45,
+    "trackA": {
+      "speaker": "TBD",
+      "title": "TBD"
+    },
+    "trackB": {
+      "speaker": "TBD",
+      "title": "TBD"
+    }
+  },
+  {
+    "duration": 30,
+    "description": "Break"
+  },
+  {
+    "duration": 45,
+    "trackA": {
+      "speaker": "TBD",
+      "title": "TBD"
+    },
+    "trackB": {
+      "speaker": "TBD",
+      "title": "TBD"
+    }
+  },
+  {
+    "duration": 45,
+    "trackA": {
+      "speaker": "TBD",
+      "title": "TBD"
+    },
+    "trackB": {
+      "speaker": "TBD",
+      "title": "TBD"
+    }
+  },
+  {
+    "duration": 45,
+    "trackA": {
+      "speaker": "TBD",
+      "title": "TBD"
+    },
+    "trackB": {
+      "speaker": "TBD",
+      "title": "TBD"
+    }
+  },
+  {
+    "duration": 30,
+    "description": "Closing Remarks"
+  }
+]

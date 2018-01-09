@@ -11,6 +11,7 @@ const GridRow = ({
   feature,
   flourish,
   full,
+  id,
   mediaAlign,
   mediaCredit,
   mediaSrc,
@@ -52,7 +53,7 @@ const GridRow = ({
     header = <header className="GridRow-Header">{title}</header>
   }
   return (
-    <section className={rootCls}>
+    <section className={rootCls} id={id}>
       {media}
       <main className={contentCls}>
         {header}
@@ -72,6 +73,7 @@ GridRow.propTypes = {
   feature: bool,
   flourish: oneOf(['triangle']),
   full: bool,
+  id: string,
   mediaAlign: oneOf(['left', 'right']),
   mediaCredit: string,
   mediaSrc: bool,

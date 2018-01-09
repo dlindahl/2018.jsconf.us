@@ -1,0 +1,23 @@
+@import '../../layouts/variables';
+
+.TimeTable {
+  border-collapse: collapse;
+  margin-top: var(--spacer-md);
+  width: 100%;
+  & thead {
+    & th {
+      background: var(--light);
+      text-align: left;
+    }
+  }
+  & tr {
+    &:nth-child(even) {
+      background: var(--light);
+    }
+  }
+  & th,
+  & td {
+    padding: var(--spacer-xs);
+    border: solid 1px #ccc;
+  }
+}
