@@ -18,6 +18,7 @@
     [offsetright-end] minmax(1em, 2fr) [full-end];
   & a {
     color: var(--color-cta);
+    text-decoration-skip: ink;
   }
 }
 

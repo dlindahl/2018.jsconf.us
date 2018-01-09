@@ -4,14 +4,6 @@
     @apply --font--primary-regular;
     line-height: 1.5;
   }
-  --fine-print: {
-    @apply --size--base-0;
-    @apply --font--smallcaps-regular;
-  }
-  --heading-md: {
-    @apply --size--base-3;
-    @apply --font--accent-regular;
-  }
   --smallcaps-regular: {
     @apply --size--base-0;
     @apply --font--smallcaps-regular;
@@ -29,6 +21,28 @@
     @apply --font--smallcaps-black;
     letter-spacing: 2px;
     text-transform: uppercase;
+  }
+  --fine-print: {
+    @apply --size--base-0;
+    @apply --font--smallcaps-regular;
+  }
+  --heading-md: {
+    @apply --size--base-3;
+    @apply --font--accent-regular;
+  }
+  --heading-sm: {
+    @apply --size--base-2;
+    @apply --font--accent-regular;
+  }
+  --heading-xs: {
+    @apply --size--base-1;
+    @apply --font--accent-regular;
+  }
+  --heading-2xs: {
+    @apply --smallcaps-regular;
+    /*@apply --size--base-0;*/
+    /*@apply --font--smallcaps-regular;*/
+    /*text-transform: uppercase;*/
   }
   --button-label-regular: {
     @apply --smallcaps-regular;
