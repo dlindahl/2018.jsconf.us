@@ -1,7 +1,7 @@
 import React from 'react'
 import GridRow from '../GridRow'
 import Link from 'gatsby-link'
-import LinkButton from '../LinkButton'
+// import LinkButton from '../LinkButton'
 
 const CallForSpeakers = () => (
   <GridRow
@@ -20,7 +20,8 @@ const CallForSpeakers = () => (
       leaders of the JavaScript world.
     </p>
     <p>
-      <LinkButton href="/TODO/">Submit Your Proposal</LinkButton>
+      Stay tuned to learn how to submit your proposal!
+      {/* <LinkButton href="/TODO/">Submit Your Proposal</LinkButton> */}
     </p>
   </GridRow>
 )
