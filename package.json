@@ -26,8 +26,10 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "lint": "npm-run-all --parallel lint:*",
-    "lint:js": "prettier-eslint --write \"./*.js\" \"./src/**/*.js\" && eslint --ignore-path .gitignore --fix .",
+    "lint:js":
+      "prettier-eslint --write \"./*.js\" \"./src/**/*.js\" && eslint --ignore-path .gitignore --fix .",
     "pretest": "npm run lint",
+    "serve": "gatsby serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
