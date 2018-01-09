@@ -44,7 +44,9 @@ const GridRow = ({
       <aside className={mediaCls}>
         <figure className={mediaClsContainer}>
           <img alt="" className="GridRow-MediaImg" src={mediaSrc}/>
-          <caption className="GridRow-MediaCaption">{mediaCredit}</caption>
+          <figcaption className="GridRow-MediaCaption">
+            {mediaCredit}
+          </figcaption>
         </figure>
       </aside>
     )
