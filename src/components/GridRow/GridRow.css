@@ -1,8 +1,8 @@
 @import '../../layouts/variables.css';
 
 :root {
-  --media-width-max: calc(300px - var(--spacer-lg));
-  --media-img-dims: calc(100% - var(--spacer-lg));
+  --media-width-max: calc(300px - var(--spacer-md));
+  --media-img-dims: calc(100% - var(--spacer-md));
 }
 
 .GridRow {
@@ -20,30 +20,71 @@
     color: var(--color-cta);
     text-decoration-skip: ink;
   }
+  & h1 {
+    @apply --heading-md;
+    color: var(--color-cta);
+    margin-top: var(--spacer-lg);
+    &:first-child {
+      margin-top: var(--spacer-xs);
+    }
+  }
+  & h2 {
+    @apply --heading-sm;
+    color: var(--accent-darker);
+    margin-top: var(--spacer-md);
+  }
+  & h3 {
+    @apply --heading-xs;
+    color: var(--accent-lighter);
+    margin-top: var(--spacer-md);
+  }
+  & h4 {
+    @apply --heading-2xs;
+    margin-top: var(--spacer-md);
+  }
+  & h5 {
+    @apply --heading-3xs;
+    color: var(--light-darker);
+    margin-top: var(--spacer-sm);
+  }
+  & h6 {
+    @apply --heading-4xs;
+    color: var(--light-dark);
+    margin-top: var(--spacer-sm);
+  }
+  & ul {
+    margin-top: var(--spacer-md);
+  }
+  & li {
+    margin-top: Var(--spacer-sm);
+  }
+  & strong {
+    background-color: var(--selection-bg);
+  }
 }
 
 .GridRow--feature {
   background-color: var(--accent);
-  padding-bottom: var(--spacer-xl);
-  padding-top: var(--spacer-lg);
-  color: white;
-  & a {
+  padding-bottom: var(--spacer-lg);
+  padding-top: var(--spacer-md);
+  color: var(--white);
+  & a,
+  & h1,
+  & h2 {
     color: var(--js-yellow);
   }
-  & .GridRow-Header {
-    color: var(--js-yellow) !important;
+  & h3,
+  & h4,
+  & h5,
+  & h6 {
+    color: var(--light-light);
   }
-}
-
-.GridRow-Header {
-  @apply --heading-md;
-  color: var(--color-cta);
 }
 
 .GridRow-Content {
   grid-column: main;
   & p {
-    margin-top: var(--spacer-md);
+    margin-top: var(--spacer-sm);
   }
 }
 
@@ -62,20 +103,20 @@
 .GridRow-MediaLeft {
   display: block;
   grid-column: offsetleft;
-  padding-right: var(--spacer-lg);
+  padding-right: var(--spacer-md);
 }
 
 .GridRow-MediaRight {
   display: block;
   grid-column: offsetright;
   order: 2;
-  padding-left: var(--spacer-lg);
+  padding-left: var(--spacer-md);
 }
 
 .GridRow-MediaContainer {
   height: var(--media-width-max);
   object-fit: cover;
-  padding-top: var(--spacer-lg);
+  padding-top: var(--spacer-md);
   position: relative;
   &:after {
     content: '';

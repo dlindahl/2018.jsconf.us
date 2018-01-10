@@ -8,7 +8,7 @@ import TimeTable from './TimeTable'
 import './SchedulePage.css'
 
 const SchedulePage = ({ dayOne, dayThree }) => (
-  <DefaultLayout title="SchedulePage">
+  <DefaultLayout description="Schedule for JSConf US 2018" title="Schedule">
     <GridRow className="Schedule-NavRow">
       <nav className="Schedule-Nav">
         <ul className="Schedule-NavItems">

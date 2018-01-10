@@ -1,12 +1,20 @@
 @import '../../layouts/variables.css';
 
+.SponsorsList {
+  &:first-child {
+    & h2 {
+      margin-top: 0;
+    }
+  }
+}
+
 .SponsorsList-Items {
   @apply --smallcaps-black-md;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  margin-top: var(--spacer-md);
+  margin-top: var(--spacer-xs);
   text-decoration-skip: skip;
 }
 

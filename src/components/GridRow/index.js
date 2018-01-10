@@ -52,7 +52,7 @@ const GridRow = ({
     )
   }
   if (title) {
-    header = <header className="GridRow-Header">{title}</header>
+    header = <h1 className="GridRow-Header">{title}</h1>
   }
   return (
     <section className={rootCls} id={id}>

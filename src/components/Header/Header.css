@@ -1,12 +1,14 @@
 @import '../../layouts/variables.css';
 
 .Header {
-  padding-bottom: var(--spacer-md);
-  padding-left: var(--spacer-md);
-  padding-right: var(--spacer-md);
-  padding-top: var(--spacer-md);
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 88px;
+  padding-left: var(--spacer-xs);
+  padding-right: var(--spacer-xs);
   position: relative;
-  min-height: 108px;
 }
 
 .Header-Background {
@@ -22,6 +24,7 @@
 .Header-Content {
   align-items: center;
   display: flex;
+  flex: 1;
   isolation: isolate;
 }
 

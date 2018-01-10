@@ -2,35 +2,4 @@
 
 .Page {
   padding-top: 0;
-  & h1 {
-    @apply --heading-md;
-    color: var(--color-cta);
-    margin-top: var(--spacer-lg);
-    &:first-child {
-      margin-top: var(--spacer-sm);
-    }
-  }
-  & h2 {
-    @apply --heading-sm;
-    color: var(--accent-darker);
-    margin-top: var(--spacer-md);
-  }
-  & h3 {
-    @apply --heading-xs;
-    color: var(--accent-lighter);
-    margin-top: var(--spacer-md);
-  }
-  & h4 {
-    @apply --heading-2xs;
-    margin-top: var(--spacer-md);
-  }
-  & ul {
-    margin-top: var(--spacer-md);
-  }
-  & li {
-    margin-top: Var(--spacer-sm);
-  }
-  & strong {
-    background-color: var(--selection-bg);
-  }
 }

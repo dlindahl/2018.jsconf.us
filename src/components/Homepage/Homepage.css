@@ -1,5 +1,5 @@
 @import '../../layouts/variables.css';
 
 .Homepage-Block {
-  margin-top: var(--spacer-2xl);
+  margin-top: var(--spacer-md);
 }
