@@ -22,6 +22,10 @@
     letter-spacing: 2px;
     text-transform: uppercase;
   }
+  --smallcaps-black-md: {
+    @apply --smallcaps-black;
+    @apply --size--base-2;
+  }
   --fine-print: {
     @apply --size--base-0;
     @apply --font--smallcaps-regular;
@@ -40,9 +44,6 @@
   }
   --heading-2xs: {
     @apply --smallcaps-regular;
-    /*@apply --size--base-0;*/
-    /*@apply --font--smallcaps-regular;*/
-    /*text-transform: uppercase;*/
   }
   --button-label-regular: {
     @apply --smallcaps-regular;

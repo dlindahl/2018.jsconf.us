@@ -1,0 +1,21 @@
+@import '../../layouts/variables.css';
+
+.SponsorsList-Items {
+  @apply --smallcaps-black-md;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-top: var(--spacer-md);
+  text-decoration-skip: skip;
+}
+
+.SponsorsList-Item {
+  height: 150px;
+  align-items: center;
+  background: var(--white);
+  color: var(--accent-tertiary);
+  display: flex;
+  justify-content: center;
+  padding: var(--spacer-xs);
+}
