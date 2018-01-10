@@ -1,9 +1,10 @@
 import GridRow from '../GridRow'
 import Link from 'gatsby-link'
 import React from 'react'
+import { string } from 'prop-types'
 
-const CodeOfConduct = () => (
-  <GridRow title="Code of Conduct">
+const CodeOfConduct = ({ className }) => (
+  <GridRow className={className} title="Code of Conduct">
     <p>
       JSConf was one of the first conferences to implement and enforce a
       conference Code of Conduct. This year is no different. We expect, and
@@ -13,5 +14,9 @@ const CodeOfConduct = () => (
     </p>
   </GridRow>
 )
+
+CodeOfConduct.propTypes = {
+  className: string
+}
 
 export default CodeOfConduct

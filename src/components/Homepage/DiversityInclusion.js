@@ -1,9 +1,10 @@
 import GridRow from '../GridRow'
 import Link from 'gatsby-link'
 import React from 'react'
+import { string } from 'prop-types'
 
-const DiversityInclusion = () => (
-  <GridRow feature title="Diversity &amp; Inclusion">
+const DiversityInclusion = ({ className }) => (
+  <GridRow className={className} feature title="Diversity &amp; Inclusion">
     <p>
       As we bring JSConf back to the US, we're committed to creating a diverse
       and inclusive environment. Part of that commitment includes our diversity
@@ -17,5 +18,9 @@ const DiversityInclusion = () => (
     </p>
   </GridRow>
 )
+
+DiversityInclusion.propTypes = {
+  className: string
+}
 
 export default DiversityInclusion

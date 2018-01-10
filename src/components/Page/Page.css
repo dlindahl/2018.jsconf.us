@@ -6,6 +6,9 @@
     @apply --heading-md;
     color: var(--color-cta);
     margin-top: var(--spacer-lg);
+    &:first-child {
+      margin-top: var(--spacer-sm);
+    }
   }
   & h2 {
     @apply --heading-sm;

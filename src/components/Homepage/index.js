@@ -22,9 +22,9 @@ const Homepage = (props) => (
       </Hero>
     }
   >
-    <CallForSpeakers/>
-    <DiversityInclusion/>
-    <CodeOfConduct/>
+    <CallForSpeakers className="Homepage-Block"/>
+    <DiversityInclusion className="Homepage-Block"/>
+    <CodeOfConduct className="Homepage-Block"/>
   </DefaultLayout>
 )
 

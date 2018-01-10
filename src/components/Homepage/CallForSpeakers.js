@@ -1,10 +1,12 @@
-import React from 'react'
 import GridRow from '../GridRow'
 import Link from 'gatsby-link'
+import React from 'react'
+import { string } from 'prop-types'
 // import LinkButton from '../LinkButton'
 
-const CallForSpeakers = () => (
+const CallForSpeakers = ({ className }) => (
   <GridRow
+    className={className}
     flourish="triangle"
     mediaAlign="left"
     mediaCredit="Photo by Jason Rosewell on Unsplash"
@@ -25,5 +27,9 @@ const CallForSpeakers = () => (
     </p>
   </GridRow>
 )
+
+CallForSpeakers.propTypes = {
+  className: string
+}
 
 export default CallForSpeakers
