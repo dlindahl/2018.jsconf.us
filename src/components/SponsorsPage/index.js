@@ -25,7 +25,13 @@ const Sponsors = ({ data }) => (
       </p>
       <p>
         Interested in sponsoring?{' '}
-        <a href="mailto:derek@jsconf.us">Contact us for details!</a>
+        <a
+          href="http://bit.ly/JSConfUS2018sponsorship"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Contact us for details!
+        </a>
       </p>
     </GridRow>
     <SponsorsListFeature data={data}/>

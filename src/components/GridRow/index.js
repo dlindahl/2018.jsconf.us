@@ -73,7 +73,7 @@ GridRow.propTypes = {
   children: any,
   className: string,
   feature: bool,
-  flourish: oneOf(['triangle']),
+  flourish: oneOf(['hexagon', 'triangle']),
   full: bool,
   id: string,
   mediaAlign: oneOf(['left', 'right']),

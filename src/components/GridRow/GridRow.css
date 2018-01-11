@@ -121,11 +121,22 @@
   &:after {
     content: '';
     display: block;
-    height: 120%;
     position: absolute;
-    top: -10%;
     left: 0;
-    width: 120%;
+  }
+}
+
+.GridRow-MediaContainer--hexagon {
+  &:after {
+    content: '';
+    background: var(--js-yellow);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    height: 90%;
+    left: 40%;
+    mix-blend-mode: soft-light;
+    top: 25%;
+    transform: rotate(65deg);
+    width: 90%;
   }
 }
 
@@ -134,8 +145,11 @@
     content: '';
     background: var(--js-yellow);
     clip-path: polygon(50% 0, 0 100%, 100% 100%);
+    height: 120%;
     mix-blend-mode: multiply;
+    top: -10%;
     transform: rotate(65deg);
+    width: 120%;
   }
 }
 
