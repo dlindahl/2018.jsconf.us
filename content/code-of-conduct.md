@@ -78,4 +78,4 @@ For more information please familiarize yourself with [Geek Feminism wiki guide]
 
 This Code of Conduct was based on [JSConf EU](https://2018.jsconf.eu), [CSSConf / JSConf AU](http://2018.jsconfau.com/), [The Geek Feminism wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy), the work of [Valerie Aurora](https://frameshiftconsulting.com/code-of-conduct-training/) and [Conference Code of Conduct](http://confcodeofconduct.com/).
 
-[2018-report-form]: https://docs.google.com/forms/d/e/1FAIpQLSfiRU8yyHYVE0TDST3TNzYYQvibxfozxhP0tJXm97vr0exHig/viewform?usp=sf_link
+[2018-report-form]: http://bit.ly/JSConfUS2018Report

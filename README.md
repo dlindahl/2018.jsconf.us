@@ -1,13 +1,15 @@
-# gatsby-starter-default
-The default Gatsby starter
+# 2018 JSConf US
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+# Important Links
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+*   [Code of Conduct Anonymous Report Form](http://bit.ly/JSConfUS2018Report)
 
-## Deploy
+# Development
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+For live development: `yarn develop`
+
+For production-like build testing: `yarn build && yarn serve`
+
+# Deployment
+
+To deploy to Netlify, `git push`
