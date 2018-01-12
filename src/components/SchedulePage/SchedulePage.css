@@ -3,7 +3,6 @@
 .Schedule-NavRow {
   background: var(--white);
   padding-bottom: var(--spacer-sm);
-  padding-top: var(--spacer-sm);
   position: sticky;
   top: 0;
 }

@@ -52,7 +52,7 @@
     color: var(--light-dark);
     margin-top: var(--spacer-sm);
   }
-  & ul {
+  & ul:not(nav > ul) {
     margin-top: var(--spacer-md);
   }
   & li {
