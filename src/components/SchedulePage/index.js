@@ -30,7 +30,7 @@ const SchedulePage = ({ dayOne, dayThree }) => (
         </ul>
       </nav>
     </GridRow>
-    <GridRow id="arrival" title="Monday, August 18th">
+    <GridRow id="arrival" title="Monday, August 20th">
       <h2>Welcome Reception</h2>
       <h3>6:00PM - 9:00PM</h3>
       <p>
@@ -40,7 +40,7 @@ const SchedulePage = ({ dayOne, dayThree }) => (
       </p>
       <Campfires/>
     </GridRow>
-    <GridRow id="day-one" title="Tuesday, August 19th">
+    <GridRow id="day-one" title="Tuesday, August 21st">
       <h2>Conference Tracks</h2>
 
       <h3>What is the Track A?</h3>
@@ -59,7 +59,7 @@ const SchedulePage = ({ dayOne, dayThree }) => (
         the most exciting talks at JSConf. Registration opens about one month
         before the event, so keep your eyes peeled!
       </p>
-      <TimeTable items={dayOne} startTime="2018-08-19T07:30-0700"/>
+      <TimeTable items={dayOne} startTime="2018-08-21T07:30-0700"/>
 
       <h2>Day One Closing Party</h2>
       <h3>7:00PM - 11:00PM</h3>
@@ -68,7 +68,7 @@ const SchedulePage = ({ dayOne, dayThree }) => (
 
       <Campfires/>
     </GridRow>
-    <GridRow id="day-two" title="Wednesday, August 20th">
+    <GridRow id="day-two" title="Wednesday, August 22nd">
       <h2>Day of Activities</h2>
 
       <p>Details coming soon!</p>
@@ -79,15 +79,15 @@ const SchedulePage = ({ dayOne, dayThree }) => (
       <p>Details coming soon!</p>
       <Campfires/>
     </GridRow>
-    <GridRow id="day-three" title="Thursday, August 21st">
-      <TimeTable items={dayThree} startTime="2018-08-21T07:30-0700"/>
+    <GridRow id="day-three" title="Thursday, August 23rd">
+      <TimeTable items={dayThree} startTime="2018-08-23T07:30-0700"/>
       <h2>Conference Closing Party</h2>
       <h3>7:00PM - 11:00PM</h3>
 
       <p>Details coming soon!</p>
       <Campfires/>
     </GridRow>
-    <GridRow id="departure" title="Friday, August 22nd">
+    <GridRow id="departure" title="Friday, August 24th">
       <h2>Brunch</h2>
       <h3>10:00AM - 2:00PM</h3>
 

@@ -19,7 +19,7 @@ const Homepage = (props) => (
           </span>
         }
       >
-        August 18th - August 20th<br/>Location TBA
+        August 21st - August 23rd<br/>Location TBA
       </Hero>
     }
   >
