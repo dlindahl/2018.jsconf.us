@@ -29,7 +29,12 @@ module.exports = {
       resolve: 'gatsby-source-filesystem'
     },
     'gatsby-transformer-json',
-    `gatsby-transformer-remark`,
+    {
+      options: {
+        plugins: ['gatsby-remark-autolink-headers']
+      },
+      resolve: 'gatsby-transformer-remark'
+    },
     {
       options: {
         background_color: `#f0db4f`,
