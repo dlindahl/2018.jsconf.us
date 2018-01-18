@@ -52,7 +52,22 @@
     color: var(--light-dark);
     margin-top: var(--spacer-sm);
   }
-  & ul:not(nav > ul) {
+  & blockquote {
+    background: #eee;
+    margin-top: var(--spacer-sm);
+    padding: var(--spacer-sm);
+    & p:first-child {
+      margin-top: 0;
+    }
+  }
+  & cite {
+    @apply --fine-print;
+    display: block;
+    font-style: italic;
+    margin-top: var(--spacer-xs);
+    text-align: center;
+  }
+  & ul {
     margin-top: var(--spacer-md);
   }
   & li {

@@ -31,7 +31,7 @@ const SchedulePage = ({ dayOne, dayThree }) => (
       </nav>
     </GridRow>
     <GridRow id="arrival" title="Monday, August 20th">
-      <h2>Welcome Reception</h2>
+      <h2 id="welcome-reception">Welcome Reception</h2>
       <h3>6:00PM - 9:00PM</h3>
       <p>
         After a long day of travel, it is time to head to the main hotel for an
