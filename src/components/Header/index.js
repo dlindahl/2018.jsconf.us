@@ -25,9 +25,6 @@ const Header = () => (
             <a href="/call-for-speakers/">Call for Speakers</a>
           </li>
           <li className="Header-Link">
-            <a href="/scholarships/">Scholarships</a>
-          </li>
-          <li className="Header-Link">
             <a href="/schedule/">Schedule</a>
           </li>
           <li className="Header-Link">
