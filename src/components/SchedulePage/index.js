@@ -30,7 +30,7 @@ const SchedulePage = ({ dayOne, dayThree }) => (
         </ul>
       </nav>
     </GridRow>
-    <GridRow id="arrival" title="Monday, August 20th">
+    <GridRow className="Schedule-Day" id="arrival" title="Monday, August 20th">
       <h2 id="welcome-reception">Welcome Reception</h2>
       <h3>6:00PM - 9:00PM</h3>
       <p>
@@ -40,7 +40,7 @@ const SchedulePage = ({ dayOne, dayThree }) => (
       </p>
       <Campfires/>
     </GridRow>
-    <GridRow id="day-one" title="Tuesday, August 21st">
+    <GridRow className="Schedule-Day" id="day-one" title="Tuesday, August 21st">
       <h2>Conference Tracks</h2>
 
       <h3>What is the Track A?</h3>
@@ -68,7 +68,11 @@ const SchedulePage = ({ dayOne, dayThree }) => (
 
       <Campfires/>
     </GridRow>
-    <GridRow id="day-two" title="Wednesday, August 22nd">
+    <GridRow
+      className="Schedule-Day"
+      id="day-two"
+      title="Wednesday, August 22nd"
+    >
       <h2>Day of Activities</h2>
 
       <p>Details coming soon!</p>
@@ -79,7 +83,11 @@ const SchedulePage = ({ dayOne, dayThree }) => (
       <p>Details coming soon!</p>
       <Campfires/>
     </GridRow>
-    <GridRow id="day-three" title="Thursday, August 23rd">
+    <GridRow
+      className="Schedule-Day"
+      id="day-three"
+      title="Thursday, August 23rd"
+    >
       <TimeTable items={dayThree} startTime="2018-08-23T07:30-0700"/>
       <h2>Conference Closing Party</h2>
       <h3>7:00PM - 11:00PM</h3>
@@ -87,7 +95,11 @@ const SchedulePage = ({ dayOne, dayThree }) => (
       <p>Details coming soon!</p>
       <Campfires/>
     </GridRow>
-    <GridRow id="departure" title="Friday, August 24th">
+    <GridRow
+      className="Schedule-Day"
+      id="departure"
+      title="Friday, August 24th"
+    >
       <h2>Brunch</h2>
       <h3>10:00AM - 2:00PM</h3>
 

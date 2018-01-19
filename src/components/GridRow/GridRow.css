@@ -27,16 +27,22 @@
     &:first-child {
       margin-top: var(--spacer-xs);
     }
+    & + h2 {
+      margin-top: var(--spacer-sm);
+    }
   }
   & h2 {
     @apply --heading-sm;
     color: var(--accent-darker);
-    margin-top: var(--spacer-md);
+    margin-top: var(--spacer-lg);
+    & + h3 {
+      margin-top: 0;
+    }
   }
   & h3 {
     @apply --heading-xs;
     color: var(--accent-lighter);
-    margin-top: var(--spacer-md);
+    margin-top: var(--spacer-lg);
   }
   & h4 {
     @apply --heading-2xs;
@@ -67,14 +73,19 @@
     margin-top: var(--spacer-xs);
     text-align: center;
   }
-  & ul {
-    margin-top: var(--spacer-md);
-  }
-  & li {
-    margin-top: Var(--spacer-sm);
+  & p {
+    margin-top: var(--spacer-sm);
   }
   & strong {
     background-color: var(--selection-bg);
+  }
+  &.Page {
+    & ul {
+      margin-top: var(--spacer-sm);
+    }
+    & li {
+      margin-top: Var(--spacer-sm);
+    }
   }
 }
 
@@ -98,9 +109,6 @@
 
 .GridRow-Content {
   grid-column: main;
-  & p {
-    margin-top: var(--spacer-sm);
-  }
 }
 
 .GridRow-FullWidth {
