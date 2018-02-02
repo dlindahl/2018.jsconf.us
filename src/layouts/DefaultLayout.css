@@ -5,6 +5,11 @@ body {
   color: var(--type-regular);
 }
 
+.DefaultLayout,
+.DefaultLayout-Content {
+  height: 100%;
+}
+
 .Site-Header--withHero {
   display: flex;
   flex-direction: column;

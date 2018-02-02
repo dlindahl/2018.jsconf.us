@@ -21,10 +21,12 @@
 
 html {
   @apply --font--primary-regular;
-  min-height: 100%;
 }
 
-body {
+html,
+body,
+#___gatsby,
+#___gatsby > div {
   height: 100%;
 }
 

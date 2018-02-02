@@ -1,0 +1,140 @@
+@import '../../layouts/variables.css';
+
+.splash {
+  height: 100%;
+}
+.SplashPage-Background {
+  position: relative;
+  pointer-events: none;
+  z-index: -1;
+}
+.SplashPage-BackgroundImage {
+  background-image: url('/img/splash-image.jpg');
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  mix-blend-mode: color-dodge;
+}
+
+.SplashPage-BackgroungGradient {
+  background-image: linear-gradient(#ff6a00, #ee0979);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.SplashPage-Hero {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.SplashPage-CallToAction {
+  align-items: center;
+  display: flex;
+  flex: 3;
+  font-family: Lato;
+  font-style: normal;
+  justify-content: center;
+  letter-spacing: 2px;
+  margin-top: 20vw;
+  text-transform: uppercase;
+}
+
+.SplashPage-CallToActionWrapper {
+  position: relative;
+}
+
+.SplashPage-CallToActionOverlay {
+  background-color: var(--js-yellow-light);
+  position: absolute;
+  height: 100%;
+  mix-blend-mode: darken;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.SplashPage-CallToActionContent {
+  align-items: center;
+  color: color(#a770ef shade(55%));
+  display: flex;
+  flex-direction: column;
+  isolation: isolate;
+  justify-content: center;
+  margin: 4vw;
+  padding-bottom: 2vw;
+  padding-top: 2vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+
+.SplashPage-CallToActionLede {
+  font-size: 6vw;
+  white-space: nowrap;
+}
+
+@media (--extra-small-screen) {
+  .SplashPage-CallToActionLede {
+    font-size: 10vw;
+  }
+}
+
+.SplashPage-CallToActionText {
+  font-size: 2vw;
+  text-align: center;
+  white-space: nowrap;
+}
+
+@media (--extra-small-screen) {
+  .SplashPage-CallToActionText {
+    font-size: 4vw;
+  }
+}
+
+.SplashPage-BodyCallToAction {
+  @apply --heading-xs;
+  flex: 1;
+}
+
+@media (--extra-small-screen) {
+  .SplashPage-BodyCallToAction {
+    flex: 2;
+  }
+}
+
+.SplashPage-BodyCallToActionLink {
+  color: var(--js-yellow-light);
+  background: color(#a770ef shade(55%));
+  display: block;
+  padding: 1.5vw;
+  text-decoration: none;
+}
+
+@media (--extra-small-screen) {
+  .SplashPage-BodyCallToActionLink {
+    padding: 3vw;
+  }
+}
+
+.SplashPage-Footer {
+  background-color: color(var(--white) a(0.25));
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vh;
+  margin-bottom: 2vh;
+  text-align: center;
+}
+
+.SplashPage-ComingSoon {
+  @apply --fine-print;
+  color: color(#a770ef shade(55%));
+  & a {
+    color: color(#a770ef shade(55%));
+  }
+}
