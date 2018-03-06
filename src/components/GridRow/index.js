@@ -1,6 +1,5 @@
 import { any, bool, string } from 'prop-types'
 import classnames from 'classnames'
-
 import React from 'react'
 
 import './GridRow.css'
