@@ -4,14 +4,7 @@ import React from 'react'
 import { string } from 'prop-types'
 
 const SponsorshipPromo = ({ className }) => (
-  <GridRow
-    className={className}
-    flourish="hexagon"
-    mediaAlign="right"
-    mediaCredit="Photo by Matthew Bergman on Flickr"
-    mediaSrc="/img/homepage/sponsorship-callout.jpg"
-    title="Sponsorships"
-  >
+  <GridRow className={className} title="Sponsorships">
     <p>
       We are currently offering sponsorship packages for JSConf US 2018. We’re
       looking forward to working with{' '}
