@@ -1,8 +1,8 @@
 @import '../../layouts/variables.css';
 
 .Footer {
-  background: var(--dark);
-  color: var(--light-darker);
+  background: var(--accent-darker);
+  color: var(--light);
   margin-top: var(--spacer-xl);
 }
 
