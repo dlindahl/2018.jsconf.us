@@ -1,88 +1,140 @@
 @import '../../layouts/variables.css';
 
 .Hero {
-  align-items: center;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  justify-content: center;
-  overflow: hidden;
+  height: 100%;
 }
-
 .Hero-Background {
-  background-blend-mode: multiply;
-  background-color: color(var(--js-yellow) shade(5%));
-  background-image: url(https://c1.staticflickr.com/1/620/31430524134_bb15765a8e_b.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
+  position: relative;
+  pointer-events: none;
   z-index: -1;
 }
-
-.Hero-Title {
-  @apply --smallcaps-black;
-  color: var(--dark-lighter);
-  font-size: 37vw !important;
-  letter-spacing: -2vw;
-  line-height: 24vw;
+.Hero-BackgroundImage {
+  background-image: url('/img/splash-image.jpg');
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
   mix-blend-mode: color-dodge;
-  overflow: hidden;
-  text-align: center;
-  text-transform: uppercase;
+}
+
+.Hero-BackgroungGradient {
+  background-image: linear-gradient(#ff6a00, #ee0979);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Hero-Body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
 
 .Hero-CallToAction {
-  @apply --smallcaps-regular;
   align-items: center;
   display: flex;
-  height: 100%;
+  flex: 3;
+  font-family: Lato;
+  font-style: normal;
   justify-content: center;
-  position: absolute;
+  letter-spacing: 2px;
+  margin-top: 20vw;
   text-transform: uppercase;
-  text-align: center;
-  top: 0;
-  pointer-events: none;
 }
 
 .Hero-CallToActionWrapper {
   position: relative;
-  pointer-events: all;
 }
 
 .Hero-CallToActionOverlay {
-  background-color: var(--light-lighter);
-  height: 100%;
-  mix-blend-mode: saturation;
+  background-color: var(--js-yellow-light);
   position: absolute;
+  height: 100%;
+  mix-blend-mode: darken;
   top: 0;
   width: 100%;
+  z-index: -1;
 }
 
-.Hero-CallToActionBody {
+.Hero-CallToActionContent {
   align-items: center;
-  background: var(--js-yellow);
-  color: var(--color-cta);
+  color: color(#a770ef shade(55%));
   display: flex;
-  justify-content: center;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  margin: 5vw;
-  text-align: left;
+  flex-direction: column;
   isolation: isolate;
+  justify-content: center;
+  margin: 4vw;
+  padding-bottom: 2vw;
+  padding-top: 2vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
 }
 
 .Hero-CallToActionLede {
-  font-size: 5vw;
-  padding-right: 0.5ch;
+  font-size: 6vw;
   white-space: nowrap;
 }
 
+@media (--extra-small-screen) {
+  .Hero-CallToActionLede {
+    font-size: 10vw;
+  }
+}
+
 .Hero-CallToActionText {
-  font-size: 1.5vw;
+  font-size: 2vw;
+  text-align: center;
   white-space: nowrap;
+}
+
+@media (--extra-small-screen) {
+  .Hero-CallToActionText {
+    font-size: 4vw;
+  }
+}
+
+.Hero-BodyCallToAction {
+  @apply --heading-xs;
+  flex: 1;
+}
+
+@media (--extra-small-screen) {
+  .Hero-BodyCallToAction {
+    flex: 2;
+  }
+}
+
+.Hero-BodyCallToActionLink {
+  color: var(--js-yellow-light);
+  background: color(#a770ef shade(55%));
+  display: block;
+  padding: 1.5vw;
+  text-decoration: none;
+}
+
+@media (--extra-small-screen) {
+  .Hero-BodyCallToActionLink {
+    padding: 3vw;
+  }
+}
+
+.Hero-Footer {
+  background-color: color(var(--white) a(0.25));
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vh;
+  margin-bottom: 2vh;
+  text-align: center;
+}
+
+.Hero-ComingSoon {
+  @apply --fine-print;
+  color: color(#a770ef shade(55%));
+  & a {
+    color: color(#a770ef shade(55%));
+  }
 }

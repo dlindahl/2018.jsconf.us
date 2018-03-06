@@ -5,8 +5,7 @@ body {
   color: var(--type-regular);
 }
 
-.DefaultLayout,
-.DefaultLayout-Content {
+.DefaultLayout {
   height: 100%;
 }
 

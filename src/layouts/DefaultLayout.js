@@ -1,18 +1,25 @@
+import classnames from 'classnames'
 import { element, node, string } from 'prop-types'
 import Head from 'react-helmet'
 import React from 'react'
 
 import './DefaultLayout.css'
 
-const DefaultLayout = ({ children, description, title, hero }) => (
-  <div className="DefaultLayout">
-    <Head
-      meta={[{ content: description, name: 'description' }]}
-      title={title}
-    />
-    <main className="DefaultLayout-Content">{children}</main>
-  </div>
-)
+const DefaultLayout = ({ children, description, title, hero }) => {
+  const headerCls = classnames({
+    'Site-Header--withHero': Boolean(hero)
+  })
+  return (
+    <div className="DefaultLayout">
+      <Head
+        meta={[{ content: description, name: 'description' }]}
+        title={title}
+      />
+      <header className={headerCls}>{hero}</header>
+      <main className="DefaultLayout-Content">{children}</main>
+    </div>
+  )
+}
 
 DefaultLayout.propTypes = {
   children: node.isRequired,

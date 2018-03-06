@@ -4,7 +4,7 @@ import React from 'react'
 import { string } from 'prop-types'
 
 const CodeOfConduct = ({ className }) => (
-  <GridRow className={className} feature title="Code of Conduct">
+  <GridRow className={className} title="Code of Conduct">
     <p>
       JSConf was one of the first conferences to implement and enforce a
       conference Code of Conduct. This year is no different. We expect, and

@@ -1,7 +1,7 @@
 import CallForSpeakers from './CallForSpeakers'
 import CodeOfConduct from './CodeOfConduct'
 import DefaultLayout from '../../layouts/DefaultLayout'
-// import DiversityInclusion from './DiversityInclusion'
+import OpportunityScholarship from './OpportunityScholarship'
 import Hero from '../Hero'
 import React from 'react'
 import SponsorshipPromo from './SponsorshipPromo'
@@ -12,20 +12,18 @@ const Homepage = (props) => (
   <DefaultLayout
     hero={
       <Hero
-        lede="JSConf US 2018"
-        title={
+        subtitle={
           <span>
-            We're<br/>Back
+            August 21st - August 23rd<br/>Carlsbad, California
           </span>
         }
-      >
-        August 21st - August 23rd<br/>Location TBA
-      </Hero>
+        title="JSConf US 2018"
+      />
     }
   >
     <SponsorshipPromo className="Homepage-Block"/>
     <CallForSpeakers className="Homepage-Block"/>
-    {/* <DiversityInclusion className="Homepage-Block"/> */}
+    <OpportunityScholarship className="Homepage-Block"/>
     <CodeOfConduct className="Homepage-Block"/>
   </DefaultLayout>
 )

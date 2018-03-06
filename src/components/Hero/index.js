@@ -1,32 +1,31 @@
-import { any, node } from 'prop-types'
+import { node } from 'prop-types'
 import React from 'react'
 
 import './Hero.css'
 
-const Hero = ({ children, lede, title, ...props }) => (
-  <aside className="Hero">
-    <div className="Hero-Background"/>
-    <header>
-      <h1 className="Hero-Title">{title}</h1>
-    </header>
-    <section className="Hero-CallToAction">
-      <div className="Hero-CallToActionWrapper">
-        <div className="Hero-CallToActionOverlay"/>
-        <div className="Hero-CallToActionContent">
-          <div className="Hero-CallToActionBody">
-            <div className="Hero-CallToActionLede">{lede}</div>
-            <div className="Hero-CallToActionText">{children}</div>
+const Hero = ({ title, subtitle }) => (
+  <div className="Hero">
+    <div className="Hero-Background">
+      <div className="Hero-BackgroungGradient"/>
+      <div className="Hero-BackgroundImage"/>
+    </div>
+    <article className="Hero-Body">
+      <div className="Hero-CallToAction">
+        <div className="Hero-CallToActionWrapper">
+          <div className="Hero-CallToActionOverlay"/>
+          <div className="Hero-CallToActionContent">
+            <h1 className="Hero-CallToActionLede">{title}</h1>
+            <h2 className="Hero-CallToActionText">{subtitle}</h2>
           </div>
         </div>
       </div>
-    </section>
-  </aside>
+    </article>
+  </div>
 )
 
 Hero.propTypes = {
-  children: any,
-  lede: node,
-  title: node
+  subtitle: node,
+  title: node.isRequired
 }
 
 export default Hero
