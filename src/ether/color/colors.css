@@ -1,11 +1,15 @@
 /* Generted from http://paletton.com/#uid=75p0u0kw0NYjKQVpJPbMrDMKRqz */
 :root {
-  --accent: #f4004a;
-  --accent-dark: #eb0047;
-  --accent-darker: #bd0039;
-  --accent-light: #f5306c;
-  --accent-lighter: #f65e8c;
-  --accent-tertiary: #00de7f;
+  --accent: #4b326c;
+  --accent-dark: #371e58;
+  --accent-darker: #200b3c;
+  --accent-light: #634b83;
+  --accent-lighter: #8773a0;
+
+  --accent-secondary: #f4004a;
+  --accent-tertiary: #ff6a00;
+  --accent-quarternary: #ee0979;
+
   --dark: #0f1d2b;
   --dark-dark: #06111c;
   --dark-darker: #01080e;
