@@ -2,6 +2,7 @@ import classnames from 'classnames'
 import { element, node, string } from 'prop-types'
 import Footer from '../components/Footer'
 import Head from 'react-helmet'
+import Header from '../components/Header'
 import React from 'react'
 
 import './DefaultLayout.css'
@@ -16,7 +17,10 @@ const DefaultLayout = ({ children, description, title, hero }) => {
         meta={[{ content: description, name: 'description' }]}
         title={title}
       />
-      <header className={headerCls}>{hero}</header>
+      <header className={headerCls}>
+        <Header/>
+        {hero}
+      </header>
       <main className="DefaultLayout-Content">{children}</main>
       <Footer/>
     </div>

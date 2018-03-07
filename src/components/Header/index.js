@@ -20,23 +20,25 @@ const Header = () => (
         </Link>
       </aside>
       <nav className="Header-Nav">
-        <ul className="Header-Links">
-          <li className="Header-Link">
-            <a href="/call-for-speakers/">Call for Speakers</a>
+        <ul className="Header-LinkItems">
+          <li className="Header-LinkItem">
+            <a className="Header-Link" href="/call-for-speakers/">
+              Call for Speakers
+            </a>
           </li>
-          <li className="Header-Link">
-            <a href="/schedule/">Schedule</a>
+          <li className="Header-LinkItem">
+            <a className="Header-Link" href="/schedule/">
+              Schedule
+            </a>
           </li>
-          <li className="Header-Link">
-            <a href="/sponsors/">Sponsors</a>
+          <li className="Header-LinkItem">
+            <a className="Header-Link" href="/sponsors/">
+              Sponsors
+            </a>
           </li>
         </ul>
       </nav>
-      <aside>
-        <LinkButton dark href="https://tickets.jsconf.us">
-          Get Tickets
-        </LinkButton>
-      </aside>
+      <aside className="Header-CallToAction"/>
     </div>
   </header>
 )

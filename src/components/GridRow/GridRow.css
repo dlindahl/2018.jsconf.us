@@ -1,21 +1,12 @@
 @import '../../layouts/variables.css';
 
-:root {
-  --media-width-max: calc(300px - var(--spacer-md));
-  --media-img-dims: calc(100% - var(--spacer-md));
-}
-
 .GridRow {
   display: grid;
   margin-top: var(--spacer-sm);
   grid-template-columns:
-    [full-start] minmax(1em, 2fr)
-    [offsetleft-start] minmax(1em, calc(var(--media-width-max) / 3))
-    [main-start] minmax(0, calc(var(--media-width-max) / 3 * 2))
-    [offsetleft-end] minmax(0, 3fr)
-    [offsetright-start] minmax(0, calc(var(--media-width-max) / 3 * 2))
-    [main-end] minmax(1em, calc(var(--media-width-max) / 3))
-    [offsetright-end] minmax(1em, 2fr) [full-end];
+    [full-start] minmax(1em, 1fr)
+    [main-start] minmax(0, 4fr)
+    [main-end] minmax(1em, 1fr);
   & a {
     color: var(--color-cta);
     text-decoration-skip: ink;

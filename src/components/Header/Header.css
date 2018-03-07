@@ -1,18 +1,13 @@
 @import '../../layouts/variables.css';
 
 .Header {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  min-height: 88px;
   padding-left: var(--spacer-xs);
   padding-right: var(--spacer-xs);
   position: relative;
 }
 
 .Header-Background {
-  background-color: var(--js-yellow-dark);
+  background-color: var(--accent-secondary);
   height: 100%;
   left: 0;
   mix-blend-mode: color-burn;
@@ -23,9 +18,14 @@
 
 .Header-Content {
   align-items: center;
-  display: flex;
-  flex: 1;
+  display: grid;
+  grid-template-columns:
+    [full-start] minmax(0em, 1fr)
+    [main-start] minmax(0, 4fr)
+    [main-end] minmax(1em, 1fr);
   isolation: isolate;
+  padding-bottom: var(--spacer-xs);
+  padding-top: var(--spacer-xs);
 }
 
 .Header-LogoImg {
@@ -34,25 +34,50 @@
 }
 
 .Header-Nav {
-  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
-.Header-Links {
-  justify-content: space-around;
+.Header-LinkItems {
+  flex: 1;
+  justify-content: space-between;
   display: flex;
   list-style: none;
 }
 
-.Header-Link {
+.Header-LinkItem {
   @apply --smallcaps-regular;
-  flex: 1;
-  text-align: center;
-  & a {
-    color: var(--light-lighter);
-    display: inline-block;
-    text-decoration: none;
-    &:hover {
-      transform: scale(1.2);
+}
+
+.Header-Link {
+  color: var(--light-lighter);
+  display: inline-block;
+  padding-bottom: var(--spacer-2xs);
+  padding-left: var(--spacer-2xs);
+  padding-right: var(--spacer-2xs);
+  padding-top: var(--spacer-2xs);
+  position: relative;
+  text-decoration: none;
+  &:after {
+    background-color: var(--accent-secondary-lighter);
+    content: '';
+    height: 4px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    transform: translateY(10px);
+    transition: opacity 0.3s, transform 0.3s;
+    width: 100%;
+  }
+  &:hover {
+    &:after {
+      opacity: 1;
+      transform: translateY(0px);
     }
   }
+}
+
+.Header-CallToAction {
+  text-align: right;
 }

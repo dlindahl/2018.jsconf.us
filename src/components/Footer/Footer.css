@@ -11,11 +11,24 @@
   justify-content: space-evenly;
 }
 
+@media (--extra-small-screen) {
+  .Footer-LinkGroups {
+    display: block;
+    margin-left: var(--spacer-sm);
+    margin-right: var(--spacer-sm);
+  }
+}
+
 .Footer-LinkGroup {
   list-style: none;
   padding-top: var(--spacer-md);
 }
 
+@media (--extra-small-screen) {
+  .Footer-LinkGroup {
+    padding-top: var(--spacer-xs);
+  }
+}
 .Footer-LinkGroupHeader {
   @apply --smallcaps-bold;
   color: var(--js-yellow-dark);

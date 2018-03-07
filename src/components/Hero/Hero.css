@@ -2,20 +2,26 @@
 
 .Hero {
   height: 100%;
+  position: relative;
 }
+
 .Hero-Background {
+  height: 100%;
   position: relative;
   pointer-events: none;
   z-index: -1;
 }
+
 .Hero-BackgroundImage {
   background-image: url('/img/splash-image.jpg');
   background-repeat: no-repeat;
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
   background-size: cover;
+  height: 100%;
   mix-blend-mode: color-dodge;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
 }
 
 .Hero-BackgroungGradient {
@@ -23,17 +29,20 @@
     var(--accent-tertiary),
     var(--accent-quarternary)
   );
+  height: 100%;
   position: absolute;
-  width: 100vw;
-  height: 100vh;
+  top: 0;
+  width: 100%;
+  z-index: -1;
 }
 
 .Hero-Body {
-  align-items: center;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   height: 100%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 .Hero-CallToAction {
@@ -44,7 +53,6 @@
   font-style: normal;
   justify-content: center;
   letter-spacing: 2px;
-  margin-top: 20vw;
   text-transform: uppercase;
 }
 
@@ -111,8 +119,8 @@
 }
 
 .Hero-BodyCallToActionLink {
-  color: var(--js-yellow-light);
   background: var(--accent);
+  color: var(--js-yellow-light);
   display: block;
   padding: 1.5vw;
   text-decoration: none;
