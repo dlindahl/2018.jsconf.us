@@ -70,6 +70,9 @@
   & strong {
     background-color: var(--selection-bg);
   }
+  & table {
+    margin-top: var(--spacer-sm);
+  }
   &.Page {
     & ul {
       margin-top: var(--spacer-sm);
