@@ -1,6 +1,8 @@
 ---
-description: Scholarships
+description: Opportunity Scholarships
 title: Scholarships
 ---
 
-# Scholarship
+# Opportunity Scholarship
+
+> More details about our Opportunity Scholarship will be announced soon!
