@@ -13,15 +13,15 @@ JSConf US is dedicated to providing a harassment-free conference experience for 
 
 Harassment includes, but is not limited to:
 
-*   Verbal comments that reinforce social structures of domination related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion
-*   Sexual images in public spaces
-*   Deliberate intimidation, stalking, or following
-*   Harassing photography or recording
-*   Sustained disruption of talks or other events
-*   Inappropriate physical contact
-*   Invasion of personal space
-*   Unwelcome sexual attention
-*   Advocating for, or encouraging, any of the above behavior
+* Verbal comments that reinforce social structures of domination related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion
+* Sexual images in public spaces
+* Deliberate intimidation, stalking, or following
+* Harassing photography or recording
+* Sustained disruption of talks or other events
+* Inappropriate physical contact
+* Invasion of personal space
+* Unwelcome sexual attention
+* Advocating for, or encouraging, any of the above behavior
 
 ## Enforcement
 
@@ -43,9 +43,9 @@ You can [make an anonymous report here][2018-report-form]. We can’t follow up 
 
 You can make a personal report by:
 
-*   Contacting a staff member, identified by STAFF badges, buttons, or shirts.
-*   Emailing us: [derek@jsconf.us](mailto:derek@jsconf.us).
-*   Calling us: We’ll publish a phone number that is staffed during main conference hours.
+* Contacting a staff member, identified by STAFF badges, buttons, or shirts.
+* Emailing us: [derek@jsconf.us](mailto:derek@jsconf.us).
+* Calling us: We’ll publish a phone number that is staffed during main conference hours.
 
 When taking a personal report, our staff will ensure you are safe and cannot be overheard. They may involve other event staff to ensure your report is managed properly. Once safe, we’ll ask you to tell us about what happened. This can be upsetting, but we’ll handle it as respectfully as possible, and you can bring someone to support you. You won’t be asked to confront anyone and we won’t tell anyone who you are.
 
@@ -64,13 +64,13 @@ In our commitment to a harassment-free and inclusive environment we strongly bel
 
 ### Ableism
 
-Words like *"crazy"*, *"dumb"*, *"insane"* or *"lame"* are examples of **ableist language**, devaluating people who have physical or mental disabilities. Its appearance often stems not from any intentional desire to offend, but from our innate sense of what it means to be normal. These words can be avoided by using more fitting, clearer descriptions of what we want to communicate.
+Words like _"crazy"_, _"dumb"_, _"insane"_ or _"lame"_ are examples of **ableist language**, devaluating people who have physical or mental disabilities. Its appearance often stems not from any intentional desire to offend, but from our innate sense of what it means to be normal. These words can be avoided by using more fitting, clearer descriptions of what we want to communicate.
 
 To find out more about ableism and replacement terms please [read this guide](http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html).
 
 ### Sexism
 
-Using gendered terms like *"dude"* or *"guys"* to address a mixed-gendered group of people contributes to furthering exclusion of underrepresented individuals. We strongly advise avoiding gendered pronouns as well as gendered terms.
+Using gendered terms like _"dude"_ or _"guys"_ to address a mixed-gendered group of people contributes to furthering exclusion of underrepresented individuals. We strongly advise avoiding gendered pronouns as well as gendered terms.
 
 For more information please familiarize yourself with [Geek Feminism wiki guide](http://geekfeminism.wikia.com/wiki/Nonsexist_language).
 

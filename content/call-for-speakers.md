@@ -18,17 +18,17 @@ Our aggressive self-dedication to spotlighting the next generation of ideas has 
 
 As we have always done, we are seeking out new ideas and concepts that push the boundaries of JavaScript and the JavaScript community. We welcome strange and unusual presentations as long as they remain within the boundaries of our well established [Code of Conduct](/code-of-conduct/). We are looking for talks focused on all parts of JavaScript, including but not limited to:
 
-*   Data Management
-*   Web Security
-*   Server Side JavaScript
-*   Mobile Web
-*   Future of JavaScript
-*   Performance and Optimization
-*   Real-time Communications
-*   IoT, Hardware, and Embedded JavaScript
-*   Education and Outreach of Computer Programming
-*   Life of a Developer
-*   Your Passion!
+* Data Management
+* Web Security
+* Server Side JavaScript
+* Mobile Web
+* Future of JavaScript
+* Performance and Optimization
+* Real-time Communications
+* IoT, Hardware, and Embedded JavaScript
+* Education and Outreach of Computer Programming
+* Life of a Developer
+* Your Passion!
 
 ### Inverse Call for Speakers
 
@@ -40,23 +40,23 @@ All submissions are anonymized in an attempt to remove any conscious or unconsci
 
 All submissions are reviewed and voted for by the organizers and volunteers. Each talk is categorized in one of several categories:
 
-*   Data
-*   Design
-*   Infrastructure
-*   JS Library
-*   Mobile
-*   Nerdcore
-*   Other
-*   Server-Side
-*   UX/UI
-*   WTF
+* Data
+* Design
+* Infrastructure
+* JS Library
+* Mobile
+* Nerdcore
+* Other
+* Server-Side
+* UX/UI
+* WTF
 
 Each talk is rated on a scale from 1 to 10, taking into account the following criteria:
 
-*   Relevance to the JavaScript community
-*   Coherence and clarity of proposal
-*   Novelty and originality of the topic
-*   Reasonably communicable in the time allotted
+* Relevance to the JavaScript community
+* Coherence and clarity of proposal
+* Novelty and originality of the topic
+* Reasonably communicable in the time allotted
 
 The top submissions are then de-anonymized so we can take speaker details into account. This ensures a diverse speaker line-up of people from all backgrounds and speaking experience.
 
@@ -68,7 +68,7 @@ Every year we've run JSConf US, we get a non-trivial amount of talk submissions 
 
 Take the time you need to condense your idea into one or two well-written paragraphs. Check for typos, proper punctuation, and grammatical errors. Submissions like "A talk about React" are nowhere near detailed enough and will almost surely result in a rejection. Come up with something original and try your best to communicate it with as much clarity as you can.
 
-We receive several hundred submissions vying for one of *ten* speaking slots, so it is in your best interest to make a good first impression.
+We receive several hundred submissions vying for one of _ten_ speaking slots, so it is in your best interest to make a good first impression.
 
 Still struggling? Take a minute to [watch][yt-lastcall] some of our [previous year's talks][yt-2015] and be inspired on how the various topics were presented.
 
@@ -82,9 +82,9 @@ Do you have multiple talk ideas but can't narrow down which one you are most pas
 
 #### Consider Our Selection Criteria
 
-We are interested in original ideas that will fuel the future of the web, highlight [underrepresented][auto-a11y] or [misunderstood][emo-safety] topics, [soft skills][soft-talk] that may be undervalued in the community, or even a [~~joke~~ totally serious discussion about sorting][jorts]. We've all seen "Intro to Framework X" talks. They are easy to come by and, let's be real, they are boring. You know what *is* interesting? [Knitting with JavaScript][knitting-js]. [Controlling a NES][nes-js]. [Reimplementing a modem using the WebAudio API][modem-js]. Or how about the crazy idea of [blowing away the entire DOM any time your app state changes][react-js].
+We are interested in original ideas that will fuel the future of the web, highlight [underrepresented][auto-a11y] or [misunderstood][emo-safety] topics, [soft skills][soft-talk] that may be undervalued in the community, or even a [~~joke~~ totally serious discussion about sorting][jorts]. We've all seen "Intro to Framework X" talks. They are easy to come by and, let's be real, they are boring. You know what _is_ interesting? [Knitting with JavaScript][knitting-js]. [Controlling a NES][nes-js]. [Reimplementing a modem using the WebAudio API][modem-js]. Or how about the crazy idea of [blowing away the entire DOM any time your app state changes][react-js].
 
-Not only are these ideas interesting, informative, cutting edge, and maybe even whacky, but they are *interesting* and clearly presented.
+Not only are these ideas interesting, informative, cutting edge, and maybe even whacky, but they are _interesting_ and clearly presented.
 
 #### Commit to the Idea
 
