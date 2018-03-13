@@ -53,10 +53,13 @@ Our team will be happy to help you contact hotel/venue security, local law enfor
 
 #### Important Contact Numbers
 
-| | |
-|-------------------------------|--------------------------------------------------|
+|                               |                                                  |
+| ----------------------------- | ------------------------------------------------ |
 | **All Emergencies**           | **Call 911**                                     |
-
+|                               |                                                  |
+| Carlsbad Police Department    | [2560 Orion Way, Carlsbad, CA 92010][police-map] |
+| 24-Hour Non-Emergency Hotline | [760-931-2197](tel:760-931-2197)                 |
+| OMNI La Costa                 | [760-438-9111](tel:760-438-9111)                 |
 
 ## Inclusive Language
 
@@ -79,3 +82,4 @@ For more information please familiarize yourself with [Geek Feminism wiki guide]
 This Code of Conduct was based on [JSConf EU](https://2018.jsconf.eu), [CSSConf / JSConf AU](http://2018.jsconfau.com/), [The Geek Feminism wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy), the work of [Valerie Aurora](https://frameshiftconsulting.com/code-of-conduct-training/) and [Conference Code of Conduct](http://confcodeofconduct.com/).
 
 [2018-report-form]: http://bit.ly/JSConfUS2018Report
+[police-map]: https://www.google.com/maps/place/Carlsbad+Police+Department/@33.1380798,-117.267504,17z/data=!4m13!1m7!3m6!1s0x80dc749d25753e85:0x13c0eb5f1859b6e0!2s2560+Orion+Way,+Carlsbad,+CA+92010!3b1!8m2!3d33.1378478!4d-117.2652845!3m4!1s0x80dc749d3a359ab7:0xbb7ace258cfa3f9b!8m2!3d33.1378479!4d-117.2652844
