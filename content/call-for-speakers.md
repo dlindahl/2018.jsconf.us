@@ -7,9 +7,9 @@ title: Call for Speakers
 
 > Our CFP will open soon. Stay tuned to learn how to submit your proposal!
 
-Over the course of JSConf US events, we have spotlighted individuals that would otherwise never get a stage. We have given a platform for risky, crazy, and amazing things to flourish into even bigger, more widely-known products, ideas, and libraries. Many of the brightest things in JS over the last eight years have their roots deeply engrained with JSConf and this is something we take incredible pride in. We push ourselves each year to take riskier and riskier speakers because they define the discussion about JavaScript over the next year or years.
+Over the course of JSConf US events, we have spotlighted individuals that would otherwise never get a stage. We have given a platform for risky, crazy, and amazing things to flourish into even bigger, more widely-known products, ideas, and libraries. Many of the brightest things in JS over the last ten years have their roots deeply engrained with JSConf and this is something we take incredible pride in. We push ourselves each year to take riskier and riskier speakers because they define the discussion about JavaScript over the years to come.
 
-Unlike other events, attendees do not come to JSConf to learn JavaScript, they come to have their minds blown about what they had never conceived JavaScript could accomplish.
+Unlike other events, attendees do not come to JSConf to learn JavaScript. They come to have their minds blown about what they had never conceived JavaScript could accomplish.
 
 > Node.js, React, PhoneGap, Cappuccino, Firefox OS, PDF.js, Three.js Editor, Appcelerator, Yahoo! Mojito, WaterBear, Sashimi, Gordon, Cloud9, YepNope, Fab, Google Traceur, Jed Schmidt
 > <cite>Just a handful of examples of technologies and ideas first presented at JSConf US</cite>
@@ -20,14 +20,18 @@ As we have always done, we are seeking out new ideas and concepts that push the 
 
 * Data Management
 * Web Security
+* Artificial Intelligence and Machine Learning
+* Cloud Computing
+* WebAssembly
 * Server Side JavaScript
 * Mobile Web
-* Future of JavaScript
+* The Future of JavaScript
 * Performance and Optimization
-* Real-time Communications
+* Real-time, Peer-to-peer Communications
 * IoT, Hardware, and Embedded JavaScript
 * Education and Outreach of Computer Programming
 * Life of a Developer
+* Putting JavaScript into places no one expected
 * Your Passion!
 
 ### Inverse Call for Speakers
@@ -38,23 +42,24 @@ In additional to the typical "Call for Speakers" process, we also offer an "Inve
 
 All submissions are anonymized in an attempt to remove any conscious or unconscious biases towards the submitter.
 
-All submissions are reviewed and voted for by the organizers and volunteers. Each talk is categorized in one of several categories:
+All submissions are reviewed and voted for by our organizers and volunteers. Each talk is categorized in one of several categories:
 
 * Data
 * Design
 * Infrastructure
+* AI/ML
+* UX/UI
 * JS Library
 * Mobile
 * Nerdcore
 * Other
 * Server-Side
-* UX/UI
 * WTF
 
 Each talk is rated on a scale from 1 to 10, taking into account the following criteria:
 
+* **Coherence and clarity of proposal**
 * Relevance to the JavaScript community
-* Coherence and clarity of proposal
 * Novelty and originality of the topic
 * Reasonably communicable in the time allotted
 
@@ -62,15 +67,15 @@ The top submissions are then de-anonymized so we can take speaker details into a
 
 ### Increase Your Chances of Selection
 
-Every year we've run JSConf US, we get a non-trivial amount of talk submissions that don't make the cut because of just a few simple mistakes. We want everyone that takes the time to submit to have a chance of being selected, so following these guidelines will improve your chances of being selected to speak.
+Every year we've run JSConf US, we get a non-trivial amount of talk submissions that don't make the cut because of just a few simple mistakes. We want everyone that takes the time to submit to have a chance of being selected. Following these guidelines will improve your chances of being selected to speak.
 
 #### Show Us You Care
 
 Take the time you need to condense your idea into one or two well-written paragraphs. Check for typos, proper punctuation, and grammatical errors. Submissions like "A talk about React" are nowhere near detailed enough and will almost surely result in a rejection. Come up with something original and try your best to communicate it with as much clarity as you can.
 
-We receive several hundred submissions vying for one of _ten_ speaking slots, so it is in your best interest to make a good first impression.
+We receive over 500 submissions vying for one of _ten_ speaking slots, so it is in your best interest to make a good first impression.
 
-Still struggling? Take a minute to [watch][yt-lastcall] some of our [previous year's talks][yt-2015] and be inspired on how the various topics were presented.
+Still struggling to come up with a topic? Take a minute to [watch][yt-lastcall] some of our [previous year's talks][yt-2015] and be inspired on how the various topics were presented.
 
 #### Talk About Your Passions
 
@@ -78,13 +83,17 @@ Given two submissions on the exact same topic, the proposal that communicates th
 
 #### One Idea per Submission
 
-Do you have multiple talk ideas but can't narrow down which one you are most passionate about? Submit all of your ideas! But if you do, please submit one per submission. Combining all your ideas in one submission will make it harder for our selection committee to assign it a category and a score which means it will most likely be rejected. So please submit each idea you have individually.
+Do you have multiple talk ideas but can't narrow down which one you are most passionate about? Submit all of them!
+
+**But if you do, please submit one per submission.**
+
+Combining all your ideas in one submission will make it harder for our selection committee to assign it a category and a score which means it will most likely be rejected. So please submit each idea you have individually.
 
 #### Consider Our Selection Criteria
 
 We are interested in original ideas that will fuel the future of the web, highlight [underrepresented][auto-a11y] or [misunderstood][emo-safety] topics, [soft skills][soft-talk] that may be undervalued in the community, or even a [~~joke~~ totally serious discussion about sorting][jorts]. We've all seen "Intro to Framework X" talks. They are easy to come by and, let's be real, they are boring. You know what _is_ interesting? [Knitting with JavaScript][knitting-js]. [Controlling a NES][nes-js]. [Reimplementing a modem using the WebAudio API][modem-js]. Or how about the crazy idea of [blowing away the entire DOM any time your app state changes][react-js].
 
-Not only are these ideas interesting, informative, cutting edge, and maybe even whacky, but they are _interesting_ and clearly presented.
+Not only are these ideas informative, cutting edge, and maybe even a bit whacky, but they are _interesting_ and clearly presented.
 
 #### Commit to the Idea
 
@@ -92,7 +101,9 @@ Before you hit that submit button, make sure that the topic is something you'll 
 
 #### Never Say Never
 
-If you have a hint of an idea but you think you'll never get picked. Stop right now, head over to the submission page, and fill that form out. Don't let any the above guidelines deter you. We want you to speak and you'll do great!
+If you have a hint of an idea but you think you'll never get picked. Stop right now, head over to the submission page, and fill that form out. Do not let any of the above guidelines deter you!
+
+**We want you to speak and [you'll do great!](https://www.youtube.com/watch?v=eaIvk1cSyG8)**
 
 ## Perks
 
@@ -100,13 +111,13 @@ If your proposal is selected, here is what you'll get:
 
 ### Travel to the Venue
 
-We will pay for your travel expenses to and from the conference. We are happy to assist with booking your itinerary, but if you can do it yourself, we can remain focused on making the conference even better.
+We will pay for your reasonable travel expenses to and from the conference. We are happy to assist with booking your itinerary, but if you can do it yourself, we can remain focused on making the conference even better.
 
 ### Accommodations
 
 We will provide you a hotel room at the venue starting the day before the conference. This will allow you to get settled in, recharge, and participate in the [Welcome Reception](/schedule/#welcome-reception). You are more than welcome to come earlier and/or stay later, but you will be responsible for those extra nights.
 
-If your employer can cover your travel and/or hotel, we'll be happy to list them as a company sponsor. The money we save will be invested into the general running of the conference.
+If your employer can cover your travel and/or hotel, we'll be happy to list them as a company sponsor. The money we save will be reinvested into the general running of the conference.
 
 The venue and hotel are accessible for wheelchair users and people with reduced mobility. If you have any questions or concerns about whether all your needs can be met, [please contact us](mailto:derek@jsconf.us).
 
