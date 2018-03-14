@@ -6,7 +6,7 @@ import { string } from 'prop-types'
 const OpportunityScholarship = ({ className }) => (
   <GridRow className={className} feature title="Opportunity Scholarship">
     <p>
-      As we bring JSConf back to the US, we're committed to creating a diverse
+      As we bring JSConf back to the US, we are committed to creating a diverse
       and inclusive environment. Part of that commitment includes our
       Opportunity Scholarship, a program designed to make it easier for people
       from under-represented groups access to the many amazing opportunities
