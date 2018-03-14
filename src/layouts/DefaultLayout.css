@@ -6,12 +6,10 @@ body {
 }
 
 .DefaultLayout {
+  display: grid;
+  grid-template-rows:
+    minmax(max-content, 88px)
+    1fr
+    max-content;
   height: 100%;
-}
-
-.Site-Header--withHero {
-  display: flex;
-  flex-direction: column;
-  height: 70vh;
-  overflow: hidden;
 }

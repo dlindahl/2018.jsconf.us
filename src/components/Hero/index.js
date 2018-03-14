@@ -6,16 +6,15 @@ import './Hero.css'
 const Hero = ({ title, subtitle }) => (
   <div className="Hero">
     <div className="Hero-Background">
-      <div className="Hero-BackgroungGradient"/>
       <div className="Hero-BackgroundImage"/>
     </div>
-    <article className="Hero-Body">
-      <div className="Hero-CallToAction">
-        <div className="Hero-CallToActionWrapper">
-          <div className="Hero-CallToActionOverlay"/>
-          <div className="Hero-CallToActionContent">
-            <h1 className="Hero-CallToActionLede">{title}</h1>
-            <h2 className="Hero-CallToActionText">{subtitle}</h2>
+    <article className="Hero-Container">
+      <div className="Hero-Body">
+        <div className="Hero-BodyWrapper">
+          <div className="Hero-BodyOverlay"/>
+          <div className="Hero-BodyContent">
+            <h1 className="Hero-Lede">{title}</h1>
+            <h2 className="Hero-Text">{subtitle}</h2>
           </div>
         </div>
       </div>

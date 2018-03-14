@@ -1,12 +1,11 @@
+import { element } from 'prop-types'
 import Link from 'gatsby-link'
-import LinkButton from '../LinkButton'
 import React from 'react'
 
 import './Header.css'
 
-const Header = () => (
+const Header = ({ children }) => (
   <header className="Header">
-    <div className="Header-Background"/>
     <div className="Header-Content">
       <aside>
         <Link to="/">
@@ -40,7 +39,12 @@ const Header = () => (
       </nav>
       <aside className="Header-CallToAction"/>
     </div>
+    {children}
   </header>
 )
+
+Header.propTypes = {
+  children: element
+}
 
 export default Header

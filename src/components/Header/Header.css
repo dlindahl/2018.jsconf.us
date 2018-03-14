@@ -1,23 +1,8 @@
 @import '../../layouts/variables.css';
 
-.Header {
-  padding-left: var(--spacer-xs);
-  padding-right: var(--spacer-xs);
-  position: relative;
-}
-
-.Header-Background {
-  background-color: var(--accent-secondary);
-  height: 100%;
-  left: 0;
-  mix-blend-mode: color-burn;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
 .Header-Content {
   align-items: center;
+  background-color: var(--accent-secondary);
   display: grid;
   grid-template-columns:
     [full-start] minmax(0em, 1fr)
@@ -25,6 +10,8 @@
     [main-end] minmax(1em, 1fr);
   isolation: isolate;
   padding-bottom: var(--spacer-xs);
+  padding-left: var(--spacer-xs);
+  padding-right: var(--spacer-xs);
   padding-top: var(--spacer-xs);
 }
 

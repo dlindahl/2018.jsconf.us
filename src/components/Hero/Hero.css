@@ -1,14 +1,26 @@
 @import '../../layouts/variables.css';
 
 .Hero {
-  height: 100%;
+  height: 60vh;
   position: relative;
 }
 
+@media (--extra-small-screen) {
+  .Hero {
+    height: auto;
+  }
+}
+
 .Hero-Background {
+  background-image: linear-gradient(
+    var(--accent-tertiary),
+    var(--accent-quarternary)
+  );
   height: 100%;
-  position: relative;
   pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
   z-index: -1;
 }
 
@@ -16,136 +28,86 @@
   background-image: url('/img/splash-image.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   height: 100%;
   mix-blend-mode: color-dodge;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: -1;
 }
 
-.Hero-BackgroungGradient {
-  background-image: linear-gradient(
-    var(--accent-tertiary),
-    var(--accent-quarternary)
-  );
+.Hero-Container {
+  display: grid;
+  grid-template-columns:
+    minmax(0, 1fr)
+    [main] minmax(0, 4fr)
+    minmax(0, 1fr);
+  grid-template-rows:
+    minmax(0, 1fr)
+    [main] minmax(0, max-content)
+    minmax(0, 1fr);
   height: 100%;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: -1;
+}
+
+@media (--extra-small-screen) {
+  .Hero-Container {
+    grid-template-columns:
+      0
+      [main] minmax(0, 4fr)
+      0;
+  }
 }
 
 .Hero-Body {
-  display: flex;
-  height: 100%;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-.Hero-CallToAction {
-  align-items: center;
-  display: flex;
-  flex: 3;
   font-family: Lato;
   font-style: normal;
-  justify-content: center;
+  grid-column: main;
+  grid-row: main;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
-.Hero-CallToActionWrapper {
+.Hero-BodyWrapper {
   position: relative;
 }
 
-.Hero-CallToActionOverlay {
+.Hero-BodyOverlay {
   background-color: var(--js-yellow-light);
   position: absolute;
   height: 100%;
   mix-blend-mode: darken;
+  pointer-events: none;
   top: 0;
   width: 100%;
   z-index: -1;
 }
 
-.Hero-CallToActionContent {
-  align-items: center;
+.Hero-BodyContent {
   color: var(--accent);
-  display: flex;
-  flex-direction: column;
   isolation: isolate;
-  justify-content: center;
-  margin: 4vw;
   padding-bottom: 2vw;
   padding-top: 2vw;
   padding-left: 4vw;
   padding-right: 4vw;
+  text-align: center;
 }
 
-.Hero-CallToActionLede {
-  font-size: 6vw;
+.Hero-Lede {
+  font-size: 7vw;
   white-space: nowrap;
 }
 
 @media (--extra-small-screen) {
-  .Hero-CallToActionLede {
+  .Hero-Lede {
     font-size: 10vw;
   }
 }
 
-.Hero-CallToActionText {
-  font-size: 2vw;
+.Hero-Text {
+  font-size: 2.5vw;
   text-align: center;
   white-space: nowrap;
 }
 
 @media (--extra-small-screen) {
-  .Hero-CallToActionText {
-    font-size: 4vw;
-  }
-}
-
-.Hero-BodyCallToAction {
-  @apply --heading-xs;
-  flex: 1;
-}
-
-@media (--extra-small-screen) {
-  .Hero-BodyCallToAction {
-    flex: 2;
-  }
-}
-
-.Hero-BodyCallToActionLink {
-  background: var(--accent);
-  color: var(--js-yellow-light);
-  display: block;
-  padding: 1.5vw;
-  text-decoration: none;
-}
-
-@media (--extra-small-screen) {
-  .Hero-BodyCallToActionLink {
-    padding: 3vw;
-  }
-}
-
-.Hero-Footer {
-  background-color: color(var(--white) a(0.25));
-  padding-bottom: 1vh;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  padding-top: 1vh;
-  margin-bottom: 2vh;
-  text-align: center;
-}
-
-.Hero-ComingSoon {
-  @apply --fine-print;
-  &,
-  & a {
-    color: var(--accent);
+  .Hero-Text {
+    font-size: 3vw;
   }
 }
