@@ -22,7 +22,7 @@ const Homepage = (props) => (
     }
   >
     <SponsorshipPromo className="Homepage-Block"/>
-    <CallForSpeakers className="Homepage-Block"/>
+    <CallForSpeakers className="Homepage-Block" feature/>
     <OpportunityScholarship className="Homepage-Block"/>
     <CodeOfConduct className="Homepage-Block"/>
   </DefaultLayout>
