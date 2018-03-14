@@ -10,7 +10,7 @@ const CodeOfConduct = ({ className }) => (
       conference Code of Conduct. This year is no different. We expect, and
       require, all organizers, sponsors, speakers, volunteers, delegates, and
       attendees of all levels to adhere to our{' '}
-      <Link to="/code-of-conduct/">Code of Conduct</Link>
+      <Link to="/code-of-conduct/">Code of Conduct</Link>.
     </p>
   </GridRow>
 )

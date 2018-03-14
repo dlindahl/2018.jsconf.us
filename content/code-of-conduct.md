@@ -5,6 +5,15 @@ title: Code of Conduct
 
 # Code of Conduct
 
+## When Something Happens
+
+If you see a Code of Conduct violation, follow these steps:
+
+1. Let the person know that what they did is not appropriate and ask them to stop.
+2. That person should immediately stop the behavior and correct the issue.
+3. If this does not happen, or if you are uncomfortable speaking up, [contact the conference staff](#reporting) as soon as possible.
+4. A staff member will immediately address the issue and [take further action](#enforcement).
+
 ## Purpose
 
 JSConf US is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion or lack thereof. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.
@@ -23,6 +32,22 @@ Harassment includes, but is not limited to:
 * Unwelcome sexual attention
 * Advocating for, or encouraging, any of the above behavior
 
+## Inclusive Language
+
+In our commitment to a harassment-free and inclusive environment, we strongly believe it is important to pay attention to harmful language patterns.
+
+### Ableism
+
+Words like _"crazy"_, _"dumb"_, _"insane"_ or _"lame"_ are examples of **ableist language**, devaluing and insulting people who have physical or mental disabilities. Its appearance often stems not from any intentional desire to offend, but from our innate sense of what it means to be normal. These words can be avoided by using more suitable, clearer descriptions of what we want to communicate.
+
+To find out more about ableism and replacement terms please [read this guide](http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html).
+
+### Sexism
+
+Using gendered terms like _"dude"_ or _"guys"_ to address a group of people of varying genders contributes to furthering exclusion of underrepresented individuals. We strongly advise avoiding gendered pronouns as well as gendered terms.
+
+For more information please familiarize yourself with [Geek Feminism wiki guide](http://geekfeminism.wikia.com/wiki/Nonsexist_language).
+
 ## Enforcement
 
 Participants asked to stop any harassing behavior are expected to comply immediately.
@@ -37,13 +62,13 @@ If someone makes you or anyone else feel unsafe or unwelcome, please report it a
 
 ### Anonymous Report
 
-You can [make an anonymous report here][2018-report-form]. We can’t follow up an anonymous report with you directly, but we will fully investigate it and take whatever action is necessary to prevent a recurrence.
+You can [make an anonymous report here][2018-report-form]. We cannot directly follow-up an anonymous report, but we will fully investigate it and take whatever action is necessary to prevent a recurrence.
 
 ### Personal Report
 
 You can make a personal report by:
 
-* Contacting a staff member, identified by STAFF badges, buttons, or shirts.
+* Contacting a staff member, identified by staff badges, buttons, or shirts.
 * Emailing us: [derek@jsconf.us](mailto:derek@jsconf.us).
 * Calling us: We’ll publish a phone number that is staffed during main conference hours.
 
@@ -61,25 +86,9 @@ Our team will be happy to help you contact hotel/venue security, local law enfor
 | 24-Hour Non-Emergency Hotline | [760-931-2197](tel:760-931-2197)                 |
 | OMNI La Costa                 | [760-438-9111](tel:760-438-9111)                 |
 
-## Inclusive Language
-
-In our commitment to a harassment-free and inclusive environment we strongly believe it’s important to pay attention to harmful language patterns.
-
-### Ableism
-
-Words like _"crazy"_, _"dumb"_, _"insane"_ or _"lame"_ are examples of **ableist language**, devaluating people who have physical or mental disabilities. Its appearance often stems not from any intentional desire to offend, but from our innate sense of what it means to be normal. These words can be avoided by using more fitting, clearer descriptions of what we want to communicate.
-
-To find out more about ableism and replacement terms please [read this guide](http://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html).
-
-### Sexism
-
-Using gendered terms like _"dude"_ or _"guys"_ to address a mixed-gendered group of people contributes to furthering exclusion of underrepresented individuals. We strongly advise avoiding gendered pronouns as well as gendered terms.
-
-For more information please familiarize yourself with [Geek Feminism wiki guide](http://geekfeminism.wikia.com/wiki/Nonsexist_language).
-
 ## Attribution
 
-This Code of Conduct was based on [JSConf EU](https://2018.jsconf.eu), [CSSConf / JSConf AU](http://2018.jsconfau.com/), [The Geek Feminism wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy), the work of [Valerie Aurora](https://frameshiftconsulting.com/code-of-conduct-training/) and [Conference Code of Conduct](http://confcodeofconduct.com/).
+This Code of Conduct was based on [JSConf EU](https://2018.jsconf.eu), [CSSConf / JSConf AU](http://2018.jsconfau.com/), [The Geek Feminism wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy), the work of [Valerie Aurora](https://frameshiftconsulting.com/code-of-conduct-training/), [WeAllJS](https://wealljs.org/code-of-conduct) and [Conference Code of Conduct](http://confcodeofconduct.com/).
 
 [2018-report-form]: http://bit.ly/JSConfUS2018Report
 [police-map]: https://www.google.com/maps/place/Carlsbad+Police+Department/@33.1380798,-117.267504,17z/data=!4m13!1m7!3m6!1s0x80dc749d25753e85:0x13c0eb5f1859b6e0!2s2560+Orion+Way,+Carlsbad,+CA+92010!3b1!8m2!3d33.1378478!4d-117.2652845!3m4!1s0x80dc749d3a359ab7:0xbb7ace258cfa3f9b!8m2!3d33.1378479!4d-117.2652844
