@@ -1,10 +1,14 @@
+import { bool, string } from 'prop-types'
 import GridRow from '../GridRow'
 import Link from 'gatsby-link'
 import React from 'react'
-import { string } from 'prop-types'
 
-const OpportunityScholarship = ({ className }) => (
-  <GridRow className={className} feature title="Opportunity Scholarship">
+const OpportunityScholarship = ({ className, feature }) => (
+  <GridRow
+    className={className}
+    feature={feature}
+    title="Opportunity Scholarship"
+  >
     <p>
       As we bring JSConf back to the US, we are committed to creating a diverse
       and inclusive environment. Part of that commitment includes our
@@ -20,7 +24,8 @@ const OpportunityScholarship = ({ className }) => (
 )
 
 OpportunityScholarship.propTypes = {
-  className: string
+  className: string,
+  feature: bool
 }
 
 export default OpportunityScholarship

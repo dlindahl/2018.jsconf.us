@@ -1,11 +1,10 @@
+import { bool, string } from 'prop-types'
 import GridRow from '../GridRow'
 import Link from 'gatsby-link'
 import React from 'react'
-import { string } from 'prop-types'
-// import LinkButton from '../LinkButton'
 
-const CallForSpeakers = ({ className }) => (
-  <GridRow className={className} title="Call for Speakers">
+const CallForSpeakers = ({ className, feature }) => (
+  <GridRow className={className} feature={feature} title="Call for Speakers">
     <p>We will be opening our Call for Proposals soon!</p>
     <p>
       JSConf has been the launchpad for many of the greatest things that we now
@@ -22,7 +21,8 @@ const CallForSpeakers = ({ className }) => (
 )
 
 CallForSpeakers.propTypes = {
-  className: string
+  className: string,
+  feature: bool
 }
 
 export default CallForSpeakers
