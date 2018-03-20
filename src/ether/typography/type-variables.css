@@ -10,6 +10,12 @@
     letter-spacing: 2px;
     text-transform: uppercase;
   }
+  --smallcaps-small: {
+    @apply --size--base-0;
+    @apply --font--smallcaps-regular;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
   --smallcaps-bold: {
     @apply --size--base-0;
     @apply --font--smallcaps-bold;
@@ -58,7 +64,7 @@
     @apply --size--base-1;
   }
   --button-label-small: {
-    @apply --smallcaps-regular;
+    @apply --smallcaps-small;
     @apply --size--base-0;
   }
 }
