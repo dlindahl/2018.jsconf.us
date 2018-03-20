@@ -1,18 +1,16 @@
 @import '../../layouts/variables.css';
 
 .LinkButton {
-  @apply --button-label-regular;
-  background-color: var(--accent);
-  color: var(--light-lighter);
+  @apply --button-label-small;
+  background-color: var(--accent-secondary);
+  color: var(--light-lighter) !important;
   padding: var(--spacer-2xs);
   text-decoration: none;
-  position: relative;
-  display: inline-block;
-  transform: translateY(0px);
-  transition: all 0.3s;
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  transition: all 0.25s;
+  border: solid 3px transparent;
   &:hover {
-    box-shadow: 0 15px 10px -8px rgba(0, 0, 0, 0.3);
-    transform: translateY(-3px);
+    border-color: var(--accent-secondary);
+    background-color: var(--light-lighter);
+    color: var(--accent-secondary) !important;
   }
 }
