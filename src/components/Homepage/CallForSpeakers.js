@@ -1,6 +1,7 @@
 import { bool, string } from 'prop-types'
 import GridRow from '../GridRow'
 import Link from 'gatsby-link'
+import LinkButton from '../LinkButton'
 import React from 'react'
 
 const CallForSpeakers = ({ className, feature }) => (
@@ -14,8 +15,9 @@ const CallForSpeakers = ({ className, feature }) => (
       of the JavaScript world.
     </p>
     <p>
-      Stay tuned to learn how to submit your proposal!
-      {/* <LinkButton href="/TODO/">Submit Your Proposal</LinkButton> */}
+      <LinkButton href="http://bit.ly/JSConfUS2018CFP">
+        Submit Your Proposal
+      </LinkButton>
     </p>
   </GridRow>
 )
