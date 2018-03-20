@@ -73,7 +73,7 @@ Every year we've run JSConf US, we get a non-trivial amount of talk submissions 
 
 Take the time you need to condense your idea into one or two well-written paragraphs. Check for typos, proper punctuation, and grammatical errors. Submissions like "A talk about React" are nowhere near detailed enough and will almost surely result in a rejection. Come up with something original and try your best to communicate it with as much clarity as you can.
 
-We receive over 500 submissions vying for one of _ten_ speaking slots, so it is in your best interest to make a good first impression.
+We receive over 500 submissions vying for one of _twenty_ speaking slots, so it is in your best interest to make a good first impression.
 
 Still struggling to come up with a topic? Take a minute to [watch][yt-lastcall] some of our [previous year's talks][yt-2015] and be inspired on how the various topics were presented.
 
