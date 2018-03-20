@@ -4,6 +4,7 @@
   @apply --button-label-small;
   background-color: var(--accent-secondary);
   color: var(--light-lighter) !important;
+  display: inline-block;
   padding: var(--spacer-2xs);
   text-decoration: none;
   transition: all 0.25s;

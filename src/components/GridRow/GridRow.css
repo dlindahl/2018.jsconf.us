@@ -81,6 +81,15 @@
       margin-top: Var(--spacer-sm);
     }
   }
+  & .Page-CallToAction {
+    border: solid 3px var(--accent-secondary);
+    margin-top: var(--spacer-sm);
+    padding-bottom: var(--spacer-xs);
+    padding-left: var(--spacer-xs);
+    padding-right: var(--spacer-xs);
+    padding-top: var(--spacer-xs);
+    text-align: center;
+  }
 }
 
 .GridRow--feature {
