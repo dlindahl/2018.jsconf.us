@@ -36,7 +36,7 @@ const TimeTable = ({ items, startTime }) => {
           }
           const row = (
             <tr key={i}>
-              <td>{dateformat(clock, 'h:MMtt')}</td>
+              <td>{dateformat(clock, 'UTC:h:MMtt')}</td>
               {rowBody}
             </tr>
           )

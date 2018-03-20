@@ -59,7 +59,7 @@ const SchedulePage = ({ dayOne, dayThree }) => (
         the most exciting talks at JSConf. Registration opens about one month
         before the event, so keep your eyes peeled!
       </p>
-      <TimeTable items={dayOne} startTime="2018-08-21T07:30-0700"/>
+      <TimeTable items={dayOne} startTime="2018-08-21T07:30Z"/>
 
       <h2>Day One Closing Party</h2>
       <h3>7:00PM - 11:00PM</h3>
@@ -88,7 +88,7 @@ const SchedulePage = ({ dayOne, dayThree }) => (
       id="day-three"
       title="Thursday, August 23rd"
     >
-      <TimeTable items={dayThree} startTime="2018-08-23T07:30-0700"/>
+      <TimeTable items={dayThree} startTime="2018-08-23T07:30Z"/>
       <h2>Conference Closing Party</h2>
       <h3>7:00PM - 11:00PM</h3>
 
