@@ -5,9 +5,9 @@
   background-color: var(--accent-secondary);
   display: grid;
   grid-template-columns:
-    [brand] minmax(0em, 1fr)
+    [brand] minmax(50px, 1fr)
     [content] minmax(0, 4fr)
-    [aside] minmax(1em, 1fr);
+    [aside] minmax(35px, 1fr);
   padding-bottom: var(--spacer-xs);
   padding-left: var(--spacer-xs);
   padding-right: var(--spacer-xs);
