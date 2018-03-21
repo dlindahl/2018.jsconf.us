@@ -4,47 +4,72 @@ import React from 'react'
 
 import './Header.css'
 
-const Header = ({ children }) => (
-  <header className="Header">
-    <div className="Header-Content">
-      <aside>
-        <Link to="/">
-          <img
-            alt="JSConf US"
-            className="Header-LogoImg"
-            height="100"
-            src="/img/header/logo.png"
-            width="100"
-          />
-        </Link>
-      </aside>
-      <nav className="Header-Nav">
-        <ul className="Header-LinkItems">
-          <li className="Header-LinkItem">
-            <a className="Header-Link" href="/call-for-speakers/">
-              Call for Speakers
-            </a>
-          </li>
-          <li className="Header-LinkItem">
-            <a className="Header-Link" href="/schedule/">
-              Schedule
-            </a>
-          </li>
-          <li className="Header-LinkItem">
-            <a className="Header-Link" href="/sponsors/">
-              Sponsors
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <aside className="Header-CallToAction"/>
-    </div>
-    {children}
-  </header>
-)
-
-Header.propTypes = {
-  children: element
+export default class Header extends React.Component {
+  static propTypes = {
+    children: element
+  }
+  state = {
+    expanded: false
+  }
+  handleClick = () => {
+    this.setState((state) => ({ expanded: !state.expanded }))
+  }
+  render () {
+    return (
+      <header className="Header">
+        <div className="Header-Content">
+          <aside className="Header-Brand">
+            <Link to="/">
+              <img
+                alt="JSConf US"
+                className="Header-LogoImg"
+                height="100"
+                src="/img/header/logo.png"
+                width="100"
+              />
+            </Link>
+          </aside>
+          <nav className="Header-Nav">
+            <button
+              aria-controls="navbarContent"
+              aria-expanded={this.state.expanded}
+              aria-label="Toggle Navigation"
+              className="Header-NavbarToggler"
+              onClick={this.handleClick}
+            >
+              Open Menu
+            </button>
+            <div className="Header-NavbarCollapsibleContent" id="navbarContent">
+              <button
+                aria-expanded={this.state.expanded}
+                className="Header-NavbarCloseButton"
+                onClick={this.handleClick}
+              >
+                Close Menu
+              </button>
+              <ul className="Header-LinkItems">
+                <li className="Header-LinkItem">
+                  <a className="Header-Link" href="/call-for-speakers/">
+                    Call for Speakers
+                  </a>
+                </li>
+                <li className="Header-LinkItem">
+                  <a className="Header-Link" href="/schedule/">
+                    Schedule
+                  </a>
+                </li>
+                <li className="Header-LinkItem">
+                  <a className="Header-Link" href="/sponsors/">
+                    Sponsors
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <aside className="Header-CallToAction"/>
+        </div>
+        {this.props.children}
+      </header>
+    )
+  }
 }
-
-export default Header
