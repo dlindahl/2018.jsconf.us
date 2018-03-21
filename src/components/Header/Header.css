@@ -8,7 +8,6 @@
     [brand] minmax(0em, 1fr)
     [content] minmax(0, 4fr)
     [aside] minmax(1em, 1fr);
-  isolation: isolate;
   padding-bottom: var(--spacer-xs);
   padding-left: var(--spacer-xs);
   padding-right: var(--spacer-xs);
@@ -156,6 +155,7 @@
   top: 0;
   transform: translateY(-100%);
   transition: transform 0.3s;
+  z-index: 1;
 }
 
 @media (--small-screen) {
