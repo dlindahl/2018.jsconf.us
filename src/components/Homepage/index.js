@@ -3,6 +3,7 @@ import CodeOfConduct from './CodeOfConduct'
 import DefaultLayout from '../../layouts/DefaultLayout'
 import Hero from '../Hero'
 import React from 'react'
+import OpportunityScholarship from './OpportunityScholarship'
 import SponsorshipPromo from './SponsorshipPromo'
 import TicketReleasePromo from './TicketReleasePromo'
 
@@ -24,6 +25,7 @@ const Homepage = (props) => (
     <SponsorshipPromo className="Homepage-Block"/>
     <TicketReleasePromo className="Homepage-Block" feature/>
     <CallForSpeakers className="Homepage-Block"/>
+    <OpportunityScholarship className="Homepage-Block"/>
     <CodeOfConduct className="Homepage-Block"/>
   </DefaultLayout>
 )

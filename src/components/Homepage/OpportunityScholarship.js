@@ -11,15 +11,15 @@ const OpportunityScholarship = ({ className, feature }) => (
   >
     <p>
       As we get JSConf US going again, we are committed to creating a diverse
-      and inclusive environment. Part of that commitment includes our
-      Opportunity Scholarship, which is a program designed for underrepresented
+      and inclusive environment. Part of that commitment includes our new
+      Opportunity Scholarship, a program designed to assist underrepresented
       groups, to improve their access to the many amazing opportunities that
       happen at the <a href="http://jsconf.com">JSConf Family of events</a>.
     </p>
     <p>
       Interested in learning more? Be sure to read all about{' '}
       <Link to="/scholarships/">how to apply</Link> and{' '}
-      <Link to="/scholarships/">how to contribute</Link>.
+      <Link to="/scholarships/#want-to-contribute/">how to contribute</Link>.
     </p>
   </GridRow>
 )
