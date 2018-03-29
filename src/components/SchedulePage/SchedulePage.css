@@ -17,6 +17,11 @@
   list-style: none;
 }
 
+.Schedule-Event {
+  margin-top: 0;
+  margin-bottom: var(--spacer-md);
+}
+
 .Schedule-Day {
   margin-top: var(--spacer-xl);
   &:nth-child(2) {
