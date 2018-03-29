@@ -1,28 +1,49 @@
-import { any, bool, string } from 'prop-types'
+import { any, bool, number, string } from 'prop-types'
 import classnames from 'classnames'
 import React from 'react'
 
 import './GridRow.css'
 
-const GridRow = ({ children, className, feature, id, title }) => {
+const GridRow = ({
+  children,
+  className,
+  feature,
+  id,
+  level,
+  subtitle,
+  title
+}) => {
   const rootCls = classnames({
     GridRow: true,
     'GridRow--feature': feature,
     [className]: className
   })
   let header = null
+  let subheader = null
 
   if (title) {
-    header = <h1 className="GridRow-Header">{title}</h1>
+    const HeadingTag = `h${level}`
+    header = <HeadingTag className="GridRow-Header">{title}</HeadingTag>
+  }
+  if (subtitle) {
+    const HeadingTag = `h${level + 1}`
+    subheader = (
+      <HeadingTag className="GridRow-Subheader">{subtitle}</HeadingTag>
+    )
   }
   return (
     <section className={rootCls} id={id}>
-      <main className="GridRow-Content">
+      <div className="GridRow-Layout">
         {header}
-        {children}
-      </main>
+        {subheader}
+        <div className="GridRow-Content">{children}</div>
+      </div>
     </section>
   )
+}
+
+GridRow.defaultProps = {
+  level: 1
 }
 
 GridRow.propTypes = {
@@ -30,6 +51,8 @@ GridRow.propTypes = {
   className: string,
   feature: bool,
   id: string,
+  level: number,
+  subtitle: string,
   title: string
 }
 

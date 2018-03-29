@@ -30,27 +30,43 @@ const SchedulePage = ({ dayOne, dayThree }) => (
         </ul>
       </nav>
     </GridRow>
-    <GridRow className="Schedule-Day" id="arrival" title="Monday, August 20th">
-      <h2 id="welcome-reception">Welcome Reception</h2>
-      <h3>6:00PM - 9:00PM</h3>
+    <GridRow
+      className="Schedule-Day"
+      id="arrival"
+      title="Monday, August 20th"
+    />
+    <GridRow
+      className="Schedule-Event"
+      id="welcome-reception"
+      level={2}
+      subtitle="6:00PM - 9:00PM"
+      title="Welcome Reception"
+    >
       <p>
         After a long day of travel, it is time to head to the main hotel for an
         evening welcome reception and social gathering. Meet old friends, make
         new friends, and enjoy some fine refreshments and appetizers!
       </p>
-      <Campfires/>
     </GridRow>
-    <GridRow className="Schedule-Day" id="day-one" title="Tuesday, August 21st">
-      <h2>Conference Tracks</h2>
-
-      <h3>What is Track A?</h3>
+    <Campfires/>
+    <GridRow
+      className="Schedule-Day"
+      id="day-one"
+      title="Tuesday, August 21st"
+    />
+    <GridRow
+      className="Schedule-Event"
+      level={2}
+      subtitle="What is Track A?"
+      title="Conference Tracks"
+    >
       <p>
         Traditionally a two track conference format, JSConf US provides a track
         of curated set of speakers as outlined here that have submitted the
         proposal and successfully made it through the selection process.
       </p>
-
-      <h3>What is Track B?</h3>
+    </GridRow>
+    <GridRow className="Schedule-Event" level={3} title="What is Track B?">
       <p>
         The alternative track for JSConf US is driven by people like you! We
         have a very unique format for our second track in that we let anyone
@@ -60,23 +76,28 @@ const SchedulePage = ({ dayOne, dayThree }) => (
         before the event, so keep your eyes peeled!
       </p>
       <TimeTable items={dayOne} startTime="2018-08-21T07:30Z"/>
-
-      <h2>Day One Closing Party</h2>
-      <h3>7:00PM - 11:00PM</h3>
-
-      <p>Details coming soon!</p>
-
-      <Campfires/>
     </GridRow>
+    <GridRow
+      className="Schedule-Event"
+      level={2}
+      subtitle="7:00PM - 11:00PM"
+      title="Day One Closing Party"
+    >
+      <p>Details coming soon!</p>
+    </GridRow>
+    <Campfires/>
     <GridRow
       className="Schedule-Day"
       id="day-two"
+      subtitle="Day of Activities"
       title="Wednesday, August 22nd"
+    />
+    <GridRow
+      className="Schedule-Event"
+      level={2}
+      subtitle="9:00AM - 6:00PM"
+      title="NodeRockets"
     >
-      <h2>Day of Activities</h2>
-
-      <h2>NodeRockets</h2>
-      <h3>9:00AM - 6:00PM</h3>
       <p>
         3... 2... 1... BLAST OFF!!! Why stop with just Earth, it is time to take
         JavaScript to outer space!
@@ -87,9 +108,13 @@ const SchedulePage = ({ dayOne, dayThree }) => (
         as we take to the sky, terrify anyone on the driving range, and break
         the altitude barrier WITH CODE!
       </p>
-
-      <h2>NodeBoats</h2>
-      <h3>9:00AM - 6:00PM</h3>
+    </GridRow>
+    <GridRow
+      className="Schedule-Event"
+      level={2}
+      subtitle="9:00AM - 6:00PM"
+      title="NodeBoats"
+    >
       <p>
         Take the mission of spreading JavaScript to every corner of the world to
         its next logical conclusion, the water!
@@ -104,9 +129,13 @@ const SchedulePage = ({ dayOne, dayThree }) => (
         undoubtedly need to rescue your vessel at least once. Dress
         appropriately!
       </p>
-
-      <h2>NodeBots</h2>
-      <h3>9:00AM - 6:00PM</h3>
+    </GridRow>
+    <GridRow
+      className="Schedule-Event"
+      level={2}
+      subtitle="9:00AM - 6:00PM"
+      title="NodeBots"
+    >
       <p>
         Team up (or go solo) to hack together Arduino-based robots, all using
         just JavaScript!
@@ -116,9 +145,13 @@ const SchedulePage = ({ dayOne, dayThree }) => (
         no fear! NodeBot experts will be on-hand to help you hack, solder, and
         3D print your way to a full fledged NodeBot!
       </p>
-
-      <h2>NodeCopter</h2>
-      <h3>9:00AM - 6:00PM</h3>
+    </GridRow>
+    <GridRow
+      className="Schedule-Event"
+      level={2}
+      subtitle="9:00AM - 6:00PM"
+      title="NodeCopter"
+    >
       <p>
         Team up (or go solo), hack a quadcopter using Node.js, and make a flying
         robot do your bidding!
@@ -127,8 +160,8 @@ const SchedulePage = ({ dayOne, dayThree }) => (
         The NodeCopter event originally launched at JSConf EU and now we take it
         to the next level at JSConf US. Just watch out for the light fixtures!
       </p>
-
-      <h2>Poolside Relaxation</h2>
+    </GridRow>
+    <GridRow className="Schedule-Event" level={2} title="Poolside Relaxation">
       <p>
         Want to be outside, but still need access to the Internet? Come on down
         to the Omni's Edge Pool where you can get a nice cold drink, a bit of
@@ -143,9 +176,13 @@ const SchedulePage = ({ dayOne, dayThree }) => (
         Even if you are registered for another event, stop by the pool for a
         bit! Who knows, you may even catch a repeat of synchronized.swimming.js.
       </p>
-
-      <h2>Golf Tournament</h2>
-      <h3>Time TBA</h3>
+    </GridRow>
+    <GridRow
+      className="Schedule-Event"
+      level={2}
+      subtitle="Time TBA"
+      title="Golf Tournament"
+    >
       <p>
         Take advantage of the La Costa's world-class Champions or Legends golf
         course.
@@ -156,9 +193,13 @@ const SchedulePage = ({ dayOne, dayThree }) => (
         will be formed into teams. Golf attire will be required: collared
         shirts, no jeans. Club rentals are available or you can bring your own.
       </p>
-
-      <h2>Surf Lessons at La Jolla</h2>
-      <h3>1:00PM - 5:00PM</h3>
+    </GridRow>
+    <GridRow
+      className="Schedule-Event"
+      level={2}
+      subtitle="1:00PM - 5:00PM"
+      title="Surf Lessons at La Jolla"
+    >
       <p>What could be more Southern Californian than surfing?</p>
       <p>
         Stroll out onto the beach and prepare for some fun. Professional
@@ -180,9 +221,13 @@ const SchedulePage = ({ dayOne, dayThree }) => (
         clothes, and a bathing suit. Wetsuits will be provided. Space is
         limited, register early!
       </p>
-
-      <h2>Stand-Up Paddle Boarding Lessons at La Jolla Shores</h2>
-      <h3>1:00PM - 5:00PM</h3>
+    </GridRow>
+    <GridRow
+      className="Schedule-Event"
+      level={2}
+      subtitle="1:00PM - 5:00PM"
+      title="Stand-Up Paddle Boarding Lessons at La Jolla Shores"
+    >
       <p>What better way to play on the water than stand-up paddle boarding?</p>
       <p>
         Stand-up paddle board lessons for beginners start in the sand with
@@ -198,9 +243,13 @@ const SchedulePage = ({ dayOne, dayThree }) => (
         clothes, and a bathing suit. Wetsuits will be provided. Space is
         limited, register early!
       </p>
-
-      <h2>Sea Cave Kayaking</h2>
-      <h3>1:00PM - 5:00PM</h3>
+    </GridRow>
+    <GridRow
+      className="Schedule-Event"
+      level={2}
+      subtitle="1:00PM - 5:00PM"
+      title="Sea Cave Kayaking"
+    >
       <p>
         Do you like to play in the open ocean waters, the cool sea spray
         whispering over you? Then join us for an exciting day of adventure and
@@ -218,9 +267,13 @@ const SchedulePage = ({ dayOne, dayThree }) => (
         clothes, and a bathing suit. Wetsuits will be provided. Space is
         limited, register early!
       </p>
-
-      <h2>Safari Zoo Adventure</h2>
-      <h3>12:00PM - 4:00PM</h3>
+    </GridRow>
+    <GridRow
+      className="Schedule-Event"
+      level={2}
+      subtitle="12:00PM - 4:00PM"
+      title="Safari Zoo Adventure"
+    >
       <p>
         The San Diego Safari Park is a one-of-a-kind 2,200 acre wildlife
         preserve where over 4,000 rare and endangered species can be seen in
@@ -234,10 +287,13 @@ const SchedulePage = ({ dayOne, dayThree }) => (
       <p>
         Children and Significant Other tickets will be available for purchase.
       </p>
-
-      <h2>Downtown Shuttle</h2>
-      <h3>6:00PM - 11:30PM</h3>
-
+    </GridRow>
+    <GridRow
+      className="Schedule-Event"
+      level={2}
+      subtitle="6:00PM - 11:30PM"
+      title="Downtown Shuttle"
+    >
       <p>
         Enjoy some freetime and head over to historic download Carlsbad,
         California's coastal gateway! Downtown Carlsbad offers award-winning
@@ -249,28 +305,35 @@ const SchedulePage = ({ dayOne, dayThree }) => (
         11:30PM. You must be on a return shuttle by 11:30PM at the latest or
         find your own means of transportation back.
       </p>
-      <Campfires/>
     </GridRow>
+    <Campfires/>
     <GridRow
       className="Schedule-Day"
       id="day-three"
       title="Thursday, August 23rd"
     >
       <TimeTable items={dayThree} startTime="2018-08-23T07:30Z"/>
-      <h2>Conference Closing Party</h2>
-      <h3>7:00PM - 11:00PM</h3>
-
-      <p>Details coming soon!</p>
-      <Campfires/>
     </GridRow>
+    <GridRow
+      className="Schedule-Event"
+      level={2}
+      subtitle="7:00PM - 11:00PM"
+      title="Conference Closing Party"
+    >
+      <p>Details coming soon!</p>
+    </GridRow>
+    <Campfires/>
     <GridRow
       className="Schedule-Day"
       id="departure"
       title="Friday, August 24th"
+    />
+    <GridRow
+      className="Schedule-Event"
+      level={2}
+      subtitle="10:00AM - 2:00PM"
+      title="Brunch"
     >
-      <h2>Brunch</h2>
-      <h3>10:00AM - 2:00PM</h3>
-
       <p>
         Come enjoy brunch food with everyone at JSConf as a final gathering. The
         internet can be a stressful place and programmers often make it worse,
@@ -280,10 +343,13 @@ const SchedulePage = ({ dayOne, dayThree }) => (
         discuss modules; whatever your final goals, the key is finish out the
         event happily.
       </p>
-
-      <h2>Airport Shuttle</h2>
-      <h3>7:00AM - 2:00PM</h3>
-
+    </GridRow>
+    <GridRow
+      className="Schedule-Event"
+      level={2}
+      subtitle="7:00AM - 2:00PM"
+      title="Airport Shuttle"
+    >
       <p>
         Time to head home! Our shuttles are ready to take you back to reality by
         way of San Diego International Airport. Details for the shuttles and

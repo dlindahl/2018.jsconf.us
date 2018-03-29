@@ -14,6 +14,64 @@
   & h1 {
     @apply --heading-md;
     color: var(--color-cta);
+  }
+  & h2 {
+    @apply --heading-sm;
+    color: var(--accent-darker);
+  }
+  & h3 {
+    @apply --heading-xs;
+    color: var(--accent-lighter);
+  }
+  & h4 {
+    @apply --heading-2xs;
+  }
+  & h5 {
+    @apply --heading-3xs;
+    color: var(--light-darker);
+  }
+  & h6 {
+    @apply --heading-4xs;
+    color: var(--light-dark);
+  }
+  &.Page {
+    & ul {
+      margin-top: var(--spacer-sm);
+    }
+    & li {
+      margin-top: Var(--spacer-sm);
+    }
+  }
+}
+
+.GridRow--feature {
+  background-color: var(--js-yellow-lighter);
+  padding-bottom: var(--spacer-lg);
+  padding-top: var(--spacer-md);
+  color: var(--dark);
+  & a,
+  & h1,
+  & h2 {
+    color: var(--accent-quarternary);
+  }
+  & h3,
+  & h4,
+  & h5,
+  & h6 {
+    color: var(--dark-dark);
+  }
+}
+
+.GridRow-Header {
+  margin-top: var(--spacer-sm);
+}
+
+.GridRow-Layout {
+  grid-column: main;
+}
+
+.GridRow-Content {
+  & h1 {
     margin-top: var(--spacer-lg);
     &:first-child {
       margin-top: var(--spacer-xs);
@@ -23,30 +81,21 @@
     }
   }
   & h2 {
-    @apply --heading-sm;
-    color: var(--accent-darker);
     margin-top: var(--spacer-lg);
     & + h3 {
       margin-top: 0;
     }
   }
   & h3 {
-    @apply --heading-xs;
-    color: var(--accent-lighter);
     margin-top: var(--spacer-lg);
   }
   & h4 {
-    @apply --heading-2xs;
     margin-top: var(--spacer-md);
   }
   & h5 {
-    @apply --heading-3xs;
-    color: var(--light-darker);
     margin-top: var(--spacer-sm);
   }
   & h6 {
-    @apply --heading-4xs;
-    color: var(--light-dark);
     margin-top: var(--spacer-sm);
   }
   & blockquote {
@@ -73,14 +122,6 @@
   & table {
     margin-top: var(--spacer-sm);
   }
-  &.Page {
-    & ul {
-      margin-top: var(--spacer-sm);
-    }
-    & li {
-      margin-top: Var(--spacer-sm);
-    }
-  }
   & .Page-CallToAction {
     border: solid 3px var(--accent-secondary);
     margin-top: var(--spacer-sm);
@@ -90,26 +131,4 @@
     padding-top: var(--spacer-xs);
     text-align: center;
   }
-}
-
-.GridRow--feature {
-  background-color: var(--js-yellow-lighter);
-  padding-bottom: var(--spacer-lg);
-  padding-top: var(--spacer-md);
-  color: var(--dark);
-  & a,
-  & h1,
-  & h2 {
-    color: var(--accent-quarternary);
-  }
-  & h3,
-  & h4,
-  & h5,
-  & h6 {
-    color: var(--dark-dark);
-  }
-}
-
-.GridRow-Content {
-  grid-column: main;
 }
