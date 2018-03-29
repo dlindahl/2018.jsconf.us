@@ -99,7 +99,7 @@ const SchedulePage = ({ dayOne, dayThree }) => (
       title="NodeRockets"
     >
       <p>
-        3... 2... 1... BLAST OFF!!! Why stop with just Earth, it is time to take
+        3... 2... 1... BLAST OFF!!! Why stop with just Earth? It is time to take
         JavaScript to outer space!
       </p>
       <p>
@@ -184,8 +184,8 @@ const SchedulePage = ({ dayOne, dayThree }) => (
       title="Golf Tournament"
     >
       <p>
-        Take advantage of the La Costa's world-class Champions or Legends golf
-        course.
+        Take advantage of either of La Costa's world-class golf courses,
+        "Champions" or "Legends"!
       </p>
       <p>
         The tournament will be organized into teams of four (4) with all teams
