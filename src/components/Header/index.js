@@ -1,5 +1,6 @@
 import { element } from 'prop-types'
 import Link from 'gatsby-link'
+import LinkButton from '../LinkButton'
 import React from 'react'
 
 import './Header.css'
@@ -55,6 +56,11 @@ export default class Header extends React.Component {
                 </li>
                 <li className="Header-LinkItem">
                   <a className="Header-Link" href="/schedule/">
+                    Scholarship
+                  </a>
+                </li>
+                <li className="Header-LinkItem">
+                  <a className="Header-Link" href="/schedule/">
                     Schedule
                   </a>
                 </li>
@@ -66,7 +72,11 @@ export default class Header extends React.Component {
               </ul>
             </div>
           </nav>
-          <aside className="Header-CallToAction"/>
+          <aside className="Header-CallToAction">
+            <LinkButton href="https://ti.to/jsconf-us/jsconf-us-2018" invert>
+              Buy Tickets
+            </LinkButton>
+          </aside>
         </div>
         {this.props.children}
       </header>
