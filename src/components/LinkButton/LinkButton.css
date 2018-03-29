@@ -4,6 +4,7 @@
   @apply --button-label-small;
   background-color: var(--accent-secondary);
   color: var(--light-lighter) !important;
+  cursor: pointer;
   display: inline-block;
   padding: var(--spacer-2xs);
   text-decoration: none;
@@ -13,5 +14,15 @@
     border-color: var(--accent-secondary);
     background-color: var(--light-lighter);
     color: var(--accent-secondary) !important;
+  }
+}
+
+.LinkButton--invert {
+  background-color: var(--light-lighter);
+  color: var(--accent-secondary) !important;
+  &:hover {
+    border-color: var(--light-lighter);
+    background-color: var(--accent-secondary);
+    color: var(--light-lighter) !important;
   }
 }
