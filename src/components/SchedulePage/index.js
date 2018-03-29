@@ -43,7 +43,7 @@ const SchedulePage = ({ dayOne, dayThree }) => (
     <GridRow className="Schedule-Day" id="day-one" title="Tuesday, August 21st">
       <h2>Conference Tracks</h2>
 
-      <h3>What is the Track A?</h3>
+      <h3>What is Track A?</h3>
       <p>
         Traditionally a two track conference format, JSConf US provides a track
         of curated set of speakers as outlined here that have submitted the
