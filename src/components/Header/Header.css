@@ -4,10 +4,11 @@
   align-items: center;
   background-color: var(--accent-secondary);
   display: grid;
+  grid-auto-flow: column;
   grid-template-columns:
-    [brand] minmax(50px, 1fr)
+    [brand] max-content
     [content] minmax(0, 4fr)
-    [aside] minmax(35px, 1fr);
+    [aside] max-content;
   padding-bottom: var(--spacer-xs);
   padding-left: var(--spacer-xs);
   padding-right: var(--spacer-xs);
@@ -29,10 +30,10 @@
   justify-content: flex-end;
 }
 
-@media (--small-screen) {
+@media (--medium-screen) {
   .Header-Nav {
+    display: initial;
     grid-column: content;
-    justify-content: center;
   }
 }
 
@@ -41,13 +42,13 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style: none;
   margin-bottom: var(--spacer-2xs);
   margin-top: var(--spacer-2xs);
 }
 
-@media (--small-screen) {
+@media (--medium-screen) {
   .Header-LinkItems {
     align-items: flex-start;
     flex-direction: row;
@@ -101,10 +102,10 @@
 
 .Header-CallToAction {
   grid-column: content;
-  text-align: right;
+  text-align: center;
 }
 
-@media (--small-screen) {
+@media (--medium-screen) {
   .Header-CallToAction {
     grid-column: aside;
   }
@@ -141,7 +142,7 @@
   }
 }
 
-@media (--small-screen) {
+@media (--medium-screen) {
   .Header-NavbarToggler {
     display: none;
   }
@@ -158,7 +159,7 @@
   z-index: 1;
 }
 
-@media (--small-screen) {
+@media (--medium-screen) {
   .Header-NavbarCollapsibleContent {
     background: none;
     position: static;
@@ -197,7 +198,7 @@
   }
 }
 
-@media (--small-screen) {
+@media (--medium-screen) {
   .Header-NavbarCloseButton {
     display: none;
   }
