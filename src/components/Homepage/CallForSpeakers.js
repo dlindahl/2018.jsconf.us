@@ -6,7 +6,6 @@ import React from 'react'
 
 const CallForSpeakers = ({ className, feature }) => (
   <GridRow className={className} feature={feature} title="Call for Speakers">
-    <p>We will be opening our Call for Proposals soon!</p>
     <p>
       JSConf has been the launchpad for many of the greatest things that we now
       take for granted on the web.{' '}
@@ -14,7 +13,9 @@ const CallForSpeakers = ({ className, feature }) => (
       is designed to shine the spotlight on the latest ideas and future leaders
       of the JavaScript world.
     </p>
-    <p>
+    <p className="Page-CallToAction">
+      Our Call for Speakers is now open through May 1st, 2018!<br/>
+      <br/>
       <LinkButton href="http://bit.ly/JSConfUS2018CFP">
         Submit Your Proposal
       </LinkButton>
