@@ -17,6 +17,8 @@ JSConf US 2018 is committed to providing an inclusive and accessible space for a
 
 * We are asking our presenters to adhere to [Success Criterion 2.3.1 of the Web Content Accessibility Guidelines 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html) avoiding the use of epilepsy-inducing videos and animations, however we cannot fully guarantee compliance.
 
+* Travel Support Personnel will have full admission to the entire conference, social events, activities, and everything that takes place during the conference.
+
 * Service dogs are absolutely welcome with no restrictions. Non-service dogs that are well-behaved and less than 25lbs. are allowed on property. If staying on property, the venue requires a non-refundable cleaning fee. Non-service dogs are not permitted in restaurants, patios, or anywhere food or beverage is served.
 
 * All talks will be in English, unless otherwise indicated, and accompanied by live English-language closed captioning.
