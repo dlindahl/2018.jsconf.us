@@ -9,6 +9,14 @@ Your ticket provides you access to all of the social events, all of the lectures
 
 All classes of tickets are sold on a first-come, first-serve basis with no refunds offered (ticket transfers are allowed.)
 
+### Opportunity Scholarship Program
+
+Help us continue to grow our community by inspiring a whole new group of people to join the amazing JavaScript community!
+
+If you are an individual, all of our ticket packages include the ability to add-on a donation into our Opportunity Scholarship Program.
+
+If you are a company, a portion of all sponsorship fees go towards funding our Opportunity Scholarship program. Our Opportunity Support sponsorship is also available as an add-on to any existing sponsorship level. Check out [our sponsorship page](http://localhost:8000/sponsorship/) for more information on sponsoring JSConf US.
+
 ### On-site Childcare
 
 While we are actively planning to offer free on-site childcare, we are still working with our venue and service provider on the exact details. In the event we are unable to work out childcare arrangements, and you require on-site childcare, a full refund for your ticket will be provided.
