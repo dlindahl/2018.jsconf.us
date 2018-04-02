@@ -19,7 +19,7 @@ const OpportunityScholarship = ({ className, feature }) => (
     <p>
       Interested in learning more? Be sure to read all about{' '}
       <Link to="/scholarships/">how to apply</Link> and{' '}
-      <Link to="/scholarships/#want-to-contribute/">how to contribute</Link>.
+      <Link to="/scholarships/#want-to-contribute">how to contribute</Link>.
     </p>
   </GridRow>
 )
