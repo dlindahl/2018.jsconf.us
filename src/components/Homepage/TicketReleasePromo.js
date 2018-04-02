@@ -28,9 +28,7 @@ const TicketReleasePromo = ({ className, feature }) => (
       way to learn something new!
     </p>
     <p>
-      <LinkButton href="http://bit.ly/JSConfUS2018Tickets">
-        Register now before it sells out
-      </LinkButton>
+      <LinkButton href="/tickets/">Register now before it sells out</LinkButton>
     </p>
   </GridRow>
 )
