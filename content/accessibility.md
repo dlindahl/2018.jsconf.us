@@ -23,11 +23,11 @@ JSConf US 2018 is committed to providing an inclusive and accessible space for a
 
 * All talks will be in English, unless otherwise indicated, and accompanied by live English-language closed captioning.
 
-* Breakfast, lunch, dinner, and snacks will be served throughout the event, excluding the middle "Choose Your Own Adventure" day. Lighter fare will be served during the pre-event opening party. Brunch will be available the day after the event.
+* Breakfast, lunch, dinner, and snacks will be served throughout the event on the first and third full days of the conference, scheduled around the presentations. Lighter fare will be served during the pre-event opening party. Brunch will be available the day after the event.
 
 * Attendees that have specific dietary requirements are encouraged to communicate them when registering and to purchase an additional "Special Meal Preparation" ticket.
 
-* Meals during the "Choose Your Own Adventure" day are the responsibility of the individual attendee. The venue has several options to choose from or attendees can take a shuttle to nearby Carlsbad Village. NodeBots, NodeBoats, NodeCopter, and NodeRocket attendees will be provided lunch.
+* Meals during the "Choose Your Own Adventure" day are the responsibility of the individual attendee. The venue has several options to choose from, or attendees can take a shuttle to nearby Carlsbad Village. NodeBots, NodeBoats, NodeCopter, and NodeRocket attendees will be provided with lunch.
 
 * All after-parties held at the conference venue will be catered. We will be providing both non-alcoholic and alcoholic beverages.
 
