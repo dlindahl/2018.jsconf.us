@@ -13,7 +13,7 @@ const Campfires = () => (
       conversation, stop by the evening campfires located on the upper-level of
       the Edge Pool. Grab a spot around the natural gas firepits and enjoy some
       enlightened conversation. Make plans with your fellow attendees for the
-      next day or plan your space mission to the moon and back!
+      next day, or plan your space mission to the moon and back!
     </p>
   </GridRow>
 )

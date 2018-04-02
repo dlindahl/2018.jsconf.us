@@ -256,11 +256,12 @@ const SchedulePage = ({ dayOne, dayThree }) => (
         exploration!
       </p>
       <p>
-        You will be kayaking in one of the many breathtaking San Diego County
-        ocean water areas – La Jolla. If you've ever wanted to try sea kayaking
-        or just want to enjoy the thrill once again, this is the experience for
-        you! After donning your wetsuit, you'll be paired up into a tandem
-        kayak, and head right into the water, receiving instruction as you go.
+        You will be kayaking in La Jolla, one of the many breathtaking ocean
+        water areas in San Diego County. If you've ever wanted to try sea
+        kayaking or just want to enjoy the thrill once again, this is the
+        experience for you! After donning your wetsuit, you'll be paired up into
+        a tandem kayak, and head right into the water, receiving instruction as
+        you go.
       </p>
       <p>
         <strong>Note:</strong> You will get wet! Please bring a towel, extra
@@ -295,14 +296,14 @@ const SchedulePage = ({ dayOne, dayThree }) => (
       title="Downtown Shuttle"
     >
       <p>
-        Enjoy some freetime and head over to historic download Carlsbad,
+        Enjoy some free time and head over to historic downtown Carlsbad,
         California's coastal gateway! Downtown Carlsbad offers award-winning
         restaurants, boutique shopping, and amazing views of the Pacific Ocean.
       </p>
       <p>
         The Downtown Shuttle will loop continuously from the hotel lobby to
         Carlsbad Village. The final pick up to return back to the Omni will be
-        11:30PM. You must be on a return shuttle by 11:30PM at the latest or
+        at 11:30PM. You must be on a return shuttle by 11:30PM at the latest, or
         find your own means of transportation back.
       </p>
     </GridRow>
@@ -353,7 +354,7 @@ const SchedulePage = ({ dayOne, dayThree }) => (
       <p>
         Time to head home! Our shuttles are ready to take you back to reality by
         way of San Diego International Airport. Details for the shuttles and
-        other modes of transportation to the airport are available here. We hope
+        other modes of transportation to the airport are coming soon. We hope
         you have experienced new things, made lasting friendships, and
         thoroughly enjoyed yourself.
       </p>
