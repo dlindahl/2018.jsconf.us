@@ -9,13 +9,13 @@ Your ticket provides you access to all of the social events, all of the lectures
 
 All classes of tickets are sold on a first-come, first-serve basis with no refunds offered (ticket transfers are allowed.)
 
+### On-site Childcare
+
+While we are actively planning to offer free on-site childcare, we are still working with our venue and service provider on the exact details. In the event we are unable to work out childcare arrangements, and you require on-site childcare, a full refund for your ticket will be provided.
+
 # Pricing Details
 
 Below are the pricing tiers for JSConf US 2018. We have tried to tier the ticket release batches so that anyone around the world can access them when they first open up. If we have missed something, or you need assistance, please [contact us directly](mailto:derek@jconf.us).
-
-### Are you offering on-site childcare?
-
-While we are actively planning to offer on-site childcare, we are still working with our venue and service provider on the exact details. In the event we are unable to work out childcare arrangements, and you require on-site childcare, a full refund for your ticket will be provided.
 
 ## San Bernadino
 
