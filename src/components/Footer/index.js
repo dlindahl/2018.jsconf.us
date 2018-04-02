@@ -12,6 +12,9 @@ const Footer = () => (
         <header className="Footer-LinkGroupHeader">Event Details</header>
         <ul className="Footer-LinkGroup">
           <li className="Footer-Link">
+            <Link to="/tickets/">Attend</Link>
+          </li>
+          <li className="Footer-Link">
             <Link to="/schedule/">Schedule</Link>
           </li>
         </ul>
