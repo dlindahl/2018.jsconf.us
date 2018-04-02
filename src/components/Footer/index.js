@@ -17,6 +17,9 @@ const Footer = () => (
           <li className="Footer-Link">
             <Link to="/schedule/">Schedule</Link>
           </li>
+          <li className="Footer-Link">
+            <Link to="/scholarships/">Opportunity Scholarship</Link>
+          </li>
         </ul>
       </nav>
       <nav>
@@ -27,6 +30,11 @@ const Footer = () => (
           </li>
           <li className="Footer-Link">
             <Link to="/sponsors/">Become a Sponsor</Link>
+          </li>
+          <li className="Footer-Link">
+            <Link to="/scholarships/#want-to-contribute">
+              Scholarship Contributions
+            </Link>
           </li>
         </ul>
       </nav>
