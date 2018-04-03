@@ -75,3 +75,30 @@ We have provided specially prepared meals for those with specific dietary requir
 
 If you require a specially prepared meal, vegan or otherwise, that cannot be serviced as part of a group buffet, we ask that you purchase a Special Preparation Meal Ticket. With this meal ticket, we will have a specially prepared plate reserved for you at every meal and social event that meets your dietary needs. If you have any questions about this, please [email us directly](mailto:derek@jsconf.us).
 
+# Conference Attendance Agreements
+
+## Transferring a Ticket
+
+Unless otherwise stipulated, we will not offer any ticket refunds regardless of circumstances. However, tickets may be transferred between two parties.
+
+To transfer the ownership of a JSConf US 2018 ticket, you can simply send the registration link you will receive from [Tito](http://tito.io/) and allow the individual you are transferring to override your registration information with their own. Transfers will not be handled by or involve the JSConf team. Purchase price reimbursement will be handled by the two transferring parties.
+
+Due to conference badge printing deadlines, tickets must be transferred no later than August 6th, 2018. We cannot guarantee a personalized conference badge for transfers occurring beyond that deadline. We appreciate your understanding in this matter.
+
+## Terms & Conditions
+
+By purchasing, you agree to the following terms and conditions:
+
+> I have read, understand, and agree to adhere to the JSConf US [Code of Conduct](/code-of-conduct/) at all times.
+>
+> I understand and agree that failing to do so may result, at the discretion of JSConf US staff, in disciplinary action up to and including contacting local law enforcement and immediate removal from the conference and the conference venue without a refund. Any refunds of hotel accommodations will be handled solely at the discretion of the Omni La Costa.
+>
+> I understand and agree that my conference badge is non-transferable without a ticket transference.
+>
+> I understand and agree that any ticket transfers must be handled two weeks prior to the start of the conference. Once the conference has started and initial registration is over, JSConf US will address any last minute ticket transfers on a case-by-case basis as time permits.
+>
+> I understand and agree that my conference badge is required for admittance to all conference talks, activities, social events, and meals. I understand and agree that if I do not have my conference badge on my person, that I may be asked to retrieve it before being admitted to any official event. I understand and agree that if I lose my conference badge, I may be asked to purchase a ticket at full price in order to replace it.
+>
+> I understand and agree that my ticket covers admittance to all conference talks, activities, social events, and meals only for myself and any travel support personnel that I may require and **does not** cover any travel companions or family members. I understand that if I am caught admitting non-ticketed individuals to any of the aforementioned activities and meals that I may be asked to immediately leave the conference without a refund.
+>
+> I understand and agree to try to have an amazing time!
