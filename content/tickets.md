@@ -21,6 +21,10 @@ If you are a company, a portion of all sponsorship fees go towards funding our O
 
 While we are actively planning to offer free on-site childcare, we are still working with our venue and service provider on the exact details. In the event we are unable to work out childcare arrangements, and you require on-site childcare, a full refund for your ticket will be provided.
 
+### Discounted Room Block
+
+The Omni La Costa has provided JSConf US attendees a special room rate of $239 a night for the duration of the conference. Once you have purchased your ticket, be sure to book your hotel room in [the official JSConf US room block](https://www.omnihotels.com/hotels/san-diego-la-costa/meetings/js-conference)!
+
 # Pricing Details
 
 Below are the pricing tiers for JSConf US 2018. We have tried to tier the ticket release batches so that anyone around the world can access them when they first open up. If we have missed something, or you need assistance, please [contact us directly](mailto:derek@jsconf.us).
