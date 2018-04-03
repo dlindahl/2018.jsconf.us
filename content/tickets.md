@@ -23,7 +23,7 @@ While we are actively planning to offer free on-site childcare, we are still wor
 
 # Pricing Details
 
-Below are the pricing tiers for JSConf US 2018. We have tried to tier the ticket release batches so that anyone around the world can access them when they first open up. If we have missed something, or you need assistance, please [contact us directly](mailto:derek@jconf.us).
+Below are the pricing tiers for JSConf US 2018. We have tried to tier the ticket release batches so that anyone around the world can access them when they first open up. If we have missed something, or you need assistance, please [contact us directly](mailto:derek@jsconf.us).
 
 ## San Bernadino
 
