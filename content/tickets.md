@@ -15,7 +15,7 @@ Help us continue to grow our community by inspiring a whole new group of people 
 
 If you are an individual, all of our ticket packages include the ability to add-on a donation into our Opportunity Scholarship Program.
 
-If you are a company, a portion of all sponsorship fees go towards funding our Opportunity Scholarship program. Our Opportunity Support sponsorship is also available as an add-on to any existing sponsorship level. Check out [our sponsorship page](http://localhost:8000/sponsorship/) for more information on sponsoring JSConf US.
+If you are a company, a portion of all sponsorship fees go towards funding our Opportunity Scholarship program. Our Opportunity Support sponsorship is also available as an add-on to any existing sponsorship level. Check out [our sponsorship page](/sponsors/) for more information on sponsoring JSConf US.
 
 ### On-site Childcare
 
