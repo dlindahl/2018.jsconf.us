@@ -64,3 +64,14 @@ A batch of tickets will be made available on May 8th, 2018 at 1:00 PM EST (10:00
 A batch of tickets will be made available on May 8th, 2018 at 1:00 PM EST (10:00 AM PST) at https://ti.to/jsconf-us/jsconf-us-2018.
 
 > Fun Fact: The "El Segundo"-class ticket is named after the "A Tribe Called Quest" song, "I Left My Wallet In El Segundo." You gotta get it, you got-got ta get it!
+
+# Ticket Add-ons
+
+## Special Preparation Meal Ticket
+
+### $20
+
+We have provided specially prepared meals for those with specific dietary requirements since 2010. Every year 90% of those meal are left uneaten. These meals often cost more than the buffet meals provided to other attendees due to the special requirements needed to prepare them.
+
+If you require a specially prepared meal, vegan or otherwise, that cannot be serviced as part of a group buffet, we ask that you purchase a Special Preparation Meal Ticket. With this meal ticket, we will have a specially prepared plate reserved for you at every meal and social event that meets your dietary needs. If you have any questions about this, please [email us directly](mailto:derek@jsconf.us).
+
