@@ -13,7 +13,7 @@ We would like to express our deepest thanks to the companies and individuals who
 
 ## Eligibility
 
-Anyone from an underrepresented group in technology is invited to apply for a scholarship. This includes, but is not limited to: people of color, people with disabilities, people who identify as LGBTQIA+, women and non-binary people, those facing economic or social hardships, and veterans/service members.
+Anyone from an underrepresented group in technology is invited to apply for a scholarship. This includes, but is not limited to: people of color, people with disabilities, people who identify as LGBTQIA+, indigenous people and other citizens of sovereign nations, women and non-binary people, those facing economic or social hardships, and veterans/service members.
 
 ## Requirements
 
