@@ -7,7 +7,7 @@ import React from 'react'
 const TicketReleasePromo = ({ className, feature }) => (
   <GridRow className={className} feature={feature} title="Get Your Ticket!">
     <p className="Page-CallToAction">
-      Early Bird tickets on sale April 3rd at 1pm ET / 10am PT!
+      Next ticket release is April 24th at 1pm ET / 10am PT!
     </p>
     <p>
       Over the last ten years, JSConf US has pushed the language outside of its
