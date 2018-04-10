@@ -1,6 +1,7 @@
 import { bool, string } from 'prop-types'
 import GridRow from '../GridRow'
 import Link from 'gatsby-link'
+import LinkButton from '../LinkButton'
 import React from 'react'
 
 const OpportunityScholarship = ({ className, feature }) => (
@@ -17,9 +18,11 @@ const OpportunityScholarship = ({ className, feature }) => (
       happen at the <a href="http://jsconf.com">JSConf Family of events</a>.
     </p>
     <p>
-      Interested in learning more? Be sure to read all about{' '}
-      <Link to="/scholarships/">how to apply</Link> and{' '}
+      Looking for ways to help? Be sure to read all about{' '}
       <Link to="/scholarships/#want-to-contribute">how to contribute</Link>.
+    </p>
+    <p>
+      <LinkButton href="/scholarships/">How to Apply</LinkButton>
     </p>
   </GridRow>
 )

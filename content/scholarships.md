@@ -5,7 +5,10 @@ title: Scholarships
 
 # Opportunity Scholarship
 
-> Our Opportunity Scholarship application process will open soon! [Stay tuned for more information!](https://twitter.com/JSConfUS)
+<div class="Page-CallToAction">
+Our Opportunity Scholarship Program is now open through June 5th, 2018!<br/><br/>
+<a class="LinkButton" href="http://bit.ly/JSConfUS2018Scholarship">Apply Today</a>
+</div>
 
 We believe that true innovation comes from meeting, and listening to, a variety of perspectives. To that end, we are committed to building a diverse and inclusive conference. This year, we are rolling out our first ever Opportunity Scholarship, a program designed to ensure that anyone, and everyone, has the opportunity to participate in the unique JSConf experience.
 
@@ -33,7 +36,10 @@ Once the scholarship application window closes, our scholarship selection commit
 
 We value your time, and we understand that planning several days away from work and/or family can be stressful. We will notify all applicants of the outcome of their application as soon as our selection committee has finished. In the event that a scholarship awardee is unable to accept, the unfulfilled scholarship will be offered to the next eligible applicant, time permitting.
 
-> Our Opportunity Scholarship application process will open soon! [Stay tuned for more information!](https://twitter.com/JSConfUS).
+<div class="Page-CallToAction">
+Our Opportunity Scholarship Program is now open through June 5th, 2018!<br/><br/>
+<a class="LinkButton" href="http://bit.ly/JSConfUS2018Scholarship">Apply Today</a>
+</div>
 
 ## Contact
 
