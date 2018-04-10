@@ -23,9 +23,9 @@ const Homepage = (props) => (
     }
   >
     <SponsorshipPromo className="Homepage-Block"/>
-    <TicketReleasePromo className="Homepage-Block" feature/>
+    <OpportunityScholarship className="Homepage-Block" feature/>
     <CallForSpeakers className="Homepage-Block"/>
-    <OpportunityScholarship className="Homepage-Block"/>
+    <TicketReleasePromo className="Homepage-Block"/>
     <CodeOfConduct className="Homepage-Block"/>
   </DefaultLayout>
 )
