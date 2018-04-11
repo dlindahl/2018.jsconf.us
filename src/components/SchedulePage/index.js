@@ -43,7 +43,7 @@ const SchedulePage = ({ dayOne, dayThree }) => (
       title="Welcome Reception"
     >
       <p>
-        After a long day of travel, it is time to head to the main hotel for an
+        After a long day of travel, it is time to head to the lobby for an
         evening welcome reception and social gathering. Meet old friends, make
         new friends, and enjoy some fine refreshments and appetizers!
       </p>
@@ -61,19 +61,18 @@ const SchedulePage = ({ dayOne, dayThree }) => (
       title="Conference Tracks"
     >
       <p>
-        Traditionally a two track conference format, JSConf US provides a track
-        of curated set of speakers as outlined here that have submitted the
-        proposal and successfully made it through the selection process.
+        Track A includes a curated set of speakers that have submitted their
+        proposals and have successfully made it through our selection process.
       </p>
     </GridRow>
     <GridRow className="Schedule-Event" level={3} title="What is Track B?">
       <p>
         The alternative track for JSConf US is driven by people like you! We
-        have a very unique format for our second track in that we let anyone
-        register to speak in a first-come, first-speaking format. These talks
-        are generally from the full range of Node.js development and are some of
-        the most exciting talks at JSConf. Registration opens about one month
-        before the event, so keep your eyes peeled!
+        have a very unique format in that we let anyone register to speak in a
+        first-come, first-speaking format. These talks are generally from the
+        full range of Node.js development and are some of the most exciting
+        talks at JSConf. Registration opens about one month before the event, so
+        keep your eyes peeled!
       </p>
       <TimeTable items={dayOne} startTime="2018-08-21T07:30Z"/>
     </GridRow>
@@ -155,10 +154,6 @@ const SchedulePage = ({ dayOne, dayThree }) => (
       <p>
         Team up (or go solo), hack a quadcopter using Node.js, and make a flying
         robot do your bidding!
-      </p>
-      <p>
-        The NodeCopter event originally launched at JSConf EU and now we take it
-        to the next level at JSConf US. Just watch out for the light fixtures!
       </p>
     </GridRow>
     <GridRow className="Schedule-Event" level={2} title="Poolside Relaxation">
@@ -341,7 +336,7 @@ const SchedulePage = ({ dayOne, dayThree }) => (
         but here at Relax.js you can hang out with some of the best and
         brightest and have a wonderful conversation over pancakes. Plan the rest
         of your day, show off some Node(Rocket|Bot|Boat|Copter) moves, or just
-        discuss modules; whatever your final goals, the key is finish out the
+        discuss modules; whatever your final goals, the key is to finish out the
         event happily.
       </p>
     </GridRow>
