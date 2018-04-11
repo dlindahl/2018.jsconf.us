@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Sonia Gupta",
+    "profileUrl": "/img/team/sgupta.jpg",
+    "roles": ["Master of Ceremonies"],
+    "twitter": "soniagupta504"
+  },
+  {
+    "name": "Erin Atkinson",
+    "profileUrl": "/img/team/eatkinson.jpg",
+    "roles": ["Master of Ceremonies"],
+    "twitter": "erebuslost"
+  },
+  {
+    "name": "Samantha Bretous",
+    "profileUrl": "/img/team/sbretous.jpg",
+    "roles": ["Master of Ceremonies"],
+    "twitter": "samanthabretous"
+  }
+]

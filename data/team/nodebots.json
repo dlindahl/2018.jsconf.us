@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Rick Waldron",
+    "profileUrl": "/img/team/rwaldron.jpg",
+    "twitter": "rwaldron"
+  },
+  {
+    "name": "Suz Hinton",
+    "profileUrl": "/img/team/shinton.jpg",
+    "twitter": "noopkat"
+  },
+  {
+    "name": "Lyza Danger",
+    "profileUrl": "/img/team/ldanger.jpg",
+    "twitter": "lyzadanger"
+  },
+  {
+    "name": "Donovan Buck",
+    "profileUrl": "/img/team/dbuck.jpg",
+    "twitter": "dtex"
+  }
+]

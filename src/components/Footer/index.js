@@ -20,6 +20,9 @@ const Footer = () => (
           <li className="Footer-Link">
             <Link to="/scholarships/">Opportunity Scholarship</Link>
           </li>
+          <li className="Footer-Link">
+            <Link to="/team/">Our Team</Link>
+          </li>
         </ul>
       </nav>
       <nav>

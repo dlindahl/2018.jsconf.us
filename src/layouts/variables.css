@@ -4,3 +4,20 @@
 @custom-media --medium-screen (min-width: 992px);
 @custom-media --small-screen (min-width: 768px);
 @custom-media --extra-small-screen (max-width: 767px);
+
+:root {
+  --page-margin-large: 30px;
+  --page-margin-small: 16.4vw;
+  --full-width: {
+    margin-left: calc(var(--page-margin-large) * -1);
+    margin-right: calc(var(--page-margin-large) * -1);
+    padding-left: var(--page-margin-large);
+    padding-right: var(--page-margin-large);
+    @media (--small-screen) {
+      margin-left: calc(var(--page-margin-small) * -1);
+      margin-right: calc(var(--page-margin-small) * -1);
+      padding-left: var(--page-margin-small);
+      padding-right: var(--page-margin-small);
+    }
+  }
+}

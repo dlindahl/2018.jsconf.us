@@ -1,22 +1,5 @@
 @import '../../layouts/variables.css';
 
-:root {
-  --page-margin-large: 30px;
-  --page-margin-small: 16.4vw;
-  --full-width: {
-    margin-left: calc(var(--page-margin-large) * -1);
-    margin-right: calc(var(--page-margin-large) * -1);
-    padding-left: var(--page-margin-large);
-    padding-right: var(--page-margin-large);
-    @media (--small-screen) {
-      margin-left: calc(var(--page-margin-small) * -1);
-      margin-right: calc(var(--page-margin-small) * -1);
-      padding-left: var(--page-margin-small);
-      padding-right: var(--page-margin-small);
-    }
-  }
-}
-
 .Page {
   margin-left: var(--page-margin-large);
   margin-right: var(--page-margin-large);
@@ -111,7 +94,7 @@
     @apply --heading-4xs;
     color: var(--light-dark);
   }
-  & ol {
+  & > ol {
     margin-bottom: var(--spacer-sm);
     margin-left: 2ch;
     margin-right: 2ch;
@@ -128,7 +111,7 @@
   & table {
     margin-top: var(--spacer-sm);
   }
-  & ul {
+  & > ul {
     margin-bottom: var(--spacer-sm);
     margin-left: 2ch;
     margin-right: 2ch;

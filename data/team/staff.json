@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Chris Williams",
+    "profileUrl": "/img/team/chris.jpg",
+    "roles": ["Founder", "Talk Selection Committe"],
+    "twitter": "voodootikigod"
+  },
+  {
+    "name": "Dr. Tara Lindahl",
+    "profileUrl": "/img/team/tara.jpg",
+    "roles": ["Organizer", "Travel Coordinator"],
+    "twitter": "regular_doc"
+  },
+  {
+    "name": "Derek Lindahl",
+    "profileUrl": "/img/team/derek.jpg",
+    "roles": ["Organizer", "Sponsor Wrangler"],
+    "twitter": "oif_vet"
+  },
+  {
+    "name": "Brian Sinclair",
+    "profileUrl": "/img/team/brarn.jpg",
+    "roles": ["People Ops", "Scholarship Selection Committee"],
+    "twitter": "brianarn"
+  },
+  {
+    "name": "Linda Nichols",
+    "profileUrl": "/img/team/linda.jpg",
+    "roles": [
+      "Showrunner",
+      "Scholarship Selection Committee",
+      "Talk Selection Committee"
+    ],
+    "twitter": "lynnaloo"
+  },
+  {
+    "name": "Alicia Lauermann",
+    "profileUrl": "/img/team/alicia.jpg",
+    "roles": [
+      "Showrunner",
+      "Scholarship Selection Committee",
+      "Talk Selection Committee"
+    ],
+    "twitter": "tealtail"
+  },
+  {
+    "name": "Troy Connor",
+    "profileUrl": "/img/team/troy.jpg",
+    "roles": [
+      "Showrunner",
+      "Scholarship Selection Committee",
+      "Talk Selection Committee"
+    ],
+    "twitter": "troy0820"
+  },
+  {
+    "name": "Chris Pernicano",
+    "profileUrl": "/img/team/cpernicano.jpg",
+    "roles": ["Vendor Outreach"],
+    "twitter": "swischeze"
+  }
+]
