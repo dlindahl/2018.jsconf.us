@@ -1,0 +1,16 @@
+@import '../../layouts/variables.css';
+
+.ContentBlockTitle {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4.44px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.ContentBlockTitle--feature {
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-weight: 300;
+  color: var(--accent);
+}

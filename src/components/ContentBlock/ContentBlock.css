@@ -1,0 +1,10 @@
+@import '../../layouts/variables.css';
+
+.ContentBlock-Content {
+  font-size: 28px;
+  max-width: 920px;
+  margin: 40px auto var(--spacer-md);
+  text-align: center;
+  color: var(--dark-lighter);
+  font-weight: 300;
+}
