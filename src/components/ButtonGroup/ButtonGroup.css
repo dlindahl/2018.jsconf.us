@@ -1,0 +1,17 @@
+@import '../../layouts/variables.css';
+
+.ButtonGroup {
+  margin: auto;
+  text-align: center;
+}
+
+.ButtonGroup-Wrapper {
+  display: inline-block;
+}
+
+.ButtonGroup-Content {
+  display: grid;
+  justify-items: center;
+  grid-auto-flow: column;
+  grid-gap: var(--spacer-xs);
+}
