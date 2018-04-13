@@ -7,8 +7,6 @@ import OpportunityScholarship from './OpportunityScholarship'
 import SponsorshipPromo from './SponsorshipPromo'
 import TicketReleasePromo from './TicketReleasePromo'
 
-import './Homepage.css'
-
 const Homepage = (props) => (
   <DefaultLayout
     hero={
@@ -22,11 +20,11 @@ const Homepage = (props) => (
       />
     }
   >
-    <SponsorshipPromo className="Homepage-Block"/>
-    <OpportunityScholarship className="Homepage-Block" feature/>
-    <CallForSpeakers className="Homepage-Block"/>
-    <TicketReleasePromo className="Homepage-Block"/>
-    <CodeOfConduct className="Homepage-Block"/>
+    <SponsorshipPromo feature/>
+    <OpportunityScholarship/>
+    <CallForSpeakers/>
+    <TicketReleasePromo/>
+    <CodeOfConduct/>
   </DefaultLayout>
 )
 

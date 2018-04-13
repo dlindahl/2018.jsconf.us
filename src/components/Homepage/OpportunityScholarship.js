@@ -1,35 +1,27 @@
-import { bool, string } from 'prop-types'
-import GridRow from '../GridRow'
-import Link from 'gatsby-link'
+import ContentBlock from '../ContentBlock'
 import LinkButton from '../LinkButton'
 import React from 'react'
 
-const OpportunityScholarship = ({ className, feature }) => (
-  <GridRow
-    className={className}
-    feature={feature}
-    title="Opportunity Scholarship"
-  >
-    <p>
-      As we get JSConf US going again, we are committed to creating a diverse
-      and inclusive environment. Part of that commitment includes our new
-      Opportunity Scholarship, a program designed to assist underrepresented
-      groups, to improve their access to the many amazing opportunities that
-      happen at the <a href="http://jsconf.com">JSConf Family of events</a>.
-    </p>
-    <p>
-      Looking for ways to help? Be sure to read all about{' '}
-      <Link to="/scholarships/#want-to-contribute">how to contribute</Link>.
-    </p>
-    <p>
-      <LinkButton href="/scholarships/">How to Apply</LinkButton>
-    </p>
-  </GridRow>
-)
-
-OpportunityScholarship.propTypes = {
-  className: string,
-  feature: bool
+const OpportunityScholarship = (props) => {
+  const actions = [
+    <LinkButton href="/scholarships/" key={0} primary>
+      How to Apply
+    </LinkButton>,
+    <LinkButton href="/scholarships/#want-to-contribute" key={1}>
+      Contribute
+    </LinkButton>
+  ]
+  return (
+    <ContentBlock actions={actions} title="Opportunity Scholarship" {...props}>
+      <p>
+        Part of our commitment to creating a diverse and inclusive environment
+        includes our new Opportunity Scholarship. This program is designed to
+        assist underrepresented groups improve their access to the many amazing
+        opportunities that happen at the{' '}
+        <a href="http://jsconf.com">JSConf Family of events</a>.
+      </p>
+    </ContentBlock>
+  )
 }
 
 export default OpportunityScholarship
