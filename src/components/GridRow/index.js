@@ -11,7 +11,9 @@ const GridRow = ({ children, className, id }) => {
   })
   return (
     <section className={rootCls} id={id}>
-      {children}
+      <div className="GridRow-Layout">
+        <div className="GridRow-Content">{children}</div>
+      </div>
     </section>
   )
 }

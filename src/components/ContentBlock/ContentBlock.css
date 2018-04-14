@@ -1,10 +1,24 @@
 @import '../../layouts/variables.css';
 
+.ContentBlock {
+  margin-bottom: var(--spacer-lg);
+}
+
 .ContentBlock-Content {
-  font-size: 28px;
-  max-width: 920px;
-  margin: 40px auto var(--spacer-md);
-  text-align: center;
   color: var(--dark-lighter);
+  font-size: 28px; /* TODO: Get this into the type system */
+  margin-bottom: var(--spacer-md);
+  margin-top: var(--spacer-md);
+  text-align: center;
   font-weight: 300;
+  & a {
+    color: var(--color-cta);
+    text-decoration-skip: ink;
+  }
+  & p {
+    margin-top: var(--spacer-sm);
+  }
+  & strong {
+    background-color: var(--selection-bg);
+  }
 }

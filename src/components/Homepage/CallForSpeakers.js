@@ -14,7 +14,7 @@ const CallForSpeakers = (props) => {
   return (
     <ContentBlock
       actions={actions}
-      focus="Our Call for Speakers is now open through May 1st, 2018!"
+      focus="Call for Speakers is now open through May 1st!"
       title="Call for Speakers"
       {...props}
     >

@@ -1,7 +1,8 @@
 @import '../../layouts/variables.css';
 
 .ContentBlockTitle {
-  font-size: 20px;
+  margin-top: var(--spacer-lg);
+  @apply --heading-xs;
   text-transform: uppercase;
   letter-spacing: 4.44px;
   font-weight: 300;
@@ -9,8 +10,8 @@
 }
 
 .ContentBlockTitle--feature {
-  font-size: 40px;
+  @apply --heading-sm;
   letter-spacing: 3px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--accent);
 }

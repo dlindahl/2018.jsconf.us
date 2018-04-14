@@ -6,6 +6,7 @@ import React from 'react'
 import OpportunityScholarship from './OpportunityScholarship'
 import SponsorshipPromo from './SponsorshipPromo'
 import TicketReleasePromo from './TicketReleasePromo'
+import WeAreBackPromo from './WeAreBackPromo'
 
 const Homepage = (props) => (
   <DefaultLayout
@@ -20,10 +21,11 @@ const Homepage = (props) => (
       />
     }
   >
-    <SponsorshipPromo feature/>
-    <OpportunityScholarship/>
+    <WeAreBackPromo feature/>
+    <SponsorshipPromo/>
     <CallForSpeakers/>
     <TicketReleasePromo/>
+    <OpportunityScholarship/>
     <CodeOfConduct/>
   </DefaultLayout>
 )

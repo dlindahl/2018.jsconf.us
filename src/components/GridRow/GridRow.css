@@ -2,28 +2,13 @@
 
 .GridRow {
   display: grid;
-  padding-bottom: var(--spacer-lg);
-  padding-top: var(--spacer-sm);
+  margin-top: var(--spacer-sm);
   grid-template-columns:
-    [full-start] var(--spacer-sm)
-    [main-start] 0
-    [page-start] minmax(200px, 5fr)
-    [page-end] 0
-    [main-end] var(--spacer-sm)
-    [full-end];
-  @media (--small-screen) {
-    grid-template-columns:
-      [full-start] var(--spacer-sm)
-      [main-start] minmax(1em, 1fr)
-      [page-start] minmax(200px, 5fr)
-      [page-end] minmax(1em, 1fr)
-      [main-end] var(--spacer-sm)
-      [full-end];
-  }
-  &:first-of-type {
-    padding-top: var(--spacer-xl);
-  }
-  & > * {
-    grid-column: main;
-  }
+    [full-start] minmax(1em, 1fr)
+    [main-start] minmax(0, 4fr)
+    [main-end] minmax(1em, 1fr);
+}
+
+.GridRow-Layout {
+  grid-column: main;
 }

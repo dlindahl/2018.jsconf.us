@@ -14,7 +14,7 @@ const TicketReleasePromo = (props) => {
   return (
     <ContentBlock
       actions={actions}
-      focus="Next ticket release is April 24th at 1pm ET / 10am PT!"
+      focus="Next release is April 24th at 1pm ET / 10am PT!"
       title="Get Your Ticket!"
       {...props}
     >
