@@ -29,45 +29,57 @@ The Omni La Costa has provided JSConf US attendees a special room rate of $239 a
 
 Below are the pricing tiers for JSConf US 2018. We have tried to tier the ticket release batches so that anyone around the world can access them when they first open up. If we have missed something, or you need assistance, please [contact us directly](mailto:derek@jsconf.us).
 
-## San Bernadino
+## ~~San Bernadino~~
 
-### $850
+### ~~$850~~
 
-This "Early Bird" batch of tickets will be made available on April 3rd, 2018 at 1:00 PM EST (10:00 AM PST) at https://ti.to/jsconf-us/jsconf-us-2018.
+#### ~~April 3rd, 2018 at 1:00 PM EST (10:00 AM PST)~~
 
-> Fun Fact: The "San Bernadino"-class ticket is named after the easternmost county in California, a great place for "Early Birds" to catch their worms!
+**SOLD OUT!**
+
+~~The "San Bernadino"-class ticket is named after the easternmost county in California, a great place for "Early Birds" to catch their worms!~~
+
+~~This "Early Bird" batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-us-2018.~~
 
 ## Sacramento
 
 ### $1,050
 
-A batch of tickets will be made available on April 24th, 2018 at 9:00 AM EST (6:00 AM PST) at https://ti.to/jsconf-us/jsconf-us-2018.
+#### April 24th, 2018 at 9:00 AM EST (6:00 AM PST)
 
-> Fun Fact: The "Sacramento"-class ticket is named after Sacramento County, the largest region in the Central Valley region of California!
+The "Sacramento"-class ticket is named after Sacramento County, the largest region in the Central Valley region of California!
+
+This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-us-2018.
 
 ## San Luis Obispo
 
 ### $1,050
 
-A batch of tickets will be made available on April 24th, 2018 at 2:00 PM EST (11:00 AM PST) at https://ti.to/jsconf-us/jsconf-us-2018.
+#### April 24th, 2018 at 2:00 PM EST (11:00 AM PST)
 
-> Fun Fact: The "San Luis Obiso"-class ticket is named after San Luis Obispo Country, the largest region in the Central Coast region of California!
+The "San Luis Obiso"-class ticket is named after San Luis Obispo Country, the largest region in the Central Coast region of California!
+
+This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-us-2018.
 
 ## Humboldt
 
 ### $1,050
 
-A batch of tickets will be made available on May 8th, 2018 at 1:00 PM EST (10:00 AM PST) at https://ti.to/jsconf-us/jsconf-us-2018.
+#### May 8th, 2018 at 1:00 PM EST (10:00 AM PST)
 
-> Fun Fact: The "Humboldt"-class ticket is named after the westernmost county in California, a great place to catch a late sunset!
+Fun Fact: The "Humboldt"-class ticket is named after the westernmost county in California, a great place to catch a late sunset!
+
+This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-us-2018.
 
 ## El Segundo
 
 ### $1,999
 
-A batch of tickets will be made available on May 8th, 2018 at 1:00 PM EST (10:00 AM PST) at https://ti.to/jsconf-us/jsconf-us-2018.
+#### May 8th, 2018 at 1:00 PM EST (10:00 AM PST)
 
-> Fun Fact: The "El Segundo"-class ticket is named after the "A Tribe Called Quest" song, "I Left My Wallet In El Segundo." You gotta get it, you got-got ta get it!
+Fun Fact: The "El Segundo"-class ticket is named after the "A Tribe Called Quest" song, "I Left My Wallet In El Segundo." You gotta get it, you got-got ta get it!
+
+This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-us-2018.
 
 # Ticket Add-ons
 

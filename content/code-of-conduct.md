@@ -3,8 +3,6 @@ description: Code of Conduct
 title: Code of Conduct
 ---
 
-# Code of Conduct
-
 ## When Something Happens
 
 If you see a Code of Conduct violation, follow these steps:
@@ -76,19 +74,36 @@ When taking a personal report, our staff will ensure you are safe and cannot be 
 
 Our team will be happy to help you contact hotel/venue security, local law enforcement, local support services, provide escorts, or otherwise assist you to feel safe for the duration of the event. We value your attendance.
 
-#### Important Contact Numbers
-
-|                               |                                                  |
-| ----------------------------- | ------------------------------------------------ |
-| **All Emergencies**           | **Call 911**                                     |
-|                               |                                                  |
-| Carlsbad Police Department    | [2560 Orion Way, Carlsbad, CA 92010][police-map] |
-| 24-Hour Non-Emergency Hotline | [760-931-2197](tel:760-931-2197)                 |
-| OMNI La Costa                 | [760-438-9111](tel:760-438-9111)                 |
+<div class="Page-CallToAction">
+  <h4 id="contact-info"><a href="#contact-info" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Important Contact Information</h4>
+  <table>
+    <tbody>
+      <tr>
+        <td><strong>All Emergencies</strong></td>
+        <td><strong>Call 911</strong></td>
+      </tr>
+      <tr>
+        <td>Carlsbad Police Department</td>
+        <td>
+          <a href="https://www.google.com/maps/place/Carlsbad+Police+Department/@33.1380798,-117.267504,17z/data=!4m13!1m7!3m6!1s0x80dc749d25753e85:0x13c0eb5f1859b6e0!2s2560+Orion+Way,+Carlsbad,+CA+92010!3b1!8m2!3d33.1378478!4d-117.2652845!3m4!1s0x80dc749d3a359ab7:0xbb7ace258cfa3f9b!8m2!3d33.1378479!4d-117.2652844">
+            2560 Orion Way, Carlsbad, CA 92010
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>Carlsbad Police 24-Hour Non-Emergency Hotline</td>
+        <td><a href="tel:760-931-2197">760-931-2197</a></td>
+      </tr>
+      <tr>
+        <td>Omni La Costa</td>
+        <td><a href="tel:760-438-9111">760-438-9111</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ## Attribution
 
-This Code of Conduct was based on [JSConf EU](https://2018.jsconf.eu), [CSSConf / JSConf AU](http://2018.jsconfau.com/), [The Geek Feminism wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy), the work of [Valerie Aurora](https://frameshiftconsulting.com/code-of-conduct-training/), [WeAllJS](https://wealljs.org/code-of-conduct) and [Conference Code of Conduct](http://confcodeofconduct.com/).
+This Code of Conduct was based on [JSConf EU](https://2018.jsconf.eu), [CSSConf / JSConf AU](http://2018.jsconfau.com/), [The Geek Feminism wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy), the work of [Valerie Aurora](https://frameshiftconsulting.com/code-of-conduct-training/), [WeAllJS](https://wealljs.org/code-of-conduct), and [Conference Code of Conduct](http://confcodeofconduct.com/).
 
 [2018-report-form]: http://bit.ly/JSConfUS2018Report
-[police-map]: https://www.google.com/maps/place/Carlsbad+Police+Department/@33.1380798,-117.267504,17z/data=!4m13!1m7!3m6!1s0x80dc749d25753e85:0x13c0eb5f1859b6e0!2s2560+Orion+Way,+Carlsbad,+CA+92010!3b1!8m2!3d33.1378478!4d-117.2652845!3m4!1s0x80dc749d3a359ab7:0xbb7ace258cfa3f9b!8m2!3d33.1378479!4d-117.2652844

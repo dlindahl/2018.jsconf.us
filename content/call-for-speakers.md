@@ -3,12 +3,12 @@ description: Call for Speakers
 title: Call for Speakers
 ---
 
-# Call for Speakers
-
-<div class="Page-CallToAction">
-Our Call for Speakers is now open through May 1st, 2018!<br/><br/>
-<a class="LinkButton" href="http://bit.ly/JSConfUS2018CFP">Submit Your Proposal</a>
-</div>
+<aside class="Page-CallToAction">
+  <strong>
+    Our Call for Speakers is now open through May 1st, 2018!
+  </strong>
+  <a class="LinkButton" href="http://bit.ly/JSConfUS2018CFP">Submit Your Proposal</a>
+</aside>
 
 Over the course of JSConf US events, we have spotlighted individuals that would otherwise never get a stage. We have given a platform for risky, wild, absurd, and amazing things to flourish into even bigger, more widely-known products, ideas, and libraries. We take incredible pride in the fact that many of the brightest things in JS over the last ten years have their roots deeply ingrained with JSConf. We push ourselves each year to take riskier and riskier speakers, because they define the discussion about JavaScript over the years to come.
 
@@ -94,8 +94,6 @@ Combining all your ideas in one submission will make it harder for our selection
 
 #### Consider Our Selection Criteria
 
-##### Keep JSConf Weird
-
 We are interested in original ideas that will fuel the future of the web, highlight [underrepresented][auto-a11y] or [misunderstood][emo-safety] topics, [soft skills][soft-talk] that may be undervalued in the community, or even a [~~joke~~ totally serious discussion about sorting][jorts]. We've all seen "Intro to Framework X" talks. They are easy to come by and, let's be real, they are boring. You know what _is_ interesting? [Knitting with JavaScript][knitting-js]. [Controlling a Nintendo][nes-js]. [Reimplementing a modem using the WebAudio API][modem-js]. Or, how about the ridiculous idea of [blowing away the entire DOM any time your app state changes][react-js]?
 
 Not only are these ideas informative, cutting-edge, and maybe even a bit weird, but they are _interesting_ and clearly presented.
@@ -108,7 +106,9 @@ Before you hit that submit button, make sure that the topic is something you'll 
 
 If you have a hint of an idea but you think you'll never get picked, stop right now, head over to the submission page, and fill out that form. Do not let any of the above guidelines deter you!
 
-**We want you to speak and [you'll do great!](https://www.youtube.com/watch?v=eaIvk1cSyG8)**
+---
+
+> **We want you to speak and [you'll do great!](https://www.youtube.com/watch?v=eaIvk1cSyG8)**
 
 ## Perks
 
@@ -136,10 +136,11 @@ We record all talks, slides, and on-stage interactions given during the course o
 
 If you do not wish to have your talk shared, please let us know and we will take whatever steps are necessary to accommodate your request. This may include not recording the talk at all (if we are given enough notice) to marking the video as "unlisted" so that you may control sharing it on your own terms.
 
-<div class="Page-CallToAction">
-Our Call for Speakers is now open through May 1st, 2018!<br/><br/>
+<aside class="Page-CallToAction">
+<strong>
+Our Call for Speakers is now open through May 1st, 2018!</strong><br/>
 <a class="LinkButton" href="http://bit.ly/JSConfUS2018CFP">Submit Your Proposal</a>
-</div>
+</aside>
 
 [yt-lastcall]: https://www.youtube.com/watch?v=NrmUU_Dzqqo&list=PL37ZVnwpeshEV5FASM9f8K29kCrHiKIwO
 [yt-2015]: https://www.youtube.com/watch?v=1DoveeFXptY&list=PL37ZVnwpeshEkVjFZlLm1krvx0mPYPOoq

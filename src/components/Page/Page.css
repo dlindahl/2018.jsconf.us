@@ -1,5 +1,163 @@
 @import '../../layouts/variables.css';
 
+:root {
+  --page-margin-small: 16.4vw;
+  --page-margin-large: 30px;
+  --full-width: {
+    margin-left: calc(var(--page-margin-large) * -1);
+    margin-right: calc(var(--page-margin-large) * -1);
+    padding-left: var(--page-margin-large);
+    padding-right: var(--page-margin-large);
+    @media (--small-screen) {
+      margin-left: calc(var(--page-margin-small) * -1);
+      margin-right: calc(var(--page-margin-small) * -1);
+      padding-left: var(--page-margin-small);
+      padding-right: var(--page-margin-small);
+    }
+  }
+}
+
 .Page {
-  padding-top: 0;
+  margin-left: var(--page-margin-large);
+  margin-right: var(--page-margin-large);
+  @media (--small-screen) {
+    margin-left: var(--page-margin-small);
+    margin-right: var(--page-margin-small);
+  }
+}
+
+.Page-Content {
+  grid-column: page;
+  & a {
+    color: var(--color-cta);
+    text-decoration-skip: ink;
+  }
+  & blockquote {
+    @apply --full-width;
+    background: var(--light);
+    margin-bottom: var(--spacer-sm);
+    padding-bottom: var(--spacer-sm);
+    padding-top: var(--spacer-sm);
+    & p {
+      &:first-child {
+        margin-top: 0;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  & hr {
+    & + blockquote {
+      text-align: center;
+      & strong {
+        background-color: transparent;
+      }
+    }
+  }
+  & cite {
+    @apply --fine-print;
+    display: block;
+    font-style: italic;
+    margin-top: var(--spacer-xs);
+    text-align: center;
+  }
+  & > h1 {
+    @apply --heading-md;
+    color: var(--color-cta);
+    margin-bottom: var(--spacer-sm);
+    margin-top: var(--spacer-lg);
+    & + h2 {
+      margin-top: calc(var(--spacer-2xs) * -1);
+      margin-bottom: var(--spacer-sm);
+    }
+  }
+  & > h2 {
+    @apply --heading-sm;
+    color: var(--accent-darker);
+    margin-bottom: var(--spacer-sm);
+    margin-top: var(--spacer-lg);
+    & + h3 {
+      margin-top: calc(var(--spacer-sm) * -1);
+      margin-bottom: var(--spacer-sm);
+    }
+  }
+  & > h3 {
+    @apply --heading-xs;
+    color: var(--accent-lighter);
+    margin-bottom: var(--spacer-xs);
+    margin-top: var(--spacer-md);
+    & + h4 {
+      margin-top: calc(var(--spacer-xs) * -1);
+      margin-bottom: var(--spacer-xs);
+    }
+  }
+  & > h4 {
+    @apply --heading-2xs;
+    margin-bottom: var(--spacer-2xs);
+    margin-top: var(--spacer-md);
+    & + h5 {
+      margin-top: calc(var(--spacer-md) * -1);
+      margin-bottom: var(--spacer-2xs);
+    }
+  }
+  & > h5 {
+    @apply --heading-3xs;
+    color: var(--light-darker);
+    margin-top: var(--spacer-2xs);
+  }
+  & > h6 {
+    @apply --heading-4xs;
+    color: var(--light-dark);
+  }
+  & ol {
+    margin-bottom: var(--spacer-sm);
+    margin-left: 2ch;
+    margin-right: 2ch;
+    & li {
+      margin-bottom: var(--spacer-xs);
+    }
+  }
+  & p {
+    margin-bottom: var(--spacer-sm);
+  }
+  & strong {
+    background-color: var(--selection-bg);
+  }
+  & table {
+    margin-top: var(--spacer-sm);
+  }
+  & ul {
+    margin-bottom: var(--spacer-sm);
+    margin-left: 2ch;
+    margin-right: 2ch;
+    & li {
+      margin-bottom: var(--spacer-2xs);
+    }
+  }
+}
+
+.Page-CallToAction {
+  @apply --full-width;
+  background-color: var(--js-yellow-lighter);
+  text-align: center;
+  padding: var(--spacer-sm);
+  margin-bottom: var(--spacer-sm);
+  & *:first-child {
+    margin-top: 0;
+  }
+  & .LinkButton {
+    margin-top: var(--spacer-sm);
+  }
+  & strong {
+    display: block;
+    background-color: transparent;
+  }
+  & table {
+    border-spacing: var(--spacer-2xs);
+    margin: 0 auto;
+  }
+  & td {
+    text-align: left;
+  }
 }

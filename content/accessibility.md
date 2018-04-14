@@ -3,11 +3,9 @@ description: Accessibility Statement
 title: Accessibility Statement
 ---
 
-# Accessibility Statement
+## What to Expect
 
 JSConf US 2018 is committed to providing an inclusive and accessible space for all participants.
-
-## What to Expect
 
 * A [Code of Conduct team](/code-of-conduct/#reporting) is available throughout the entirety of the event, including during all official after-parties as well as outside of normal operating hours. This is to provide assistance addressing any incidents. If there is an emergency, please **call 911**.
 

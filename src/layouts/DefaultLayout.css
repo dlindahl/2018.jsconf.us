@@ -5,6 +5,15 @@ body {
   color: var(--type-regular);
 }
 
+.anchor {
+  /*
+    Disable the default floating behavior of auto-linked headers. It renders
+    weird if the header text is centered. This does not appear to have any
+    side effects in evergreen browsers.
+  */
+  float: none;
+}
+
 .DefaultLayout {
   display: grid;
   grid-template-rows:
