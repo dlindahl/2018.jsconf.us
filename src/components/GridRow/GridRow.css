@@ -2,13 +2,14 @@
 
 .GridRow {
   display: grid;
-  margin-top: var(--spacer-sm);
   grid-template-columns:
     [full-start] minmax(1em, 1fr)
     [main-start] minmax(0, 4fr)
     [main-end] minmax(1em, 1fr);
+  margin-top: var(--spacer-lg);
 }
 
 .GridRow-Layout {
   grid-column: main;
 }
+

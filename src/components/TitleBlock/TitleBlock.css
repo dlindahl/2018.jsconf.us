@@ -1,0 +1,15 @@
+@import '../../layouts/variables.css';
+
+.TitleBlock {
+  @apply --heading-md;
+  align-items: center;
+  background-color: var(--accent-secondary);
+      color: var(--white);
+  display: flex;
+  height: 25vh;
+  justify-content: center;
+  letter-spacing: 16px;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+}

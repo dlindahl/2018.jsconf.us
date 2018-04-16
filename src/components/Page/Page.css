@@ -1,8 +1,8 @@
 @import '../../layouts/variables.css';
 
 :root {
-  --page-margin-small: 16.4vw;
   --page-margin-large: 30px;
+  --page-margin-small: 16.4vw;
   --full-width: {
     margin-left: calc(var(--page-margin-large) * -1);
     margin-right: calc(var(--page-margin-large) * -1);
@@ -28,6 +28,7 @@
 
 .Page-Content {
   grid-column: page;
+  margin-top: var(--spacer-lg);
   & a {
     color: var(--color-cta);
     text-decoration-skip: ink;
@@ -68,8 +69,8 @@
     margin-bottom: var(--spacer-sm);
     margin-top: var(--spacer-lg);
     & + h2 {
-      margin-top: calc(var(--spacer-2xs) * -1);
       margin-bottom: var(--spacer-sm);
+      margin-top: calc(var(--spacer-2xs) * -1);
     }
   }
   & > h2 {
@@ -78,8 +79,8 @@
     margin-bottom: var(--spacer-sm);
     margin-top: var(--spacer-lg);
     & + h3 {
-      margin-top: calc(var(--spacer-sm) * -1);
       margin-bottom: var(--spacer-sm);
+      margin-top: calc(var(--spacer-sm) * -1);
     }
   }
   & > h3 {
@@ -88,8 +89,8 @@
     margin-bottom: var(--spacer-xs);
     margin-top: var(--spacer-md);
     & + h4 {
-      margin-top: calc(var(--spacer-xs) * -1);
       margin-bottom: var(--spacer-xs);
+      margin-top: calc(var(--spacer-xs) * -1);
     }
   }
   & > h4 {
@@ -97,8 +98,8 @@
     margin-bottom: var(--spacer-2xs);
     margin-top: var(--spacer-md);
     & + h5 {
-      margin-top: calc(var(--spacer-md) * -1);
       margin-bottom: var(--spacer-2xs);
+      margin-top: calc(var(--spacer-md) * -1);
     }
   }
   & > h5 {
@@ -140,9 +141,15 @@
 .Page-CallToAction {
   @apply --full-width;
   background-color: var(--js-yellow-lighter);
-  text-align: center;
-  padding: var(--spacer-sm);
   margin-bottom: var(--spacer-sm);
+  padding: var(--spacer-sm);
+  text-align: center;
+  @nest .Page-Content & {
+    &:first-of-type {
+      margin-bottom: var(--spacer-lg);
+      margin-top: calc(var(--spacer-lg) * -1);
+    }
+  }
   & *:first-child {
     margin-top: 0;
   }
@@ -150,8 +157,8 @@
     margin-top: var(--spacer-sm);
   }
   & strong {
-    display: block;
     background-color: transparent;
+    display: block;
   }
   & table {
     border-spacing: var(--spacer-2xs);
