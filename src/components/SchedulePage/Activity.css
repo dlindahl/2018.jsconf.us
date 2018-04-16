@@ -1,0 +1,6 @@
+@import '../../layouts/variables.css';
+
+.Activity {
+  margin-bottom: var(--spacer-md);
+  margin-top: 0;
+}

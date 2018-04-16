@@ -2,9 +2,9 @@
 
 .Schedule-NavRow {
   background: var(--js-yellow-lighter);
+  margin-top: 0;
   padding-bottom: var(--spacer-sm);
   padding-top: var(--spacer-sm);
-  margin-top: 0;
   position: sticky;
   top: 0;
 }
@@ -15,16 +15,4 @@
   grid-column: main;
   justify-content: space-around;
   list-style: none;
-}
-
-.Schedule-Event {
-  margin-top: 0;
-  margin-bottom: var(--spacer-md);
-}
-
-.Schedule-Day {
-  margin-top: var(--spacer-xl);
-  &:nth-child(2) {
-    margin-top: inherit;
-  }
 }

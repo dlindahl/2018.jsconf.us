@@ -1,10 +1,9 @@
-import GridRow from '../GridRow'
+import Activity from './Activity'
 import React from 'react'
 
 const Campfires = () => (
-  <GridRow
+  <Activity
     className="Schedule-Event"
-    level={2}
     subtitle="9:00PM - 11:00PM"
     title="Poolside Campfires"
   >
@@ -15,7 +14,7 @@ const Campfires = () => (
       enlightened conversation. Make plans with your fellow attendees for the
       next day, or plan your space mission to the moon and back!
     </p>
-  </GridRow>
+  </Activity>
 )
 
 export default Campfires

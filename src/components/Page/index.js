@@ -1,18 +1,30 @@
+import { any, string } from 'prop-types'
 import React from 'react'
-import { string } from 'prop-types'
 
 import './Page.css'
 
-const Page = ({ content }) => (
-  <div className="Page">
-    <div
-      className="Page-Content"
-      dangerouslySetInnerHTML={{ __html: content }}
-    />
-  </div>
-)
+const Page = ({ children, content }) => {
+  let html
+  if (children) {
+    html = {
+      children
+    }
+  } else {
+    html = {
+      dangerouslySetInnerHTML: {
+        __html: content
+      }
+    }
+  }
+  return (
+    <div className="Page">
+      <div className="Page-Content" {...html}/>
+    </div>
+  )
+}
 
 Page.propTypes = {
+  children: any,
   content: string
 }
 
