@@ -7,7 +7,7 @@ title: Call for Speakers
   <strong>
     Our Call for Speakers is now open through May 1st, 2018!
   </strong>
-  <a class="LinkButton" href="http://bit.ly/JSConfUS2018CFP">Submit Your Proposal</a>
+  <a class="LinkButton LinkButton--primary" href="http://bit.ly/JSConfUS2018CFP">Submit Your Proposal</a>
 </aside>
 
 Over the course of JSConf US events, we have spotlighted individuals that would otherwise never get a stage. We have given a platform for risky, wild, absurd, and amazing things to flourish into even bigger, more widely-known products, ideas, and libraries. We take incredible pride in the fact that many of the brightest things in JS over the last ten years have their roots deeply ingrained with JSConf. We push ourselves each year to take riskier and riskier speakers, because they define the discussion about JavaScript over the years to come.

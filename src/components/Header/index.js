@@ -78,7 +78,11 @@ export default class Header extends React.Component {
             </div>
           </nav>
           <aside className="Header-CallToAction">
-            <LinkButton href="https://ti.to/jsconf-us/jsconf-us-2018" invert>
+            <LinkButton
+              href="https://ti.to/jsconf-us/jsconf-us-2018"
+              invert
+              primary
+            >
               Buy Tickets
             </LinkButton>
           </aside>

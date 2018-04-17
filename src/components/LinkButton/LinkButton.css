@@ -2,27 +2,48 @@
 
 .LinkButton {
   @apply --button-label-small;
-  background-color: var(--accent-secondary);
-  color: var(--light-lighter) !important;
+  border-color: var(--accent-secondary);
+  border-style: solid;
+  border-width: 3px;
+  color: var(--accent-secondary) !important;
   cursor: pointer;
   display: inline-block;
   padding: var(--spacer-2xs);
   text-decoration: none;
   transition: all 0.25s;
-  border: solid 3px transparent;
   &:hover {
-    border-color: var(--accent-secondary);
-    background-color: var(--light-lighter);
-    color: var(--accent-secondary) !important;
+    background-color: var(--accent-secondary-lighter);
+    border-color: var(--accent-secondary-lighter);
+    color: var(--light-lighter) !important;
   }
 }
 
 .LinkButton--invert {
-  background-color: var(--light-lighter);
-  color: var(--accent-secondary) !important;
+  border-color: var(--light-lighter);
+  color: var(--light-lighter) !important;
   &:hover {
+    background-color: var(--light-lighter);
     border-color: var(--light-lighter);
-    background-color: var(--accent-secondary);
+    color: var(--accent-secondary) !important;
+  }
+}
+
+.LinkButton--primary {
+  background-color: var(--accent-secondary);
+  color: var(--light-lighter) !important;
+  &:hover {
+    border-color: var(--accent-secondary-darker);
+    background-color: var(--accent-secondary-darker);
     color: var(--light-lighter) !important;
+  }
+  &.LinkButton--invert {
+    background-color: var(--light-lighter);
+    border-color: var(--light-lighter);
+    color: var(--accent-secondary) !important;
+    &:hover {
+      border-color: var(--light-lighter);
+      background-color: var(--accent-secondary);
+      color: var(--light-lighter) !important;
+    }
   }
 }

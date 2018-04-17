@@ -4,10 +4,11 @@ import React from 'react'
 
 import './LinkButton.css'
 
-const LinkButton = ({ children, href, invert, ...props }) => {
+const LinkButton = ({ children, href, invert, primary }) => {
   const cls = classname({
     LinkButton: true,
-    'LinkButton--invert': invert
+    'LinkButton--invert': invert,
+    'LinkButton--primary': primary
   })
   return (
     <a className={cls} href={href}>
@@ -17,13 +18,15 @@ const LinkButton = ({ children, href, invert, ...props }) => {
 }
 
 LinkButton.defaultProps = {
-  invert: false
+  invert: false,
+  primary: false
 }
 
 LinkButton.propTypes = {
   children: any,
   href: string,
-  invert: bool
+  invert: bool,
+  primary: bool
 }
 
 export default LinkButton
