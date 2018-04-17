@@ -6,6 +6,7 @@
   --mobile-d: 1.2;
 
   /* Desktop Sizes */
+  --d-b-1: calc(var(--d-b0) / var(--desk-d));
   --d-b0: 1.6ex;
   --d-b1: calc(var(--d-b0) * var(--desk-d));
   --d-b2: calc(var(--d-b1) * var(--desk-d));
@@ -15,6 +16,7 @@
   --d-b6: calc(var(--d-b5) * var(--desk-d));
 
   /* Mobile Sizes */
+  --m-b-1: calc(var(--m-b0) / var(--mobile-d));
   --m-b0: 1.7ex;
   --m-b1: calc(var(--m-b0) * var(--mobile-d));
   --m-b2: calc(var(--m-b1) * var(--mobile-d));
@@ -22,6 +24,13 @@
   --m-b4: calc(var(--m-b3) * var(--mobile-d));
   --m-b5: calc(var(--m-b4) * var(--mobile-d));
   --m-b6: calc(var(--m-b5) * var(--mobile-d));
+
+  --size--base--1: {
+    font-size: var(--m-b-1);
+    @media (--small-screen) {
+      font-size: var(--d-b-1);
+    }
+  }
 
   --size--base-0: {
     font-size: var(--m-b0);

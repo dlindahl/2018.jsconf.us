@@ -1,5 +1,16 @@
 @import '../../layouts/variables.css';
 
+.Header-Tease {
+  @apply --size--base--1;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: var(--accent-dark);
+  color: var(--light-lighter);
+  padding-top: var(--spacer-2xs);
+  padding-bottom: var(--spacer-2xs);
+  text-align: center;
+}
+
 .Header-Content {
   align-items: center;
   background-color: var(--accent-secondary);

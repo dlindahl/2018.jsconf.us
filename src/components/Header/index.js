@@ -18,6 +18,9 @@ export default class Header extends React.Component {
   render () {
     return (
       <header className="Header">
+        <div className="Header-Tease">
+          Join us in Carlsbad, CA - 8/21 - 8/23!
+        </div>
         <div className="Header-Content">
           <aside className="Header-Brand">
             <Link to="/">
