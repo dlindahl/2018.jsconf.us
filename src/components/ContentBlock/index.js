@@ -4,11 +4,12 @@ import ContentBlockFocus from './ContentBlockFocus'
 import ContentBlockTitle from './ContentBlockTitle'
 import GridRow from '../GridRow'
 import React from 'react'
+import { slugify } from '../../util/string'
 
 import './ContentBlock.css'
 
 const ContentBlock = ({ actions, children, feature, focus, title }) => (
-  <GridRow className="ContentBlock">
+  <GridRow className="ContentBlock" id={slugify(title)}>
     <ContentBlockTitle feature={feature}>{title}</ContentBlockTitle>
     <div className="ContentBlock-Content">
       <ContentBlockFocus>{focus}</ContentBlockFocus>
