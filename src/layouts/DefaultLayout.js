@@ -16,7 +16,11 @@ const DefaultLayout = ({ children, description, title, hero }) => {
       <Head
         meta={[{ content: description, name: 'description' }]}
         title={title}
-      />
+      >
+        <link href="https://fonts.googleapis.com/" rel="preconnect"/>
+        <link href="https://ti.to" rel="preconnect"/>
+        <link href="https://ti.to/jsconf-us/jsconf-us-2018" rel="prefetch"/>
+      </Head>
       <Header>{hero}</Header>
       <main>{children}</main>
       <Footer/>
