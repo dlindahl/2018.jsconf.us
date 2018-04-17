@@ -1,12 +1,13 @@
 import { arrayOf, bool, oneOf, shape, string } from 'prop-types'
 import DefaultLayout from '../../layouts/DefaultLayout'
 import GridRow from '../GridRow'
+import Page from '../Page'
 import React from 'react'
 import SponsorsListFeature from './SponsorsListFeature'
 
 const Sponsors = ({ data }) => (
   <DefaultLayout description="Our Sponsors" title="Our Sponsors">
-    <GridRow title="Our Sponsors">
+    <Page title="Our Sponsors">
       <p>
         At JSConf US 2018, the best JS programmers will gather for a two track,
         three day conference that will showcase the future of JavaScript and we
@@ -33,7 +34,7 @@ const Sponsors = ({ data }) => (
           Contact us for details!
         </a>
       </p>
-    </GridRow>
+    </Page>
     <SponsorsListFeature data={data}/>
   </DefaultLayout>
 )
