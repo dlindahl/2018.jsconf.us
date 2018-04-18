@@ -1,0 +1,43 @@
+@import '../../layouts/variables.css';
+
+.GridLayout {
+  display: grid;
+  grid-gap: 20px;
+  margin-top: var(--spacer-md);
+  &[data-layout='211'] {
+    grid-template-areas:
+      'a b c'
+      'd b c';
+    grid-template-columns: repeat(3, 1fr);
+  }
+  &[data-layout='111'] {
+    grid-template-areas: 'a b c';
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 37vw;
+  }
+}
+
+.GridLayout-Cell {
+  &:nth-child(1) {
+    grid-area: a;
+  }
+  &:nth-child(2) {
+    grid-area: b;
+  }
+  &:nth-child(3) {
+    grid-area: c;
+  }
+  &:nth-child(4) {
+    grid-area: d;
+  }
+}
+
+.GridLayout-Caption {
+  display: none;
+}
+
+.GridLayout-Img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
