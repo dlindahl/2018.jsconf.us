@@ -1,4 +1,4 @@
-import { any, arrayOf, bool, object, string } from 'prop-types'
+import { any, arrayOf, bool, func, object, string } from 'prop-types'
 import ButtonGroup from '../ButtonGroup'
 import ContentBlockFocus from './ContentBlockFocus'
 import ContentBlockTitle from './ContentBlockTitle'
@@ -12,13 +12,15 @@ import './ContentBlock.css'
 const ContentBlock = ({
   actions,
   children,
+  className,
   feature,
   focus,
-  images,
+  layoutItems,
   layout,
+  renderLayoutItem,
   title
 }) => (
-  <GridRow className="ContentBlock" id={slugify(title)}>
+  <GridRow className={`ContentBlock ${className}`} id={slugify(title)}>
     <GridRow.NarrowContent>
       <ContentBlockTitle feature={feature}>{title}</ContentBlockTitle>
       <div className="ContentBlock-Content">
@@ -28,7 +30,11 @@ const ContentBlock = ({
       <ButtonGroup>{actions}</ButtonGroup>
     </GridRow.NarrowContent>
     <GridRow.WideContent>
-      <GridLayout images={images} layout={layout}/>
+      <GridLayout
+        items={layoutItems}
+        layout={layout}
+        renderItem={renderLayoutItem}
+      />
     </GridRow.WideContent>
   </GridRow>
 )
@@ -36,10 +42,12 @@ const ContentBlock = ({
 ContentBlock.propTypes = {
   actions: arrayOf(any),
   children: any,
+  className: string,
   feature: bool,
   focus: string,
-  images: arrayOf(object),
   layout: string,
+  layoutItems: arrayOf(object),
+  renderLayoutItem: func,
   title: string.isRequired
 }
 

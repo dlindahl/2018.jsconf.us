@@ -2,15 +2,7 @@
 
 .TeamMember {
   display: grid;
-  grid-template-rows: 20vh 100px;
-  @nest [data-cols='1'] & {
-    grid-column: 2;
-  }
-  @nest [data-cols='2'] & {
-    &:first-child {
-      grid-column: 2;
-    }
-  }
+  grid-template-rows: 20vh minmax(100px, 1fr);
 }
 
 .TeamMember-Link {

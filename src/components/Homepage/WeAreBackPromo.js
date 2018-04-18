@@ -1,5 +1,6 @@
 import ContentBlock from '../ContentBlock'
 import LinkButton from '../LinkButton'
+import PhotoCell from '../GridLayout/PhotoCell'
 import React from 'react'
 
 const IMAGES = [
@@ -20,6 +21,10 @@ const IMAGES = [
   }
 ]
 
+function renderLayoutItem (photo) {
+  return <PhotoCell key={photo.src} {...photo}/>
+}
+
 const WeAreBackPromo = (props) => {
   const actions = [
     <LinkButton href="/tickets/" key={0} primary>
@@ -32,8 +37,9 @@ const WeAreBackPromo = (props) => {
   return (
     <ContentBlock
       actions={actions}
-      images={IMAGES}
       layout="111"
+      layoutItems={IMAGES}
+      renderLayoutItem={renderLayoutItem}
       title="We Are Back!"
       {...props}
     >

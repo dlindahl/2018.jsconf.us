@@ -3,8 +3,8 @@ import ContentBlock from '../ContentBlock'
 import React from 'react'
 import TeamMember from './TeamMember'
 
-function componentize (member) {
-  return <TeamMember key={member.name} {...member}/>
+function renderItem (item) {
+  return <TeamMember key={item.name} {...item}/>
 }
 
 const TeamList = ({ children, title, members }) => {
@@ -13,11 +13,16 @@ const TeamList = ({ children, title, members }) => {
     maxCols = members.length
   }
   return (
-    <ContentBlock className="TeamList" title={title}>
-      <p>{children}</p>
-      <ul className="TeamPageList" data-cols={maxCols}>
-        {members.map(componentize)}
-      </ul>
+    <ContentBlock
+      className="TeamList"
+      layout={Array(maxCols)
+        .fill('1')
+        .join('')}
+      layoutItems={members}
+      renderLayoutItem={renderItem}
+      title={title}
+    >
+      {children}
     </ContentBlock>
   )
 }

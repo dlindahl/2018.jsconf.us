@@ -1,48 +1,30 @@
-import { arrayOf, shape, string } from 'prop-types'
+import { arrayOf, func, object, string } from 'prop-types'
 import React from 'react'
 
 import './GridLayout.css'
 
-function componentize (photo) {
-  return (
-    <figure className="GridLayout-Cell" key={photo.src}>
-      <picture>
-        <img alt={photo.alt} className="GridLayout-Img" src={photo.src}/>
-      </picture>
-      <figcaption className="GridLayout-Caption">{photo.caption}</figcaption>
-    </figure>
-  )
-}
-
-function sum (agg, num) {
-  return agg + parseInt(num, 10)
-}
-
-const GridLayout = ({ images, layout }) => {
-  if (!images.length) {
+const GridLayout = ({ items, layout, renderItem }) => {
+  if (!items.length) {
     return null
   }
-  const count = layout.split('').reduce(sum, 0)
   return (
     <div className="GridLayout" data-layout={layout}>
-      {images.slice(0, count).map(componentize)}
+      {items.map(renderItem)}
     </div>
   )
 }
 
 GridLayout.defaultProps = {
-  images: []
+  items: [],
+  layout: '11',
+  // eslint-disable-next-line no-empty-function
+  renderItem () {}
 }
 
 GridLayout.propTypes = {
-  images: arrayOf(
-    shape({
-      alt: string.isRequired,
-      caption: string,
-      src: string.isRequired
-    })
-  ),
-  layout: string
+  items: arrayOf(object),
+  layout: string,
+  renderItem: func.isRequired
 }
 
 export default GridLayout

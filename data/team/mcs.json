@@ -10,14 +10,5 @@
     "profileUrl": "/img/team/eatkinson.jpg",
     "roles": ["Master of Ceremonies"],
     "twitter": "erebuslost"
-<<<<<<< HEAD
-  },
-  {
-    "name": "Samantha Bretous",
-    "profileUrl": "/img/team/sbretous.jpg",
-    "roles": ["Master of Ceremonies"],
-    "twitter": "samanthabretous"
-=======
->>>>>>> 024fa7e... Temporarily remove Samantha from MC list
   }
 ]
