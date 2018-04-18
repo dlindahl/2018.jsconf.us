@@ -3,13 +3,30 @@
 .GridRow {
   display: grid;
   grid-template-columns:
-    [full-start] minmax(1em, 1fr)
-    [main-start] minmax(0, 4fr)
-    [main-end] minmax(1em, 1fr);
+    [full-start] 30px
+    [wide-start] 0
+    [narrow-start] minmax(0, 9fr)
+    [narrow-end] 0
+    [wide-end] 30px
+    [full-end];
   margin-top: var(--spacer-lg);
+  @media (--small-screen) {
+    grid-template-columns:
+      [full-start] 30px
+      1fr
+      [wide-start] minmax(1em, 1fr)
+      [narrow-start] minmax(0, 9fr)
+      [narrow-end] minmax(1em, 1fr)
+      [wide-end] 1fr
+      30px
+      [full-end];
+  }
 }
 
-.GridRow-Layout {
-  grid-column: main;
+.GridRow-NarrowContent {
+  grid-column: narrow;
 }
 
+.GridRow-WideContent {
+  grid-column: wide;
+}

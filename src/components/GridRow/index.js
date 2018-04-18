@@ -1,6 +1,8 @@
 import { any, string } from 'prop-types'
 import classnames from 'classnames'
 import React from 'react'
+import WideContent from './WideContent'
+import NarrowContent from './NarrowContent'
 
 import './GridRow.css'
 
@@ -11,9 +13,7 @@ const GridRow = ({ children, className, id }) => {
   })
   return (
     <section className={rootCls} id={id}>
-      <div className="GridRow-Layout">
-        <div className="GridRow-Content">{children}</div>
-      </div>
+      {children}
     </section>
   )
 }
@@ -23,5 +23,8 @@ GridRow.propTypes = {
   className: string,
   id: string
 }
+
+GridRow.NarrowContent = NarrowContent
+GridRow.WideContent = WideContent
 
 export default GridRow
