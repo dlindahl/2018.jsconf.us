@@ -1,10 +1,14 @@
 [
   {
+    "company": "FamilySearch",
+    "href": "https://twitter.com/gmdayley",
     "name": "Gabriel Dayley",
     "profileUrl": "/img/team/gdayley.jpg",
     "twitter": "gmdayley"
   },
   {
+    "company": "Kuali, Inc.",
+    "href": "https://twitter.com/tvalletta",
     "name": "Tom Valletta",
     "profileUrl": "/img/team/tvalletta.jpg",
     "twitter": "tvalletta"

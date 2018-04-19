@@ -28,7 +28,7 @@
   margin-top: var(--spacer-xs);
 }
 
-.TeamMember-Roles {
+.TeamMember-Details {
   @apply --fine-print;
   font-style: italic;
 }

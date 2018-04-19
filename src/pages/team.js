@@ -46,56 +46,60 @@ export const query = graphql`
     mcs: allMcsJson {
       edges {
         node {
+          company
+          href
           name
           profileUrl
-          roles
-          twitter
         }
       }
     }
     nodeboats: allNodeboatsJson {
       edges {
         node {
+          company
+          href
           name
           profileUrl
-          twitter
         }
       }
     }
     nodebots: allNodebotsJson {
       edges {
         node {
+          company
+          href
           name
           profileUrl
-          twitter
         }
       }
     }
     nodecopter: allNodecopterJson {
       edges {
         node {
+          company
+          href
           name
           profileUrl
-          twitter
         }
       }
     }
     noderockets: allNoderocketsJson {
       edges {
         node {
+          company
+          href
           name
           profileUrl
-          twitter
         }
       }
     }
     staff: allStaffJson {
       edges {
         node {
+          href
           name
           profileUrl
           roles
-          twitter
         }
       }
     }

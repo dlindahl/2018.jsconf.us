@@ -1,62 +1,58 @@
 [
   {
+    "href": "https://twitter.com/voodootikigod",
     "name": "Chris Williams",
     "profileUrl": "/img/team/chris.jpg",
-    "roles": ["Founder", "Talk Selection Committe"],
-    "twitter": "voodootikigod"
+    "roles": ["Founder", "Talk Selection Committe"]
   },
   {
+    "href": "mailto:tara@jsconf.us",
     "name": "Dr. Tara Lindahl",
     "profileUrl": "/img/team/tara.jpg",
-    "roles": ["Organizer", "Travel Coordinator"],
-    "twitter": "regular_doc"
+    "roles": ["Organizer", "Travel Coordinator"]
   },
   {
+    "href": "https://twitter.com/oif_vet",
     "name": "Derek Lindahl",
     "profileUrl": "/img/team/derek.jpg",
-    "roles": ["Organizer", "Sponsor Wrangler"],
-    "twitter": "oif_vet"
+    "roles": ["Organizer", "Sponsor Wrangler"]
   },
   {
+    "href": "https://twitter.com/brianarn",
     "name": "Brian Sinclair",
     "profileUrl": "/img/team/brarn.jpg",
-    "roles": ["People Ops", "Scholarship Selection Committee"],
-    "twitter": "brianarn"
+    "roles": ["People Ops", "Scholarship Selection Committee"]
   },
   {
+    "href": "https://twitter.com/lynnaloo",
     "name": "Linda Nichols",
     "profileUrl": "/img/team/linda.jpg",
-    "roles": [
-      "Showrunner",
-      "Scholarship Selection Committee",
-      "Talk Selection Committee"
-    ],
-    "twitter": "lynnaloo"
+    "roles": ["Showrunner", "Scholarship Selection Committee"]
   },
   {
+    "href": "https://twitter.com/tealtail",
     "name": "Alicia Lauermann",
     "profileUrl": "/img/team/alicia.jpg",
     "roles": [
       "Showrunner",
       "Scholarship Selection Committee",
       "Talk Selection Committee"
-    ],
-    "twitter": "tealtail"
+    ]
   },
   {
+    "href": "https://twitter.com/troy0820",
     "name": "Troy Connor",
     "profileUrl": "/img/team/troy.jpg",
     "roles": [
       "Showrunner",
       "Scholarship Selection Committee",
       "Talk Selection Committee"
-    ],
-    "twitter": "troy0820"
+    ]
   },
   {
+    "href": "https://twitter.com/swischeze",
     "name": "Chris Pernicano",
     "profileUrl": "/img/team/cpernicano.jpg",
-    "roles": ["Vendor Outreach"],
-    "twitter": "swischeze"
+    "roles": ["Vendor Outreach"]
   }
 ]

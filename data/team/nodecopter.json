@@ -1,12 +1,15 @@
 [
   {
+    "company": "",
+    "href": "https://twitter.com/rmehner",
     "name": "Robin Mehner",
     "profileUrl": "/img/team/rmehner.jpg",
     "twitter": "rmehner"
   },
   {
+    "company": "",
+    "href": "https://twitter.com/felixge",
     "name": "Felix Geisendörfer",
-    "profileUrl": "/img/team/fgeisendorfer.jpg",
-    "twitter": "felixge"
+    "profileUrl": "/img/team/fgeisendorfer.jpg"
   }
 ]
