@@ -24,12 +24,12 @@ const TeamPage = ({
       This team of experts will teach you everything you need to know!
     </TeamList>
     <TeamList members={nodeboats} title="NodeBoats">
-      What could be better than mixing electronics with water? Take to the opens
+      What could be better than mixing electronics with water? Take to the open
       seas by building your very own Javascript-powered boat.
     </TeamList>
     <TeamList members={nodecopter} title="NodeCopter">
-      Want to take Javascript knowledge to the next level? Learn how to control
-      a quadcopter using the power of Javascript! But please, steer clear of the
+      Want to take your skills to the next level? Learn how to control a
+      quadcopter using the power of Javascript! But please, steer clear of the
       chandaliers.
     </TeamList>
     <TeamList members={noderockets} title="NodeRockets">
