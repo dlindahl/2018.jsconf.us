@@ -2,8 +2,8 @@ import React from 'react'
 import { arrayOf, string } from 'prop-types'
 import './TeamMember.css'
 
-const TeamMember = ({ name, profileUrl, roles, twitter }) => (
-  <li className="TeamMember">
+const TeamMember = ({ className, name, profileUrl, roles, twitter }) => (
+  <li className={`TeamMember ${className}`}>
     <a
       className="TeamMember-Link"
       href={`https://twitter.com/${twitter}`}
@@ -31,6 +31,7 @@ TeamMember.defaultProps = {
 }
 
 TeamMember.propTypes = {
+  className: string,
   name: string.isRequired,
   profileUrl: string.isRequired,
   roles: arrayOf(string).isRequired,

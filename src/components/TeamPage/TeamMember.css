@@ -2,7 +2,8 @@
 
 .TeamMember {
   display: grid;
-  grid-template-rows: 20vh minmax(100px, 1fr);
+  grid-template-rows: 300px minmax(100px, 1fr);
+  min-height: 400px;
 }
 
 .TeamMember-Link {
@@ -17,9 +18,9 @@
 }
 
 .TeamMember-ProfileImg {
+  height: 100%;
   object-fit: cover;
   width: 100%;
-  height: 100%;
 }
 
 .TeamMember-Name {
