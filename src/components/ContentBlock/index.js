@@ -15,8 +15,9 @@ const ContentBlock = ({
   className,
   feature,
   focus,
-  layoutItems,
   layout,
+  layoutClassName,
+  layoutItems,
   renderLayoutItem,
   title
 }) => (
@@ -31,6 +32,7 @@ const ContentBlock = ({
     </GridRow.NarrowContent>
     <GridRow.WideContent>
       <GridLayout
+        className={layoutClassName}
         items={layoutItems}
         layout={layout}
         renderItem={renderLayoutItem}
@@ -46,6 +48,7 @@ ContentBlock.propTypes = {
   feature: bool,
   focus: string,
   layout: string,
+  layoutClassName: string,
   layoutItems: arrayOf(object),
   renderLayoutItem: func,
   title: string.isRequired

@@ -2,11 +2,14 @@
 
 .ContentBlock {
   margin-bottom: var(--spacer-lg);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1173px;
 }
 
 .ContentBlock-Content {
   color: var(--dark-lighter);
-  font-size: 28px; /* TODO: Get this into the type system */
+  @apply --heading-sm;
   margin-bottom: var(--spacer-md);
   margin-top: var(--spacer-md);
   text-align: center;
