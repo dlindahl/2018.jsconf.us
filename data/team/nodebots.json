@@ -1,20 +1,25 @@
 [
   {
+    "company": "Bocoup",
+    "href": "https://twitter.com/rwaldron",
     "name": "Rick Waldron",
-    "profileUrl": "/img/team/rwaldron.jpg",
-    "twitter": "rwaldron"
+    "profileUrl": "/img/team/rwaldron.jpg"
   },
   {
+    "company": "Microsoft",
+    "href": "https://twitter.com/noopkat",
     "name": "Suz Hinton",
-    "profileUrl": "/img/team/shinton.jpg",
-    "twitter": "noopkat"
+    "profileUrl": "/img/team/shinton.jpg"
   },
   {
+    "company": "Cloud Four",
+    "href": "https://twitter.com/lyzadanger",
     "name": "Lyza Danger",
-    "profileUrl": "/img/team/ldanger.jpg",
-    "twitter": "lyzadanger"
+    "profileUrl": "/img/team/ldanger.jpg"
   },
   {
+    "company": "BrandExtract",
+    "href": "https://twitter.com/dtex",
     "name": "Donovan Buck",
     "profileUrl": "/img/team/dbuck.jpg",
     "twitter": "dtex"

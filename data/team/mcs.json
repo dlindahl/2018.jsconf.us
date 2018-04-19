@@ -1,14 +1,14 @@
 [
   {
+    "company": "Ibotta",
+    "href": "https://twitter.com/soniagupta504",
     "name": "Sonia Gupta",
-    "profileUrl": "/img/team/sgupta.jpg",
-    "roles": ["Master of Ceremonies"],
-    "twitter": "soniagupta504"
+    "profileUrl": "/img/team/sgupta.jpg"
   },
   {
+    "company": "Ibotta",
+    "href": "https://twitter.com/erebuslost",
     "name": "Erin Atkinson",
-    "profileUrl": "/img/team/eatkinson.jpg",
-    "roles": ["Master of Ceremonies"],
-    "twitter": "erebuslost"
+    "profileUrl": "/img/team/eatkinson.jpg"
   }
 ]
