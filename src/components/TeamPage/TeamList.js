@@ -3,8 +3,6 @@ import ContentBlock from '../ContentBlock'
 import React from 'react'
 import TeamMember from './TeamMember'
 
-import './TeamList.css'
-
 function renderItem (item) {
   return <TeamMember key={item.name} {...item}/>
 }

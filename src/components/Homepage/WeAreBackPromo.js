@@ -39,6 +39,7 @@ const WeAreBackPromo = (props) => {
       actions={actions}
       layout="111"
       layoutItems={IMAGES}
+      layoutStyle="wide"
       renderLayoutItem={renderLayoutItem}
       title="We Are Back!"
       {...props}

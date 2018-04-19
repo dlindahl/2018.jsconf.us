@@ -1,8 +1,9 @@
 import { any, string } from 'prop-types'
 import classnames from 'classnames'
 import React from 'react'
-import WideContent from './WideContent'
+import MediumContent from './MediumContent'
 import NarrowContent from './NarrowContent'
+import WideContent from './WideContent'
 
 import './GridRow.css'
 
@@ -24,6 +25,7 @@ GridRow.propTypes = {
   id: string
 }
 
+GridRow.MediumContent = MediumContent
 GridRow.NarrowContent = NarrowContent
 GridRow.WideContent = WideContent
 

@@ -4,56 +4,46 @@
   margin-top: var(--spacer-md);
   &[data-layout='211'] {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: var(--spacer-xs);
     grid-template-areas:
       'a b c'
       'd b c';
     grid-template-columns: repeat(3, 1fr);
   }
-  &[data-layout='flex'] {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-left: -10px;
-    margin-right: -10px;
-    & > * {
-      width: calc(50% - 20px);
-      margin-bottom: 40px;
-      margin-left: 10px;
-      margin-right: 10px;
-      @media (--small-screen) {
-        width: calc(33% - 20px);
-      }
-      @media (--extra-small-screen) {
-        width: 75%;
-      }
-    }
-  }
-  /*
-  &[data-layout='1'] {
-    grid-template-areas: 'a b c';
-    grid-template-columns: 1.55fr 1fr 1.55fr;
-    & > :first-child {
-      grid-area: b;
-    }
-  }
-  &[data-layout='11'] {
-    grid-template-areas: 'a b c d';
-    grid-template-columns: repeat(4, 1fr);
-    & > :first-child {
-      grid-area: b;
-    }
-    & > :last-child {
-      grid-area: c;
-    }
-  }
   &[data-layout='111'] {
+    display: grid;
+    grid-gap: var(--spacer-xs);
     grid-template-areas: 'a b c';
     grid-template-columns: repeat(3, 1fr);
   }
-  &[data-layout='1111'] {
-    grid-template-areas: 'a b c d';
-    grid-template-columns: repeat(4, 1fr);
+  &[data-layout*='flex'] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: calc((var(--spacer-xs) / 2) * -1);
+    margin-right: calc((var(--spacer-xs) / 2) * -1);
+    & .GridLayout-Item {
+      margin-bottom: calc(var(--spacer-xs) * 2);
+      margin-left: calc(var(--spacer-xs) / 2);
+      margin-right: calc(var(--spacer-xs) / 2);
+      width: calc(50% - var(--spacer-xs));
+      @media (--extra-small-screen) {
+        margin-bottom: var(--spacer-xs);
+        width: 75%;
+      }
+      @media (--small-screen) {
+        width: calc(50% - var(--spacer-xs));
+      }
+      @media (--medium-screen) {
+        width: calc(33.33% - var(--spacer-xs));
+      }
+    }
   }
-  */
+  &[data-layout='flex-4'] {
+    & .GridLayout-Item {
+      @media (--medium-screen) {
+        width: calc(25% - var(--spacer-xs));
+      }
+    }
+  }
 }

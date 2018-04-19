@@ -3,24 +3,30 @@
 .GridRow {
   display: grid;
   grid-template-columns:
-    [full-start] 30px
+    [full-start] var(--spacer-sm)
     [wide-start] 0
+    [medium-start] 0
     [narrow-start] minmax(0, 9fr)
     [narrow-end] 0
-    [wide-end] 30px
+    [medium-end] 0
+    [wide-end] var(--spacer-sm)
     [full-end];
   margin-top: var(--spacer-lg);
   @media (--small-screen) {
     grid-template-columns:
-      [full-start] 30px
-      1fr
-      [wide-start] minmax(1em, 1fr)
+      [full-start] var(--spacer-sm)
+      [wide-start] 1fr
+      [medium-start] minmax(1em, 1fr)
       [narrow-start] minmax(0, 9fr)
       [narrow-end] minmax(1em, 1fr)
-      [wide-end] 1fr
-      30px
+      [medium-end] 1fr
+      [wide-end] var(--spacer-sm)
       [full-end];
   }
+}
+
+.GridRow-MediumContent {
+  grid-column: medium;
 }
 
 .GridRow-NarrowContent {
