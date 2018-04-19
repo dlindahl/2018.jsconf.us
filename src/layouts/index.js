@@ -19,8 +19,7 @@ const MasterLayout = ({
         },
         {
           href: '/img/favicons/apple-touch-icon.png',
-          rel: 'apple-touch-icon',
-          sizes: '180x180'
+          rel: 'apple-touch-icon'
         },
         {
           href: '/img/favicons/favicon-32x32.png',
