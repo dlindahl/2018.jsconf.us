@@ -45,10 +45,6 @@ const MasterLayout = ({
       meta={[
         { content: 'text/html;charSet=UTF-8', httpEquiv: 'Content-type' },
         {
-          content: 'width=device-width, initial-scale=1, shrink-to-fit=no',
-          name: 'viewport'
-        },
-        {
           content: '/img/favicons/browserconfig.xml',
           name: 'msapplication-config'
         },
