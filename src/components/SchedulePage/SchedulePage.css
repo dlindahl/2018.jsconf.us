@@ -9,6 +9,10 @@
   top: 0;
 }
 
+.Schedule-Nav {
+  grid-column: full;
+}
+
 .Schedule-NavItems {
   display: flex;
   flex-direction: row;
