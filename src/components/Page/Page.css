@@ -66,6 +66,7 @@
       margin-top: calc(var(--spacer-sm) * -1);
     }
   }
+  & > blockquote > h3,
   & > h3 {
     @apply --heading-xs;
     color: var(--accent-lighter);
@@ -75,6 +76,9 @@
       margin-bottom: var(--spacer-xs);
       margin-top: calc(var(--spacer-xs) * -1);
     }
+  }
+  & > blockquote > h3 {
+    margin-top: 0;
   }
   & > h4 {
     @apply --heading-2xs;
@@ -101,6 +105,10 @@
     & li {
       margin-bottom: var(--spacer-xs);
     }
+  }
+  & img {
+    width: 100%;
+    margin: 0 auto;
   }
   & p {
     margin-bottom: var(--spacer-sm);
