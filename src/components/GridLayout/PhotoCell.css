@@ -1,6 +1,4 @@
 .PhotoCell {
-  height: 37vw;
-  max-height: 555px;
   &:nth-child(1) {
     grid-area: a;
   }

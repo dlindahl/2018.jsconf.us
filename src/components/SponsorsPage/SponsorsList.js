@@ -1,37 +1,42 @@
-import { arrayOf, shape, string } from 'prop-types'
+import { any, arrayOf, shape, string } from 'prop-types'
+import ContentBlock from '../ContentBlock'
 import React from 'react'
+import SponsorListItem from './SponsorListItem'
 
 import './SponsorsList.css'
 
-const SponsorsList = ({ items, title }) => {
+function renderLayoutItem (item) {
+  const { level, logo, name } = item.frontmatter
+  return (
+    <SponsorListItem
+      href={item.fields.slug}
+      key={name}
+      level={level}
+      logo={logo}
+      name={name}
+    />
+  )
+}
+
+const SponsorsList = ({ children, items, title }) => {
   if (!items || (items && !items.length)) {
     return null
   }
   return (
-    <section className="SponsorsList">
-      <h2>{title}</h2>
-      <div className="SponsorsList-Items">
-        {items.map((item) => {
-          const { level, logo, title: name } = item.frontmatter
-          return (
-            <a
-              aria-label={`${name} - A ${level}-level sponsor`}
-              className="SponsorsList-Item"
-              href={item.fields.slug}
-              key={name}
-              title={`${name} - A ${level}-level sponsor`}
-            >
-              {logo && <img alt="" src={logo}/>}
-              {!logo && name}
-            </a>
-          )
-        })}
-      </div>
-    </section>
+    <ContentBlock
+      className="SponsorsList"
+      layoutClassName="SponsorsListLayout"
+      layoutItems={items}
+      renderLayoutItem={renderLayoutItem}
+      title={title}
+    >
+      {children}
+    </ContentBlock>
   )
 }
 
 SponsorsList.propTypes = {
+  children: any,
   items: arrayOf(
     shape({
       event: string,

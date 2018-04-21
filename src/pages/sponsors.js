@@ -37,7 +37,8 @@ export const query = graphql`
           frontmatter {
             level
             logo
-            title
+            name
+            scholarship
             visible
           }
         }

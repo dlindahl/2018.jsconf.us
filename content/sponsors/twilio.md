@@ -1,14 +1,13 @@
 ---
+component: NodeBots Sponsor
 level: gold
-logo: https://2017.jsconf.eu/sponsors/images/twilio.svg
-title: Twilio
+logo: /img/sponsors/logos/twilio.svg
+name: Twilio
+scholarship: true
+url: https://twilio.com
 visible: false
 ---
 
-# Twilio
+Twilio is a cloud communications platform for software developers to build, scale and operate real time communications in their software applications.
 
-### Sponsoring Thursday's NodeBots Event
-
-TODO DETAILS
-
-[https://twilio.com]()
+Twilio powers the future of business communications, enabling phones, VoIP, and messaging to be embedded into web, desktop, and mobile software. We take care of the messy telecom hardware and expose a globally available cloud API so developers can interact with intelligent & complex communications systems.

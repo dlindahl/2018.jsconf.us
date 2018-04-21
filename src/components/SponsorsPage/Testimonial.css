@@ -1,0 +1,64 @@
+@import '../../layouts/variables.css';
+
+/* NEXT - Work on mobile layout, color selection, and fix PhotoCell height settings (or scope to homepage with a custom classname) */
+
+.Testimonial {
+  @apply --size--base-1;
+  color: var(--light-lighter);
+  display: grid;
+  grid-gap: var(--spacer-sm);
+  grid-template-rows: 1fr minmax(min-content, var(--spacer-md));
+  padding-bottom: var(--spacer-sm);
+  padding-left: var(--spacer-sm);
+  padding-right: var(--spacer-sm);
+  padding-top: var(--spacer-sm);
+  &:nth-child(1) {
+    grid-area: a;
+  }
+  &:nth-child(2) {
+    background-color: var(--accent-tertiary-light);
+    grid-area: b;
+  }
+  &:nth-child(3) {
+    background-color: var(--accent-secondary-light);
+    grid-area: c;
+  }
+  &:nth-child(4) {
+    background-color: var(--accent-quarternary-light);
+    grid-area: d;
+  }
+  &:nth-child(5) {
+    background-color: var(--accent-light);
+    grid-area: e;
+  }
+  &:nth-child(6) {
+    background-color: var(--accent-light);
+    grid-area: f;
+  }
+  &:nth-child(7) {
+    background-color: var(--accent-light);
+    grid-area: g;
+  }
+}
+
+.Testimonial-Quote {
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+
+.Testimonial-Cite {
+  @apply --size--base-0;
+  font-style: normal;
+}
+
+.Testimonial-CiteName {
+  display: block;
+  @apply --smallcaps-regular;
+  font-weight: 300;
+}
+
+.Testimonial-CitePosition {
+  display: block;
+  @apply --fine-print;
+  font-weight: 300;
+}

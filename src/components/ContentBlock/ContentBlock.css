@@ -9,11 +9,8 @@
 
 .ContentBlock-Content {
   color: var(--dark-lighter);
-  @apply --heading-sm;
   margin-bottom: var(--spacer-md);
   margin-top: var(--spacer-md);
-  text-align: center;
-  font-weight: 300;
   & a {
     color: var(--color-cta);
     text-decoration-skip: ink;
@@ -24,4 +21,15 @@
   & strong {
     background-color: var(--selection-bg);
   }
+}
+
+.ContentBlock-Content--alignCenter {
+  @apply --heading-sm;
+  font-weight: 300;
+  text-align: center;
+}
+
+.ContentBlock-Content--alignLeft {
+  @apply --heading-xs;
+  font-weight: 300;
 }

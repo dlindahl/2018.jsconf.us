@@ -12,7 +12,11 @@
   --accent-secondary-light: #f5306c;
   --accent-secondary-lighter: #f65e8c;
   --accent-tertiary: #ff6a00;
+  --accent-tertiary-light: #ff8b39;
+  --accent-tertiary-lighter: #ffa464;
   --accent-quarternary: #e60975;
+  --accent-quarternary-light: #e9358d;
+  --accent-quarternary-lighter: #ed60a5;
 
   --dark: #0f1d2b;
   --dark-dark: #06111c;

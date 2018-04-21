@@ -4,7 +4,9 @@ import React, { cloneElement } from 'react'
 import './GridLayout.css'
 
 function wrap (component) {
-  return cloneElement(component, { className: 'GridLayout-Item' })
+  return cloneElement(component, {
+    className: `GridLayout-Item ${component.props.className || ''}`
+  })
 }
 
 const GridLayout = ({ className, items, layout, renderItem }) => {
@@ -36,7 +38,7 @@ GridLayout.defaultProps = {
 GridLayout.propTypes = {
   className: string,
   items: arrayOf(object),
-  layout: oneOf(['111', '1111', 'flex']),
+  layout: oneOf(['1/211/2', '111', '1111', 'flex']),
   renderItem: func.isRequired
 }
 

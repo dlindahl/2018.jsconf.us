@@ -1,0 +1,14 @@
+@import '../../layouts/variables.css';
+
+.SponsorsListItem {
+  color: var(--color-cta);
+  text-align: center;
+}
+
+.SponsorListItem-Img {
+  max-height: var(--spacer-2xl);
+}
+
+.SponsorListItem-Name {
+  @apply --smallcaps-regular;
+}

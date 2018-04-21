@@ -4,14 +4,14 @@ import React from 'react'
 
 import './LinkButton.css'
 
-const LinkButton = ({ children, href, invert, primary }) => {
+const LinkButton = ({ children, href, invert, primary, ...props }) => {
   const cls = classname({
     LinkButton: true,
     'LinkButton--invert': invert,
     'LinkButton--primary': primary
   })
   return (
-    <a className={cls} href={href}>
+    <a className={cls} href={href} {...props}>
       {children}
     </a>
   )

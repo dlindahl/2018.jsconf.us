@@ -3,8 +3,8 @@ import { string } from 'prop-types'
 
 import './PhotoCell.css'
 
-const PhotoCell = ({ alt, caption, src }) => (
-  <figure className="PhotoCell">
+const PhotoCell = ({ alt, caption, className, src }) => (
+  <figure className={`PhotoCell ${className}`}>
     <picture>
       <img alt={alt} className="PhotoCell-Img" src={src}/>
     </picture>
@@ -12,9 +12,14 @@ const PhotoCell = ({ alt, caption, src }) => (
   </figure>
 )
 
+PhotoCell.defaultProps = {
+  className: ''
+}
+
 PhotoCell.propTypes = {
   alt: string.isRequired,
   caption: string,
+  className: string,
   src: string.isRequired
 }
 

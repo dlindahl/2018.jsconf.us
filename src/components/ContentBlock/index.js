@@ -1,4 +1,5 @@
 import { any, arrayOf, bool, func, object, oneOf, string } from 'prop-types'
+import classnames from 'classnames'
 import ButtonGroup from '../ButtonGroup'
 import ContentBlockFocus from './ContentBlockFocus'
 import ContentBlockTitle from './ContentBlockTitle'
@@ -11,6 +12,7 @@ import './ContentBlock.css'
 
 const ContentBlock = ({
   actions,
+  align,
   children,
   className,
   feature,
@@ -28,11 +30,16 @@ const ContentBlock = ({
   } else if (layoutStyle === 'wide') {
     ContentStyleTag = GridRow.WideContent
   }
+  const contentCls = classnames({
+    'ContentBlock-Content': true,
+    'ContentBlock-Content--alignCenter': align === 'center',
+    'ContentBlock-Content--alignLeft': align === 'left'
+  })
   return (
     <GridRow className={`ContentBlock ${className}`} id={slugify(title)}>
       <GridRow.NarrowContent>
         <ContentBlockTitle feature={feature}>{title}</ContentBlockTitle>
-        <div className="ContentBlock-Content">
+        <div className={contentCls}>
           <ContentBlockFocus>{focus}</ContentBlockFocus>
           {children}
         </div>
@@ -51,11 +58,14 @@ const ContentBlock = ({
 }
 
 ContentBlock.defaultProps = {
+  align: 'center',
+  className: '',
   layoutStyle: 'medium'
 }
 
 ContentBlock.propTypes = {
   actions: arrayOf(any),
+  align: oneOf(['center', 'left']),
   children: any,
   className: string,
   feature: bool,
