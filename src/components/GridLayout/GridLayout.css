@@ -16,6 +16,12 @@
     grid-template-areas: 'a b c';
     grid-template-columns: repeat(3, 1fr);
   }
+  &[data-layout='1111'] {
+    display: grid;
+    grid-gap: var(--spacer-xs);
+    grid-template-areas: 'a b c d';
+    grid-template-columns: repeat(4, 1fr);
+  }
   &[data-layout*='flex'] {
     display: flex;
     flex-wrap: wrap;

@@ -36,7 +36,7 @@ GridLayout.defaultProps = {
 GridLayout.propTypes = {
   className: string,
   items: arrayOf(object),
-  layout: oneOf(['111', 'flex']),
+  layout: oneOf(['111', '1111', 'flex']),
   renderItem: func.isRequired
 }
 
