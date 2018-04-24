@@ -49,11 +49,13 @@ Below are the pricing tiers for JSConf US 2018. We have tried to tier the ticket
 
 ~~This "Early Bird" batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-us-2018.~~
 
-## Sacramento
+## ~~Sacramento~~
 
-### $1,050
+### ~~$1,050~~
 
-#### April 24th, 2018 at 9:00 AM EST (6:00 AM PST)
+#### ~~April 24th, 2018 at 9:00 AM EST (6:00 AM PST)~~
+
+**SOLD OUT!**
 
 The "Sacramento"-class ticket is named after Sacramento County, the largest region in the Central Valley region of California!
 
