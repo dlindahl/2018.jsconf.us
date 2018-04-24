@@ -57,9 +57,9 @@ Below are the pricing tiers for JSConf US 2018. We have tried to tier the ticket
 
 **SOLD OUT!**
 
-The "Sacramento"-class ticket is named after Sacramento County, the largest region in the Central Valley region of California!
+~~The "Sacramento"-class ticket is named after Sacramento County, the largest region in the Central Valley region of California!
 
-This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-us-2018.
+This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-us-2018.~~
 
 ## San Luis Obispo
 
