@@ -6,6 +6,9 @@ import './Sponsor.css'
 
 const Sponsor = ({ component, html, level, logo, name, scholarship, url }) => {
   let focus = null
+  if (!component) {
+    component = `${level} Sponsor`
+  }
   if (scholarship) {
     focus = 'Opportunty Scholarship Supporter'
   }
