@@ -1,6 +1,6 @@
 ---
 component:
-level: gold
+level: silver
 logo: /img/sponsors/logos/app-dynamics.svg
 name: AppDynamics
 scholarship: false
