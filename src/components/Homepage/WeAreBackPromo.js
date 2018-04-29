@@ -44,8 +44,8 @@ const WeAreBackPromo = (props) => {
       title="We Are Back!"
       {...props}
     >
-      The JSConf US is back for 2018! We've moved across country and are
-      celebrating everything West Coast and California Dreamin'.
+      JSConf US is back for 2018! We've moved across country and are celebrating
+      everything West Coast and California Dreamin'.
     </ContentBlock>
   )
 }
