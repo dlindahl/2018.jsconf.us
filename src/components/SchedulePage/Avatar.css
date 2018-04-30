@@ -1,0 +1,14 @@
+@import '../../layouts/variables.css';
+
+.Avatar {
+  border: solid 3px var(--white);
+  border-radius: 50%;
+  box-sizing: content-box;
+  display: inline-block;
+  height: var(--spacer-md);
+  overflow: hidden;
+  width: var(--spacer-md);
+  &:not(:first-of-type) {
+    margin-left: calc(var(--spacer-xs) * -1);
+  }
+}

@@ -1,23 +1,21 @@
 import { any, string } from 'prop-types'
+import ContentBlock from '../ContentBlock'
+import './Day.css'
 import React from 'react'
-import Page from '../Page'
 
-const Day = ({ children, title, ...props }) => {
-  let titleContent
-  if (title) {
-    titleContent = <h2>{title}</h2>
-  }
-  return (
-    <Page className="Day" {...props}>
-      <h1>{children}</h1>
-      {titleContent}
-    </Page>
-  )
-}
+const Day = ({ children, content, title, ...props }) => (
+  <div className="Day">
+    <ContentBlock feature title={title} {...props}>
+      {content}
+    </ContentBlock>
+    {children}
+  </div>
+)
 
 Day.propTypes = {
   children: any,
-  title: string
+  content: any,
+  title: string.isRequired
 }
 
 export default Day

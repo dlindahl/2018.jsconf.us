@@ -1,8 +1,7 @@
 @import '../../layouts/variables.css';
 
-.Day {
-  margin-top: var(--spacer-xl);
-  &:nth-child(2) {
-    margin-top: inherit;
-  }
+.Day-Subheading {
+  @apply --heading-xs;
+  color: var(--accent-tertiary);
+  margin-top: var(--spacer-md);
 }

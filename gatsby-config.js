@@ -1,5 +1,6 @@
 module.exports = {
   plugins: [
+    'gatsby-plugin-react-next',
     {
       options: {
         trackingId: `UA-1264213-15`

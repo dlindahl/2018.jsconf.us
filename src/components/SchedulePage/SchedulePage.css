@@ -20,3 +20,8 @@
   justify-content: space-around;
   list-style: none;
 }
+
+.SchedulePage-LayoutCTA {
+  background: var(--light);
+  padding: var(--spacer-sm);
+}

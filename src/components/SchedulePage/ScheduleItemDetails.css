@@ -1,0 +1,39 @@
+@import '../../layouts/variables.css';
+
+.ScheduleItemDetails {
+  display: flex;
+  &:not(:first-of-type) {
+    margin-top: var(--spacer-sm);
+  }
+}
+
+.ScheduleItemDetails-Content {
+  flex: 1;
+}
+
+.ScheduleItemDetails-Title {
+  @apply --heading-xs;
+}
+
+.ScheduleItemDetails-Focus {
+  @apply --size--base-0;
+  background-color: var(--selection-bg);
+  display: inline-block;
+  &:empty {
+    display: none;
+  }
+}
+
+.ScheduleItemDetails-Descr {
+  display: flex;
+  color: var(--light-darkest);
+  font-weight: 300;
+  margin-top: var(--spacer-2xs);
+  &:empty {
+    display: none;
+  }
+}
+
+.ScheduleItemDetails-Speakers {
+  margin-left: var(--spacer-md);
+}

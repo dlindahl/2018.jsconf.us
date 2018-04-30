@@ -1,56 +1,39 @@
 import { array, string } from 'prop-types'
+import Clock from './Clock'
 import dateformat from 'dateformat'
 import React from 'react'
-
+import RepeatEvents from './RepeatEvents'
+import ScheduleItem from './ScheduleItem'
 import './TimeTable.css'
 
-const TimeTable = ({ items, startTime }) => {
-  const clock = new Date(startTime)
+// eslint-disable-next-line react/prop-types
+function renderTick ({ contentTag, ...item }, key) {
+  if (contentTag) {
+    const Tag = RepeatEvents[contentTag]
+    return <Tag key={key} {...item}/>
+  }
+  return <ScheduleItem key={key} {...item}/>
+}
+
+const TimeTable = ({ date, schedule }) => {
+  const clock = new Date(date)
   return (
-    <table className="TimeTable">
-      <thead>
-        <tr>
-          <th>Time</th>
-          <th>Track A</th>
-          <th>Track B</th>
-        </tr>
-      </thead>
-      <tbody>
-        {items.map((item, i) => {
-          let rowBody = null
-          if (item.description) {
-            rowBody = <td colSpan="2">{item.description}</td>
-          } else {
-            rowBody = [
-              <td key="0">
-                {item.trackA.title}
-                <br/>
-                {item.trackA.speaker}
-              </td>,
-              <td key="1">
-                {item.trackB.title}
-                <br/>
-                {item.trackB.speaker}
-              </td>
-            ]
-          }
-          const row = (
-            <tr key={i}>
-              <td>{dateformat(clock, 'UTC:h:MMtt')}</td>
-              {rowBody}
-            </tr>
-          )
-          clock.setMinutes(clock.getMinutes() + item.duration)
-          return row
-        })}
-      </tbody>
-    </table>
+    <div className="TimeTable">
+      <header className="TimeTable-Header">
+        <h3 className="TimeTable-Heading">
+          {dateformat(clock, `UTC:dddd, mmmm dS`)}
+        </h3>
+      </header>
+      <div className="TimeTable-Schedule">
+        <Clock items={schedule} renderTick={renderTick} startAt={date}/>
+      </div>
+    </div>
   )
 }
 
 TimeTable.propTypes = {
-  items: array.isRequired,
-  startTime: string.isRequired
+  date: string.isRequired,
+  schedule: array.isRequired
 }
 
 export default TimeTable
