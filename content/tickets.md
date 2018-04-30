@@ -73,7 +73,7 @@ This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-u
 
 ## Humboldt
 
-### $1,050
+### $1,600
 
 #### May 8th, 2018 at 1:00 PM EST (10:00 AM PST)
 
