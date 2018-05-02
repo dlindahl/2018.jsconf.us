@@ -53,11 +53,6 @@ export default class Header extends React.Component {
               </button>
               <ul className="Header-LinkItems">
                 <li className="Header-LinkItem">
-                  <a className="Header-Link" href="/call-for-speakers/">
-                    Call for Speakers
-                  </a>
-                </li>
-                <li className="Header-LinkItem">
                   <a className="Header-Link" href="/tickets/">
                     Attend
                   </a>

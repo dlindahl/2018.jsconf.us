@@ -4,9 +4,6 @@ import React from 'react'
 
 const CallForSpeakers = (props) => {
   const actions = [
-    <LinkButton href="http://bit.ly/JSConfUS2018CFP" key={0} primary>
-      Submit Your Proposal
-    </LinkButton>,
     <LinkButton href="/call-for-speakers/" key={1}>
       Learn More
     </LinkButton>
@@ -14,7 +11,7 @@ const CallForSpeakers = (props) => {
   return (
     <ContentBlock
       actions={actions}
-      focus="Call for Speakers is now open through May 1st!"
+      focus="Our Call for Speakers closed May 1st"
       title="Call for Speakers"
       {...props}
     >
