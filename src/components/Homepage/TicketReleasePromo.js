@@ -12,12 +12,7 @@ const TicketReleasePromo = (props) => {
     </LinkButton>
   ]
   return (
-    <ContentBlock
-      actions={actions}
-      focus="Next release is April 24th at 1pm ET / 10am PT!"
-      title="Get Your Ticket!"
-      {...props}
-    >
+    <ContentBlock actions={actions} title="Get Your Ticket!" {...props}>
       <p>
         Over the last ten years, JSConf US has pushed the language outside of
         its comfort zone, the web browser, and into the forefront of{' '}

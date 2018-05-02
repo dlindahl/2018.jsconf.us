@@ -75,7 +75,7 @@ This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-u
 
 ### $1,600
 
-#### May 8th, 2018 at 1:00 PM EST (10:00 AM PST)
+#### May 15th, 2018 at 1:00 PM EST (10:00 AM PST)
 
 Fun Fact: The "Humboldt"-class ticket is named after the westernmost county in California, a great place to catch a late sunset!
 
@@ -85,7 +85,7 @@ This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-u
 
 ### $1,999
 
-#### May 8th, 2018 at 1:00 PM EST (10:00 AM PST)
+#### May 15th, 2018 at 1:00 PM EST (10:00 AM PST)
 
 Fun Fact: The "El Segundo"-class ticket is named after the "A Tribe Called Quest" song, "I Left My Wallet In El Segundo." You gotta get it, you got-got ta get it!
 
