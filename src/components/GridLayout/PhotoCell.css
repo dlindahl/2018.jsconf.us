@@ -1,3 +1,5 @@
+@import '../../layouts/variables.css';
+
 .PhotoCell {
   &:nth-child(1) {
     grid-area: a;
@@ -11,6 +13,48 @@
   &:nth-child(4) {
     grid-area: d;
   }
+}
+
+.PhotoCell-Link {
+  position: relative;
+}
+
+.PhotoCell-LinkIcon {
+  background-color: color(var(--dark-darker) a(0.8));
+  border: solid 2px var(--white);
+  border-radius: 50%;
+  display: none;
+  height: 60px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: background-color 0.2s;
+  width: 60px;
+  &::before {
+    border-style: solid;
+    border-color: transparent;
+    border-left-color: var(--white);
+    border-width: 12px 0 12px 17px;
+    content: '';
+    display: block;
+    height: 0;
+    margin: auto;
+    transition: border-left-color 0.2s;
+    transform: translateX(20%);
+    width: 0;
+  }
+  &:hover {
+    background-color: var(--white);
+    border-color: var(--dark-darker);
+    &::before {
+      border-left-color: var(--dark-darker);
+    }
+  }
+}
+
+.PhotoCell-LinkIcon--visible {
+  display: flex;
 }
 
 .PhotoCell-Caption {

@@ -5,7 +5,7 @@ title: Tickets
 
 JSConf US tickets have always been one of the hottest tickets around. Our constant dedication to quality, attention to details, and willingness to experiment have established us as leaders of the technology conference format. This year will be no exception!
 
-Your ticket provides you access to all of the social events, all of the lectures, and one of the ["Choose Your Own Adventure" sessions](/schedule/#day-two). The ticket price also covers at least nine (9) hot and amazing meals prepared for you by our incredible on-site chef over the five (5) days of JSConf US. If you need any assistance/encouragement to help solidify arrangements with your employer OR you require extra assistance, please don't hesitate to [contact us directly](mailto:derek@jsconf.us).
+Your ticket provides you access to all of the social events, all of the lectures, and one of the ["Choose Your Own Adventure" sessions](/schedule/#day-of-activities). The ticket price also covers at least nine (9) hot and amazing meals prepared for you by our incredible on-site chef over the five (5) days of JSConf US. If you need any assistance/encouragement to help solidify arrangements with your employer OR you require extra assistance, please don't hesitate to [contact us directly](mailto:derek@jsconf.us).
 
 All classes of tickets are sold on a first-come, first-serve basis with no refunds offered (ticket transfers are allowed.)
 

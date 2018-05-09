@@ -22,6 +22,7 @@ const ContentBlock = ({
   layoutItems,
   renderLayoutItem,
   layoutStyle,
+  subtitle,
   title
 }) => {
   let ContentStyleTag = GridRow.MediumContent
@@ -39,6 +40,7 @@ const ContentBlock = ({
     <GridRow className={`ContentBlock ${className}`} id={slugify(title)}>
       <GridRow.NarrowContent>
         <ContentBlockTitle feature={feature}>{title}</ContentBlockTitle>
+        <h3 className="ContentBlock-Subtitle">{subtitle}</h3>
         <div className={contentCls}>
           <ContentBlockFocus>{focus}</ContentBlockFocus>
           {children}
@@ -75,6 +77,7 @@ ContentBlock.propTypes = {
   layoutItems: arrayOf(object),
   layoutStyle: oneOf(['full', 'narrow', 'medium', 'wide']),
   renderLayoutItem: func,
+  subtitle: string,
   title: string.isRequired
 }
 

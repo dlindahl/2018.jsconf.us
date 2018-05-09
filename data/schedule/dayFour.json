@@ -1,0 +1,27 @@
+[
+  {
+    "anchor": "",
+    "contentTag": "",
+    "description": "",
+    "duration": 0,
+    "endTime": 0,
+    "focus": "",
+    "startTime": 0,
+    "title": ""
+  },
+  {
+    "description":
+      "Unfortunately, its time to head home! Our Airport Shuttles will take you from the Omni La Costa directly to San Diego International Airport. Please make sure you leave enough time to board the bus, travel to the airport, check-in, and arrive at your boarding gate. We don't want any one stranded at the airport!",
+    "endTime": 1800,
+    "focus": "Times are still tentative",
+    "startTime": 900,
+    "title": "Airport Shuttles"
+  },
+  {
+    "description":
+      "Come enjoy brunch food with everyone at JSConf as a final gathering. The internet can be a stressful place and programmers often make it worse, but here at Brunch.js you can hang out with some of the best and brightest and have a wonderful conversation over pancakes. Plan the rest of your day, show off some Node(Rocket|Bot|Boat|Copter) moves, or just discuss modules; whatever your final goals, the key is finish out the event happily.",
+    "duration": 180,
+    "startTime": 1800,
+    "title": "Brunch.js"
+  }
+]

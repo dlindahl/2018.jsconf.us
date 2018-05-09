@@ -1,0 +1,77 @@
+[
+  {
+    "anchor": "",
+    "components": [
+      {
+        "description": "",
+        "title": ""
+      }
+    ],
+    "description": "",
+    "duration": 0,
+    "endTime": 0,
+    "focus": "",
+    "startTime": 0,
+    "title": ""
+  },
+  {
+    "endTime": 1300,
+    "focus": "Times are tentative",
+    "startTime": 845,
+    "title": "Golf Tournament"
+  },
+  {
+    "endTime": 1800,
+    "startTime": 900,
+    "components": [
+      {
+        "title": "NodeBoats"
+      },
+      {
+        "title": "NodeBots"
+      },
+      {
+        "title": "NodeCopter"
+      },
+      {
+        "title": "NodeRockets"
+      }
+    ]
+  },
+  {
+    "endTime": 1600,
+    "startTime": 1000,
+    "title": "Poolside Relaxation"
+  },
+  {
+    "endTime": 1600,
+    "startTime": 1200,
+    "title": "Safari Zoo Adventure"
+  },
+  {
+    "endTime": 1700,
+    "startTime": 1300,
+    "components": [
+      {
+        "title": "Surf Lessons at La Jolla"
+      },
+      {
+        "title": "Stand-Up Paddle Boarding Lessons at La Jolla Shores"
+      },
+      {
+        "title": "Sea Cave Kayaking at La Jolla"
+      }
+    ]
+  },
+  {
+    "endTime": 2330,
+    "startTime": 1800,
+    "title": "Downtown Shuttle"
+  },
+  {
+    "description": null,
+    "contentTag": "PoolsideCampfires",
+    "duration": 120,
+    "startTime": 2100
+  }
+]

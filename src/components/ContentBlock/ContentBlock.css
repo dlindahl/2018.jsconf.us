@@ -7,6 +7,12 @@
   max-width: 1173px;
 }
 
+.ContentBlock-Subtitle {
+  @apply --smallcaps-black; 
+  color: var(--accent-secondary-dark);
+  text-align: center;
+}
+
 .ContentBlock-Content {
   color: var(--dark-lighter);
   margin-bottom: var(--spacer-md);

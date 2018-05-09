@@ -1,23 +1,21 @@
 @import '../../layouts/variables.css';
 
 .TimeTable {
-  border-collapse: collapse;
-  margin-top: var(--spacer-md);
-  width: 100%;
-  & thead {
-    & th {
-      background: var(--light);
-      text-align: left;
-    }
+  /* TODO: Abstract these to a custom prop set or element (also used in Page) */
+  margin-left: var(--page-margin-large);
+  margin-right: var(--page-margin-large);
+  @media (--small-screen) {
+    margin-left: var(--page-margin-small);
+    margin-right: var(--page-margin-small);
   }
-  & tr {
-    &:nth-child(even) {
-      background: var(--light);
-    }
-  }
-  & th,
-  & td {
-    padding: var(--spacer-xs);
-    border: solid 1px #ccc;
-  }
+}
+
+.TimeTable-Header {
+  border-bottom: solid 1px var(--accent-secondary);
+}
+
+.TimeTable-Heading {
+  @apply --smallcaps-regular;
+  @apply --heading-sm;
+  color: var(--accent-secondary);
 }

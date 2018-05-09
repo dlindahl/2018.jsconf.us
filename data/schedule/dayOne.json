@@ -1,132 +1,187 @@
 [
   {
+    "anchor": "",
+    "components": [
+      {
+        "description": "",
+        "speakers": [
+          {
+            "avatar": "",
+            "name": ""
+          }
+        ],
+        "title": ""
+      }
+    ],
+    "contentTag": "",
+    "description": "",
+    "duration": 0,
+    "endTime": 0,
+    "focus": "",
+    "startTime": 0,
+    "title": ""
+  },
+  {
     "duration": 90,
-    "description": "Hot Breakfast, Coffee, and Registration"
+    "startTime": 730,
+    "title": "Hot Breakfast, Coffee, and Registration"
   },
   {
     "duration": 30,
-    "description": "Opening Remarks by the JSConf US Curators"
+    "title": "Opening Remarks by the JSConf US Curators"
   },
   {
     "duration": 45,
-    "trackA": {
-      "speaker": "TBD",
-      "title": "TBD"
-    },
-    "trackB": {
-      "speaker": "TBD",
-      "title": "TBD"
-    }
+    "components": [
+      {
+        "speakers": [],
+        "title": "TBD"
+      },
+      {
+        "speakers": [],
+        "title": "TBD"
+      }
+    ]
   },
   {
     "duration": 45,
-    "trackA": {
-      "speaker": "TBD",
-      "title": "TBD"
-    },
-    "trackB": {
-      "speaker": "TBD",
-      "title": "TBD"
-    }
+    "components": [
+      {
+        "speakers": [],
+        "title": "TBD"
+      },
+      {
+        "speakers": [],
+        "title": "TBD"
+      }
+    ]
   },
   {
     "duration": 45,
-    "trackA": {
-      "speaker": "TBD",
-      "title": "TBD"
-    },
-    "trackB": {
-      "speaker": "TBD",
-      "title": "TBD"
-    }
+    "components": [
+      {
+        "speakers": [],
+        "title": "TBD"
+      },
+      {
+        "speakers": [],
+        "title": "TBD"
+      }
+    ]
   },
   {
     "duration": 60,
-    "description": "Lunch"
+    "title": "Lunch"
   },
   {
     "duration": 45,
-    "trackA": {
-      "speaker": "TBD",
-      "title": "TBD"
-    },
-    "trackB": {
-      "speaker": "TBD",
-      "title": "TBD"
-    }
+    "components": [
+      {
+        "speakers": [],
+        "title": "TBD"
+      },
+      {
+        "speakers": [],
+        "title": "TBD"
+      }
+    ]
   },
   {
     "duration": 45,
-    "trackA": {
-      "speaker": "TBD",
-      "title": "TBD"
-    },
-    "trackB": {
-      "speaker": "TBD",
-      "title": "TBD"
-    }
+    "components": [
+      {
+        "speakers": [],
+        "title": "TBD"
+      },
+      {
+        "speakers": [],
+        "title": "TBD"
+      }
+    ]
   },
   {
     "duration": 45,
-    "trackA": {
-      "speaker": "TBD",
-      "title": "TBD"
-    },
-    "trackB": {
-      "speaker": "TBD",
-      "title": "TBD"
-    }
+    "components": [
+      {
+        "speakers": [],
+        "title": "TBD"
+      },
+      {
+        "speakers": [],
+        "title": "TBD"
+      }
+    ]
   },
   {
     "duration": 45,
-    "trackA": {
-      "speaker": "TBD",
-      "title": "TBD"
-    },
-    "trackB": {
-      "speaker": "TBD",
-      "title": "TBD"
-    }
+    "components": [
+      {
+        "speakers": [],
+        "title": "TBD"
+      },
+      {
+        "speakers": [],
+        "title": "TBD"
+      }
+    ]
   },
   {
     "duration": 30,
-    "description": "Break"
+    "title": "Break"
   },
   {
     "duration": 45,
-    "trackA": {
-      "speaker": "TBD",
-      "title": "TBD"
-    },
-    "trackB": {
-      "speaker": "TBD",
-      "title": "TBD"
-    }
+    "components": [
+      {
+        "speakers": [],
+        "title": "TBD"
+      },
+      {
+        "speakers": [],
+        "title": "TBD"
+      }
+    ]
   },
   {
     "duration": 45,
-    "trackA": {
-      "speaker": "TBD",
-      "title": "TBD"
-    },
-    "trackB": {
-      "speaker": "TBD",
-      "title": "TBD"
-    }
+    "components": [
+      {
+        "speakers": [],
+        "title": "TBD"
+      },
+      {
+        "speakers": [],
+        "title": "TBD"
+      }
+    ]
   },
   {
     "duration": 45,
-    "trackA": {
-      "speaker": "TBD",
-      "title": "TBD"
-    },
-    "trackB": {
-      "speaker": "TBD",
-      "title": "TBD"
-    }
+    "components": [
+      {
+        "speakers": [],
+        "title": "TBD"
+      },
+      {
+        "speakers": [],
+        "title": "TBD"
+      }
+    ]
   },
   {
     "duration": 30,
-    "description": "Closing Remarks"
+    "title": "Closing Remarks"
+  },
+  {
+    "description": "Details coming soon!",
+    "duration": 240,
+    "startTime": 1900,
+    "title": "Evening Dinner Party"
+  },
+  {
+    "description": null,
+    "contentTag": "PoolsideCampfires",
+    "duration": 120,
+    "startTime": 2100
   }
 ]

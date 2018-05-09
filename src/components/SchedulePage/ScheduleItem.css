@@ -1,0 +1,29 @@
+@import '../../layouts/variables.css';
+
+.ScheduleItem {
+  display: block;
+  border-bottom: solid 1px var(--light-dark);
+  padding-bottom: var(--spacer-sm);
+  padding-top: var(--spacer-sm);
+  @media (--medium-screen) {
+    display: flex;
+  }
+}
+
+.ScheduleItem-Time {
+  @apply --heading-2xs;
+  color: var(--accent-light);
+  width: 280px;
+  @media (--medium-screen) {
+    @apply --heading-xs;
+    color: inherit;
+  }
+}
+
+.ScheduleItem-Container {
+  margin-top: var(--spacer-sm);
+  @media (--medium-screen) {
+    flex: 1;
+    margin-top: 0;
+  }
+}
