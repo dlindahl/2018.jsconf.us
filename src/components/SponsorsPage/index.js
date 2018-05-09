@@ -114,8 +114,14 @@ SponsorsPage.propTypes = {
         slug: string.isRequired
       }).isRequired,
       frontmatter: shape({
-        level: oneOf(['community', 'gold', 'platinum', 'scholarship', 'silver'])
-          .isRequired,
+        level: oneOf([
+          'conference',
+          'gold',
+          'platinum',
+          'scholarship',
+          'silver',
+          'startup'
+        ]).isRequired,
         logo: string,
         name: string.isRequired,
         visible: bool.isRequired
