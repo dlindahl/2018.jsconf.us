@@ -8,6 +8,7 @@ import NodeCopter from './Activities/NodeCopter'
 import NodeRockets from './Activities/NodeRockets'
 import Poolside from './Activities/Poolside'
 import React from 'react'
+import ScheduleNav from './ScheduleNav'
 import './SchedulePage.css'
 import SeaKayaking from './Activities/SeaKayaking'
 import Shuttle from './Activities/Shuttle'
@@ -20,55 +21,57 @@ const CYOA_DAY_MSG = `Our "Choose Your Own Adventure" day is what sets JSConf US
 
 const SchedulePage = ({ dayFour, dayOne, dayThree, dayTwo, dayZero }) => (
   <DefaultLayout description="Schedule for JSConf US 2018" title="Schedule">
-    <Day title="Day of Arrival">
-      <TimeTable date="2018-08-20T00:00Z" schedule={dayZero}/>
-    </Day>
-    <Day
-      align="left"
-      content={
-        <div>
-          <h3 className="Day-Subheading">What is Track A?</h3>
-          <p>
-            Track A includes a curated set of speakers that have submitted their
-            proposals and have successfully made it through our selection
-            process.
-          </p>
-          <h3 className="Day-Subheading">What is Track B?</h3>
-          <p>
-            The alternative track for JSConf US is driven by people like you! We
-            have a very unique format in that we let anyone register to speak in
-            a first-come, first-speaking format. These talks are generally from
-            the full range of Node.js development and are some of the most
-            exciting talks at JSConf. Registration opens about one month before
-            the event, so keep your eyes peeled!
-          </p>
-        </div>
-      }
-      focus="Track B registrations opens July 21st"
-      title="First Day of Talks"
-    >
-      <TimeTable date="2018-08-21T00:00Z" schedule={dayOne}/>
-    </Day>
-    <Day content={CYOA_DAY_MSG} title="Day of Activities">
-      <NodeBoats/>
-      <NodeBots/>
-      <NodeCopter/>
-      <NodeRockets/>
-      <Golf/>
-      <Poolside/>
-      <Zoo/>
-      <Surfing/>
-      <SupBoarding/>
-      <SeaKayaking/>
-      <Shuttle/>
-      <TimeTable date="2018-08-22T00:00Z" schedule={dayTwo}/>
-    </Day>
-    <Day title="Last Day of Talks">
-      <TimeTable date="2018-08-23T00:00Z" schedule={dayThree}/>
-    </Day>
-    <Day title="Day of Departure">
-      <TimeTable date="2018-08-24T00:00Z" schedule={dayFour}/>
-    </Day>
+    <ScheduleNav>
+      <Day title="Day of Arrival">
+        <TimeTable date="2018-08-20T00:00Z" schedule={dayZero}/>
+      </Day>
+      <Day
+        align="left"
+        content={
+          <div>
+            <h3 className="Day-Subheading">What is Track A?</h3>
+            <p>
+              Track A includes a curated set of speakers that have submitted
+              their proposals and have successfully made it through our
+              selection process.
+            </p>
+            <h3 className="Day-Subheading">What is Track B?</h3>
+            <p>
+              The alternative track for JSConf US is driven by people like you!
+              We have a very unique format in that we let anyone register to
+              speak in a first-come, first-speaking format. These talks are
+              generally from the full range of Node.js development and are some
+              of the most exciting talks at JSConf. Registration opens about one
+              month before the event, so keep your eyes peeled!
+            </p>
+          </div>
+        }
+        focus="Track B registrations opens July 21st"
+        title="First Day of Talks"
+      >
+        <TimeTable date="2018-08-21T00:00Z" schedule={dayOne}/>
+      </Day>
+      <Day content={CYOA_DAY_MSG} title="Day of Activities">
+        <NodeBoats/>
+        <NodeBots/>
+        <NodeCopter/>
+        <NodeRockets/>
+        <Golf/>
+        <Poolside/>
+        <Zoo/>
+        <Surfing/>
+        <SupBoarding/>
+        <SeaKayaking/>
+        <Shuttle/>
+        <TimeTable date="2018-08-22T00:00Z" schedule={dayTwo}/>
+      </Day>
+      <Day title="Last Day of Talks">
+        <TimeTable date="2018-08-23T00:00Z" schedule={dayThree}/>
+      </Day>
+      <Day title="Day of Departure">
+        <TimeTable date="2018-08-24T00:00Z" schedule={dayFour}/>
+      </Day>
+    </ScheduleNav>
   </DefaultLayout>
 )
 

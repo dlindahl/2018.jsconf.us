@@ -1,26 +1,5 @@
 @import '../../layouts/variables.css';
 
-.Schedule-NavRow {
-  background: var(--js-yellow-lighter);
-  margin-top: 0;
-  padding-bottom: var(--spacer-sm);
-  padding-top: var(--spacer-sm);
-  position: sticky;
-  top: 0;
-}
-
-.Schedule-Nav {
-  grid-column: full;
-}
-
-.Schedule-NavItems {
-  display: flex;
-  flex-direction: row;
-  grid-column: main;
-  justify-content: space-around;
-  list-style: none;
-}
-
 .SchedulePage-LayoutCTA {
   background: var(--light);
   padding: var(--spacer-sm);

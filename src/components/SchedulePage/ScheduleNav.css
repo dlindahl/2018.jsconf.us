@@ -1,0 +1,66 @@
+@import '../../layouts/variables.css';
+
+.Schedule-NavRow {
+  background: var(--js-yellow-lighter);
+  margin-top: 0;
+  padding-bottom: var(--spacer-sm);
+  padding-top: var(--spacer-sm);
+  position: sticky;
+  top: 0;
+}
+
+.Schedule-Nav {
+  grid-column: full;
+}
+
+.Schedule-NavItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.Schedule-NavLink {
+  display: block;
+  @apply --smallcaps-small;
+  color: var(--accent);
+  padding-bottom: var(--spacer-2xs);
+  padding-left: var(--spacer-2xs);
+  padding-right: var(--spacer-2xs);
+  padding-top: var(--spacer-2xs);
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  &::after {
+    background-color: var(--accent-lighter);
+    content: '';
+    height: 4px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    transform: translateY(10px);
+    transition: opacity 0.3s, transform 0.3s;
+    width: 100%;
+  }
+  &:hover {
+    &::after {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+}
+
+.Schedule-LinkTitle {
+  display: none;
+  @media (--small-screen) {
+    display: inline;
+  }
+}
+
+.Schedule-LinkDate {
+  display: inline;
+  @media (--small-screen) {
+    display: none;
+  }
+}
