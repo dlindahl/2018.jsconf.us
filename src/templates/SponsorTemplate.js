@@ -45,7 +45,10 @@ export default SponsorTemplate
 
 export const query = graphql`
   query SponsorPageBySlug($slug: String!) {
-    sponsor: markdownRemark(fields: { slug: { eq: $slug } }) {
+    sponsor: markdownRemark(
+      fields: { slug: { eq: $slug } }
+      frontmatter: { visible: { eq: true } }
+    ) {
       frontmatter {
         component
         logo

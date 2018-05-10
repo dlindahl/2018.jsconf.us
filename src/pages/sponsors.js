@@ -2,13 +2,10 @@ import { arrayOf, object, shape } from 'prop-types'
 import React from 'react'
 import SponsorsPage from '../components/SponsorsPage'
 
-const Sponsors = ({ data: { sponsors: { edges } } }) => (
-  <SponsorsPage
-    data={edges
-      .filter((edge) => edge.node.frontmatter.visible)
-      .map((edge) => edge.node)}
-  />
-)
+const Sponsors = ({ data: { sponsors } }) => {
+  sponsors = sponsors || { edges: [] }
+  return <SponsorsPage data={sponsors.edges.map((edge) => edge.node)}/>
+}
 
 Sponsors.propTypes = {
   data: shape({
@@ -27,7 +24,10 @@ export default Sponsors
 export const query = graphql`
   query SponsorsQuery {
     sponsors: allMarkdownRemark(
-      filter: { fields: { slug: { regex: "/sponsors/" } } }
+      filter: {
+        fields: { slug: { regex: "/sponsors/" } }
+        frontmatter: { visible: { eq: true } }
+      }
     ) {
       edges {
         node {
