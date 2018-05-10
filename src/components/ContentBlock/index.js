@@ -1,4 +1,13 @@
-import { any, arrayOf, bool, func, object, oneOf, string } from 'prop-types'
+import {
+  any,
+  arrayOf,
+  bool,
+  func,
+  number,
+  object,
+  oneOf,
+  string
+} from 'prop-types'
 import classnames from 'classnames'
 import ButtonGroup from '../ButtonGroup'
 import ContentBlockFocus from './ContentBlockFocus'
@@ -22,6 +31,7 @@ const ContentBlock = ({
   layoutItems,
   renderLayoutItem,
   layoutStyle,
+  maxCols,
   subtitle,
   title
 }) => {
@@ -52,6 +62,7 @@ const ContentBlock = ({
           className={layoutClassName}
           items={layoutItems}
           layout={layout}
+          maxCols={maxCols}
           renderItem={renderLayoutItem}
         />
       </ContentStyleTag>
@@ -76,6 +87,7 @@ ContentBlock.propTypes = {
   layoutClassName: string,
   layoutItems: arrayOf(object),
   layoutStyle: oneOf(['full', 'narrow', 'medium', 'wide']),
+  maxCols: number,
   renderLayoutItem: func,
   subtitle: string,
   title: string.isRequired

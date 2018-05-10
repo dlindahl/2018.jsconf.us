@@ -1,4 +1,4 @@
-import { arrayOf, func, object, oneOf, string } from 'prop-types'
+import { arrayOf, func, object, oneOf, number, string } from 'prop-types'
 import React, { cloneElement } from 'react'
 
 import './GridLayout.css'
@@ -12,13 +12,14 @@ function wrap (component) {
   })
 }
 
-const GridLayout = ({ className, items, layout, renderItem }) => {
+const GridLayout = ({ className, items, layout, renderItem, maxCols }) => {
   if (!items.length) {
     return null
   }
-  let maxCols = 3
-  if (items.length !== 3 && items.length <= 4) {
-    maxCols = items.length
+  if (!maxCols) {
+    if (items.length !== 3 && items.length <= 4) {
+      maxCols = items.length
+    }
   }
   if (layout === 'flex') {
     layout = `${layout}-${maxCols}`
@@ -42,6 +43,7 @@ GridLayout.propTypes = {
   className: string,
   items: arrayOf(object),
   layout: oneOf(['1', '1/211/2', '1/11', '12', '11+', '111', 'flex']),
+  maxCols: number,
   renderItem: func.isRequired
 }
 
