@@ -5,7 +5,7 @@ import './TeamMember.css'
 const TeamMember = ({ className, company, href, name, profileUrl, roles }) => {
   const details = roles.join(', ') || company
   return (
-    <li className={`TeamMember ${className}`}>
+    <div className={`TeamMember ${className}`}>
       <a
         className="TeamMember-Link"
         href={href}
@@ -24,7 +24,7 @@ const TeamMember = ({ className, company, href, name, profileUrl, roles }) => {
         <div className="TeamMember-Name">{name}</div>
         <div className="TeamMember-Details">{details}</div>
       </div>
-    </li>
+    </div>
   )
 }
 
