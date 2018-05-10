@@ -1,14 +1,15 @@
-import CallForSpeakers from './CallForSpeakers'
 import CodeOfConduct from './CodeOfConduct'
 import DefaultLayout from '../../layouts/DefaultLayout'
 import Hero from '../Hero'
 import React from 'react'
 import OpportunityScholarship from './OpportunityScholarship'
+import OurSpeakers from './OurSpeakers'
+import { object, shape } from 'prop-types'
 import SponsorshipPromo from './SponsorshipPromo'
 import TicketReleasePromo from './TicketReleasePromo'
 import WeAreBackPromo from './WeAreBackPromo'
 
-const Homepage = (props) => (
+const Homepage = ({ data: { speakers } }) => (
   <DefaultLayout
     hero={
       <Hero
@@ -23,7 +24,7 @@ const Homepage = (props) => (
   >
     <WeAreBackPromo feature/>
     <SponsorshipPromo/>
-    <CallForSpeakers/>
+    <OurSpeakers speakers={speakers}/>
     <TicketReleasePromo/>
     <OpportunityScholarship/>
     <CodeOfConduct/>
@@ -31,3 +32,9 @@ const Homepage = (props) => (
 )
 
 export default Homepage
+
+Homepage.propTypes = {
+  data: shape({
+    speakers: object
+  }).isRequired
+}

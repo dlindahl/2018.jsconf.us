@@ -1,9 +1,21 @@
 @import '../../layouts/variables.css';
 
 .ScheduleItemDetails {
+  color: inherit;
   display: flex;
-  &:not(:first-of-type) {
-    margin-top: var(--spacer-sm);
+  margin-top: var(--spacer-sm);
+  text-decoration: none;
+  transition: color 0.2s;
+  &:nth-child(1) {
+    margin-top: 0;
+  }
+  &[href] {
+    &:hover {
+      color: var(--accent-secondary);
+      & .Avatar {
+        border-color: var(--accent-secondary);
+      }
+    }
   }
 }
 
@@ -26,8 +38,8 @@
 }
 
 .ScheduleItemDetails-Descr {
-  display: flex;
   color: var(--light-darkest);
+  display: flex;
   font-weight: 300;
   margin-top: var(--spacer-2xs);
   &:empty {

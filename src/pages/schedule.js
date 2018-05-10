@@ -66,6 +66,7 @@ export const query = graphql`
           anchor
           components {
             description
+            href
             speakers {
               avatar
               name

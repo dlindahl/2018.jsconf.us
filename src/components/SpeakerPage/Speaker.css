@@ -1,0 +1,26 @@
+@import '../../layouts/variables.css';
+
+.Speaker-Avatar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Speaker-AvatarImg {
+  height: 30vw;
+  max-height: calc(var(--spacer-lg) * 4);
+  max-width: calc(var(--spacer-lg) * 4);
+  min-height: calc(var(--spacer-lg) * 2);
+  min-width: calc(var(--spacer-lg) * 2);
+  object-fit: cover;
+  width: 30vw;
+}
+
+.Speaker-Content {
+  margin-top: var(--spacer-md);
+}
+
+.Speaker-Link {
+  @apply --size--base-0;
+  padding-top: var(--spacer-sm);
+  text-align: center;
+}

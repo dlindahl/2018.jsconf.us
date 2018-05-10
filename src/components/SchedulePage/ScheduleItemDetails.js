@@ -13,6 +13,7 @@ function componentize (speaker) {
 
 const ScheduleItemDetails = ({
   description,
+  href,
   focus,
   anchor,
   speakers,
@@ -24,17 +25,27 @@ const ScheduleItemDetails = ({
     avatars = speakers.map(componentize)
   }
   anchor = anchor || slugify(title)
+  let rootProps = {
+    className: 'ScheduleItemDetails',
+    id: anchor
+  }
+  let RootTag = 'div'
+  if (href) {
+    rootProps = {
+      ...rootProps,
+      href
+    }
+    RootTag = 'a'
+  }
   return (
-    <div className="ScheduleItemDetails">
+    <RootTag {...rootProps}>
       <div className="ScheduleItemDetails-Content">
-        <header className="ScheduleItemDetails-Title" id={anchor}>
-          {title}
-        </header>
+        <header className="ScheduleItemDetails-Title">{title}</header>
         <strong className="ScheduleItemDetails-Focus">{focus}</strong>
         <div className="ScheduleItemDetails-Descr">{description}</div>
       </div>
       <aside className="ScheduleItemDetails-Speakers">{avatars}</aside>
-    </div>
+    </RootTag>
   )
 }
 
@@ -42,6 +53,7 @@ ScheduleItemDetails.propTypes = {
   anchor: string,
   description: string,
   focus: string,
+  href: string,
   speakers: arrayOf(
     shape({
       avatar: string,

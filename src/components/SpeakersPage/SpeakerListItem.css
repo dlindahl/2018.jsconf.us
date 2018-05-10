@@ -1,0 +1,35 @@
+@import '../../layouts/variables.css';
+
+.SpeakerListItem {
+  display: grid;
+  grid-template-rows: calc(var(--spacer-md) * 5) minmax(100px, 1fr);
+  height: auto !important;
+}
+
+.SpeakerListItem-Link {
+  max-width: 100%;
+}
+
+.SpeakerListItem-Avatars {
+  display: flex;
+  height: 100%;
+  &:hover {
+    outline: var(--accent-secondary) auto 5px;
+  }
+}
+
+.SpeakerListItem-AvatarImg {
+  flex: 1;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.SpeakerListItem-Name {
+  @apply --heading-xs;
+  margin-top: var(--spacer-xs);
+}
+
+.SpeakerListItem-TalkTitle {
+  @apply --fine-print;
+  font-style: italic;
+}

@@ -1,21 +1,24 @@
 const p = require('path')
-const genericMarkdownTemplate = p.resolve(
-  `./src/templates/MarkdownPageTemplate.js`
-)
+const markdownTemplate = p.resolve(`./src/templates/MarkdownPageTemplate.js`)
+const speakerTemplate = p.resolve(`./src/templates/SpeakerTemplate.js`)
 const sponsorTemplate = p.resolve(`./src/templates/SponsorTemplate.js`)
 
 const SPONSOR_PAGE = /^\/sponsors\/[^/]+\/$/
+const SPEAKER_PAGE = /^\/speakers\/[^/]+\/$/
 
 module.exports = function markdownPagesGenerator (node, boundActionCreators) {
   // TODO: Reinstate markdown page generation once Splash Page period is over
   const { createPage } = boundActionCreators
   let component
   switch (true) {
+    case SPEAKER_PAGE.test(node.fields.slug):
+      component = speakerTemplate
+      break
     case SPONSOR_PAGE.test(node.fields.slug):
       component = sponsorTemplate
       break
     default:
-      component = genericMarkdownTemplate
+      component = markdownTemplate
   }
   return createPage({
     component,
