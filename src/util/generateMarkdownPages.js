@@ -24,7 +24,7 @@ module.exports = function markdownPagesGenerator (
     default:
       component = markdownTemplate
   }
-  if (!node.frontmatter.visible) {
+  if (node.frontmatter.visible === false) {
     return null
   }
   return createPage({
