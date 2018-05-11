@@ -7,6 +7,9 @@ module.exports = function getMarkdownPages (graphql) {
             fields {
               slug
             }
+            frontmatter {
+              visible
+            }
           }
         }
       }

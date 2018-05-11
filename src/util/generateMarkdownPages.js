@@ -6,7 +6,11 @@ const sponsorTemplate = p.resolve(`./src/templates/SponsorTemplate.js`)
 const SPONSOR_PAGE = /^\/sponsors\/[^/]+\/$/
 const SPEAKER_PAGE = /^\/speakers\/[^/]+\/$/
 
-module.exports = function markdownPagesGenerator (node, boundActionCreators) {
+module.exports = function markdownPagesGenerator (
+  node,
+  boundActionCreators,
+  loadNodeContent
+) {
   // TODO: Reinstate markdown page generation once Splash Page period is over
   const { createPage } = boundActionCreators
   let component
@@ -19,6 +23,9 @@ module.exports = function markdownPagesGenerator (node, boundActionCreators) {
       break
     default:
       component = markdownTemplate
+  }
+  if (!node.frontmatter.visible) {
+    return null
   }
   return createPage({
     component,
