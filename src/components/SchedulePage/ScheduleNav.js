@@ -23,7 +23,6 @@ function componentize (schedule) {
   return (
     <li className="Schedule-NavItem" key={title}>
       <a className="Schedule-NavLink" href={`#${slugify(title)}`}>
-        {date} ==
         <span className="Schedule-LinkDate">{dateformat(date, 'UTC:m/d')}</span>
         <span className="Schedule-LinkTitle">{title}</span>
       </a>
