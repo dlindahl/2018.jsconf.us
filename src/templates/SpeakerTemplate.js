@@ -22,7 +22,10 @@ SpeakerTemplate.propTypes = {
         speakers: arrayOf(
           shape({
             avatar: string,
+            github: string,
+            glitch: string,
             name: string,
+            twitter: string,
             url: string
           })
         ),
@@ -43,7 +46,10 @@ export const query = graphql`
         title
         speakers {
           avatar
+          github
+          glitch
           name
+          twitter
           url
         }
         visible

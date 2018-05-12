@@ -1,8 +1,8 @@
 import { arrayOf, shape, string } from 'prop-types'
 import ContentBlock from '../ContentBlock'
 import React from 'react'
+import SocialLinks from './SocialLinks'
 import './Speaker.css'
-import { pluralize, toSentence } from '../../util/string'
 
 // eslint-disable-next-line react/prop-types
 function avatarize ({ avatar, name, url }) {
@@ -19,12 +19,8 @@ function avatarize ({ avatar, name, url }) {
 }
 
 // eslint-disable-next-line react/prop-types
-function linkize ({ name, url }) {
-  return (
-    <a href={url} key={url}>
-      {name}
-    </a>
-  )
+function socialize (speaker) {
+  return <SocialLinks key={speaker.name} speaker={speaker}/>
 }
 
 const Speaker = ({ html, title, speakers }) => (
@@ -34,10 +30,7 @@ const Speaker = ({ html, title, speakers }) => (
       className="Speaker-Content"
       dangerouslySetInnerHTML={{ __html: html }}
     />
-    <p className="Sponsor-Link">
-      For more information, check out the {toSentence(speakers.map(linkize))}{' '}
-      {pluralize(speakers, 'website', 'websites')}
-    </p>
+    <div className="Speaker-Links">{speakers.map(socialize)}</div>
   </ContentBlock>
 )
 
@@ -46,7 +39,10 @@ Speaker.propTypes = {
   speakers: arrayOf(
     shape({
       avatar: string,
+      github: string,
+      glitch: string,
       name: string,
+      twitter: string,
       url: string
     })
   ),

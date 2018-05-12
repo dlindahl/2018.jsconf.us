@@ -2,7 +2,7 @@
 
 .SpeakerListItem {
   display: grid;
-  grid-template-rows: calc(var(--spacer-md) * 5) minmax(100px, 1fr);
+  grid-template-rows: calc(var(--spacer-md) * 5) minmax(150px, 1fr);
   height: auto !important;
 }
 

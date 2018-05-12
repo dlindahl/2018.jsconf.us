@@ -19,8 +19,10 @@
   margin-top: var(--spacer-md);
 }
 
-.Speaker-Link {
+.Speaker-Links {
+  display: flex;
   @apply --size--base-0;
+  justify-content: space-around;
   padding-top: var(--spacer-sm);
   text-align: center;
 }

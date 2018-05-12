@@ -29,7 +29,6 @@ export const query = graphql`
             speakers {
               avatar
               name
-              url
             }
             title
             visible

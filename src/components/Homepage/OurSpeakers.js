@@ -7,7 +7,7 @@ const MAX_COUNT = 6
 
 const OurSpeakers = ({ speakers, ...props }) => {
   speakers = speakers || { edges: [] }
-  if (!speakers.edges.length) {
+  if (!speakers.edges.length || speakers.edges.length < MAX_COUNT) {
     return null
   }
   const actions = [

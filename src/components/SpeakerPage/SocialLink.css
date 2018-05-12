@@ -1,0 +1,14 @@
+.SocialLink {
+  &::before {
+    content: '';
+    display: inline-block;
+    height: 2em;
+    vertical-align: middle;
+    width: 2em;
+  }
+  &[data-type='twitter'] {
+    &::before {
+      background-image: url(/img/icons/Twitter_Logo_Blue.svg);
+    }
+  }
+}

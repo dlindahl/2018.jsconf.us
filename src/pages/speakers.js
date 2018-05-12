@@ -28,6 +28,7 @@ export const query = graphql`
         fields: { slug: { regex: "/speakers/" } }
         frontmatter: { visible: { eq: true } }
       }
+      sort: { fields: [fields___slug], order: ASC }
     ) {
       edges {
         node {
@@ -37,7 +38,9 @@ export const query = graphql`
           frontmatter {
             speakers {
               avatar
+              github
               name
+              twitter
               url
             }
             title
