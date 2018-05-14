@@ -67,6 +67,8 @@ This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-u
 
 #### April 24th, 2018 at 2:00 PM EST (11:00 AM PST)
 
+**LAST CHANCE!**
+
 The "San Luis Obiso"-class ticket is named after San Luis Obispo Country, the largest region in the Central Coast region of California!
 
 This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-us-2018.
