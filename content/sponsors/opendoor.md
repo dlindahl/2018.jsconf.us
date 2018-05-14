@@ -4,7 +4,7 @@ level: conference
 logo: /img/sponsors/logos/opendoor.svg
 name: Opendoor
 scholarship: false
-url: https://www.opendoor.com/
+url: https://www.opendoor.com/jobs
 visible: true
 ---
 
