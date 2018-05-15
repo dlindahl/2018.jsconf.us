@@ -57,21 +57,21 @@ Below are the pricing tiers for JSConf US 2018. We have tried to tier the ticket
 
 **SOLD OUT!**
 
-~~The "Sacramento"-class ticket is named after Sacramento County, the largest region in the Central Valley region of California!
+~~The "Sacramento"-class ticket is named after Sacramento County, the largest region in the Central Valley region of California!~~
 
-This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-us-2018.~~
+~~This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-us-2018.~~
 
-## San Luis Obispo
+## ~~San Luis Obispo~~
 
-### $1,050
+### ~~$1,050~~
 
-#### April 24th, 2018 at 2:00 PM EDT (11:00 AM PDT)
+#### ~~April 24th, 2018 at 2:00 PM EDT (11:00 AM PDT)~~
 
-**LAST CHANCE!**
+**SOLD OUT!**
 
-The "San Luis Obiso"-class ticket is named after San Luis Obispo Country, the largest region in the Central Coast region of California!
+~~The "San Luis Obiso"-class ticket is named after San Luis Obispo Country, the largest region in the Central Coast region of California!~~
 
-This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-us-2018.
+~~This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-us-2018.~~
 
 ## Humboldt
 
