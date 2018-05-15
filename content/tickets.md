@@ -87,7 +87,7 @@ This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-u
 
 ### $1,999
 
-#### May 15th, 2018 at 1:00 PM EST (10:00 AM PST)
+#### May 15th, 2018 at 1:00 PM EDT (10:00 AM PDT)
 
 Fun Fact: The "El Segundo"-class ticket is named after the "A Tribe Called Quest" song, "I Left My Wallet In El Segundo." You gotta get it, you got-got ta get it!
 
