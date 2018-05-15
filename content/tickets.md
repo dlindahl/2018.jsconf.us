@@ -41,7 +41,7 @@ Below are the pricing tiers for JSConf US 2018. We have tried to tier the ticket
 
 ### ~~$850~~
 
-#### ~~April 3rd, 2018 at 1:00 PM EST (10:00 AM PST)~~
+#### ~~April 3rd, 2018 at 1:00 PM EDT (10:00 AM PDT)~~
 
 **SOLD OUT!**
 
@@ -53,7 +53,7 @@ Below are the pricing tiers for JSConf US 2018. We have tried to tier the ticket
 
 ### ~~$1,050~~
 
-#### ~~April 24th, 2018 at 9:00 AM EST (6:00 AM PST)~~
+#### ~~April 24th, 2018 at 9:00 AM EDT (6:00 AM PDT)~~
 
 **SOLD OUT!**
 
@@ -65,7 +65,7 @@ This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-u
 
 ### $1,050
 
-#### April 24th, 2018 at 2:00 PM EST (11:00 AM PST)
+#### April 24th, 2018 at 2:00 PM EDT (11:00 AM PDT)
 
 **LAST CHANCE!**
 
