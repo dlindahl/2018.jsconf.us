@@ -77,7 +77,7 @@ This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-u
 
 ### $1,600
 
-#### May 15th, 2018 at 1:00 PM EST (10:00 AM PST)
+#### May 15th, 2018 at 9:00 AM EDT (6:00 AM PDT)
 
 Fun Fact: The "Humboldt"-class ticket is named after the westernmost county in California, a great place to catch a late sunset!
 
