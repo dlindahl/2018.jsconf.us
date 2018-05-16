@@ -77,7 +77,7 @@ ContentBlock.defaultProps = {
 }
 
 ContentBlock.propTypes = {
-  actions: arrayOf(any),
+  actions: any,
   align: oneOf(['center', 'left']),
   children: any,
   className: string,
