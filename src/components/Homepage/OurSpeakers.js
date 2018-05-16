@@ -28,7 +28,7 @@ const OurSpeakers = ({ speakers, ...props }) => {
 OurSpeakers.propTypes = {
   speakers: shape({
     edges: array
-  }).isRequired
+  })
 }
 
 export default OurSpeakers
