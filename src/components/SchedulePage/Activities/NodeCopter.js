@@ -1,4 +1,5 @@
 import Activity from '../Activity'
+import LinkButton from '../../LinkButton'
 import PhotoCell from '../../GridLayout/PhotoCell'
 import React from 'react'
 
@@ -27,19 +28,25 @@ function renderLayoutItem (itemProps) {
   return <PhotoCell key={itemProps.src} {...itemProps}/>
 }
 
-const NodeCopter = () => (
-  <Activity
-    layout="12"
-    layoutItems={IMAGES}
-    renderLayoutItem={renderLayoutItem}
-    times="9:00AM - 6:00PM"
-    title="NodeCopter"
-  >
-    <p>
-      Team up (or go solo), hack a quadcopter using Node.js, and make a flying
-      robot do your bidding!
-    </p>
-  </Activity>
-)
+const NodeCopter = () => {
+  const actions = (
+    <LinkButton href="/team/#nodecopter">Meet The Team</LinkButton>
+  )
+  return (
+    <Activity
+      actions={actions}
+      layout="12"
+      layoutItems={IMAGES}
+      renderLayoutItem={renderLayoutItem}
+      times="9:00AM - 6:00PM"
+      title="NodeCopter"
+    >
+      <p>
+        Team up (or go solo), hack a quadcopter using Node.js, and make a flying
+        robot do your bidding!
+      </p>
+    </Activity>
+  )
+}
 
 export default NodeCopter

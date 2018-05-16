@@ -1,4 +1,5 @@
 import Activity from '../Activity'
+import LinkButton from '../../LinkButton'
 import PhotoCell from '../../GridLayout/PhotoCell'
 import React from 'react'
 
@@ -29,24 +30,28 @@ function renderLayoutItem (itemProps) {
   return <PhotoCell key={itemProps.src} {...itemProps}/>
 }
 
-const NodeBots = () => (
-  <Activity
-    layout="12"
-    layoutItems={IMAGES}
-    renderLayoutItem={renderLayoutItem}
-    times="9:00AM - 6:00PM"
-    title="NodeBots"
-  >
-    <p>
-      Team up (or go solo) to hack together Arduino-based robots, all using just
-      JavaScript!
-    </p>
-    <p>
-      If you have no idea what an LED is, or a resistor for that matter, have no
-      fear! NodeBot experts will be on-hand to help you hack, solder, and 3D
-      print your way to a full fledged NodeBot!
-    </p>
-  </Activity>
-)
+const NodeBots = () => {
+  const actions = <LinkButton href="/team/#nodebots">Meet The Team</LinkButton>
+  return (
+    <Activity
+      actions={actions}
+      layout="12"
+      layoutItems={IMAGES}
+      renderLayoutItem={renderLayoutItem}
+      times="9:00AM - 6:00PM"
+      title="NodeBots"
+    >
+      <p>
+        Team up (or go solo) to hack together Arduino-based robots, all using
+        just JavaScript!
+      </p>
+      <p>
+        If you have no idea what an LED is, or a resistor for that matter, have
+        no fear! NodeBot experts will be on-hand to help you hack, solder, and
+        3D print your way to a full fledged NodeBot!
+      </p>
+    </Activity>
+  )
+}
 
 export default NodeBots
