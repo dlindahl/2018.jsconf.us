@@ -1,9 +1,9 @@
 ---
-component: NodeBots Sponsor
+component: 
 level: gold
 logo: /img/sponsors/logos/twilio.svg
 name: Twilio
-scholarship: true
+scholarship: false
 url: https://twilio.com
 visible: false
 ---
