@@ -5,7 +5,7 @@ logo: /img/sponsors/logos/twilio.svg
 name: Twilio
 scholarship: false
 url: https://twilio.com
-visible: false
+visible: true
 ---
 
 Twilio is a cloud communications platform for software developers to build, scale and operate real time communications in their software applications.
