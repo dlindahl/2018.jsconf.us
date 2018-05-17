@@ -1,5 +1,5 @@
 ---
-component: 
+component: ""
 level: gold
 logo: /img/sponsors/logos/twilio.svg
 name: Twilio
