@@ -17,7 +17,7 @@ import Surfing from './Activities/Surfing'
 import TimeTable from './TimeTable'
 import Zoo from './Activities/Zoo'
 
-const CYOA_DAY_MSG = `Our "Choose Your Own Adventure" day is what sets JSConf US apart from other conferences. It provides you with an extraordinary opportunity to socialize with the brightest minds in our community while providing a brief respite from the mind-bending material delivered during our talks. Activities are provided on a first come, first serve basis and registration details will be emailed to all register attendees.`
+const CYOA_DAY_MSG = `Our "Choose Your Own Adventure" day is what sets JSConf US apart from other conferences. It provides you with an extraordinary opportunity to socialize with the brightest minds in our community while providing a brief respite from the mind-bending material delivered during our talks. Activities are provided on a first come, first serve basis and registration details will be emailed to all registered attendees.`
 
 const SchedulePage = ({ dayFour, dayOne, dayThree, dayTwo, dayZero }) => (
   <DefaultLayout description="Schedule for JSConf US 2018" title="Schedule">
