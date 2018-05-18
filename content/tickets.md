@@ -33,6 +33,20 @@ JSConf US 2018 will be held at the [Omni La Costa Spa & Resort](https://www.omni
 >
 > The Omni La Costa has provided JSConf US attendees a special room rate of $239 a night for the duration of the conference. Once you have purchased your ticket, be sure to book your hotel room in [the official JSConf US room block](https://www.omnihotels.com/hotels/san-diego-la-costa/meetings/js-conference)!
 
+## The Program
+
+### The Talks
+
+JSConf US has 40 speakers in two tracks over the course of two days. We've had talks that push the language outside of its comfort zone, the web browser, and into the forefront of [drones](http://nodecopter.com/), [robots](http://nodebots.io/), and [video games](http://www.youtube.com/watch?v=O83-d0t0Ldw). Which [idea will change the world](https://www.youtube.com/watch?v=GW0rj4sNH2w)?
+
+<!--
+Check out our [line-up of speakers](/speakers/) and [find out when your favorites are speaking](/schedule/)!
+-->
+
+### The Activities
+
+We offer an extraordinary opportunity to socialize with the brightest minds in our community while providing a brief respite from the mind-bending material delivered during our talks. From [NodeBoats](/schedule/#nodeboats) to [surf lessons](/schedule/#surf-lessons-at-la-jolla) and the [zoo](/schedule/#safari-zoo-adventure), our ["Choose Your Own Adventure" day](/schedule/#day-of-activities) is filled with a wide variety of activities that are sure to create relationships that last a lifetime.
+
 # Pricing Details
 
 Below are the pricing tiers for JSConf US 2018. We have tried to tier the ticket release batches so that anyone around the world can access them when they first open up. If we have missed something, or you need assistance, please [contact us directly](mailto:derek@jsconf.us).
