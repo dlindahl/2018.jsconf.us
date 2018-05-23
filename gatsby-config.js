@@ -59,7 +59,7 @@ module.exports = {
   siteMetadata: {
     baseUrl: '',
     description: `2018 iteration of JSConf US`,
-    siteUrl: `http://jsconf.us`,
+    siteUrl: `https://2018.jsconf.us`,
     title: `JSConf US 2018`
   }
 }
