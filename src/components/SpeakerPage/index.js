@@ -6,7 +6,7 @@ import React from 'react'
 import Speaker from './Speaker'
 import { slugify, toSentence } from '../../util/string'
 
-const SpeakerPage = ({ html, title, url, speakers, visible }) => {
+const SpeakerPage = ({ description, html, title, url, speakers, visible }) => {
   if (!visible) {
     return null // TODO 404? Redirect?
   }
@@ -17,11 +17,14 @@ const SpeakerPage = ({ html, title, url, speakers, visible }) => {
   return (
     <DefaultLayout description={title} title={names}>
       <Helmet title={metaTitle}>
+        <meta content={description} name="description"/>
         <meta content="summary_large_image" name="twitter:card"/>
+        <meta content={description} property="twitter:description"/>
         <meta content={metaTitle} property="twitter:title"/>
         <meta content={card} property="twitter:image"/>
         <meta content="@JSConfUS" name="twitter:site"/>
         <meta content={metaTitle} property="og:title"/>
+        <meta content={description} property="og:description"/>
         <meta content={img} property="og:image"/>
       </Helmet>
       <Speaker html={html} speakers={speakers} title={title}/>
@@ -30,6 +33,7 @@ const SpeakerPage = ({ html, title, url, speakers, visible }) => {
 }
 
 SpeakerPage.propTypes = {
+  description: string.isRequired,
   html: string.isRequired,
   speakers: arrayOf(
     shape({
