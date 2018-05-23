@@ -1,4 +1,5 @@
 ---
+description: Neha will show us how to build accessible React components & how to test them!
 title: How to be an a11y - Creating Accessible React Apps
 speakers:
 - avatar: /img/speakers/neha-nivedita.jpg
