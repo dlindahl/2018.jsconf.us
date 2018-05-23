@@ -24,7 +24,7 @@ function toSentenceJSX (items) {
 
 function toSentence (items) {
   if (items.length < 2) {
-    return items
+    return items[0]
   }
   if (React.isValidElement(items[0])) {
     return toSentenceJSX(items)
