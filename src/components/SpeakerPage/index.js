@@ -12,7 +12,8 @@ const SpeakerPage = ({ html, title, url, speakers, visible }) => {
   }
   const names = toSentence(speakers.map((speaker) => speaker.name))
   const metaTitle = `${names}: ${title}`
-  const img = absoluteUrl(`/img/speakers/${slugify(names)}-plate.png?refresh`)
+  const card = absoluteUrl(`/img/speakers/${slugify(names)}-card.png`)
+  const img = absoluteUrl(`/img/speakers/${slugify(names)}-plate.png`)
   return (
     <DefaultLayout description={title} title={names}>
       <Helmet title={metaTitle}>
@@ -20,7 +21,7 @@ const SpeakerPage = ({ html, title, url, speakers, visible }) => {
         <meta content={img} property="og:image"/>
         <meta content="summary_large_image" name="twitter:card"/>
         <meta content={metaTitle} property="twitter:title"/>
-        <meta content={img} property="twitter:image"/>
+        <meta content={card} property="twitter:image"/>
         <meta content="@JSConfUS" name="twitter:site"/>
       </Helmet>
       <Speaker html={html} speakers={speakers} title={title}/>
