@@ -7,7 +7,7 @@ speakers:
   name: Myles Borins
   twitter: mylesborins
   url: https://mylesborins.com
-visible: false
+visible: true
 ---
 
 Machine learning algorithms can infer gender when translating from gender neutral languages to english due to bias in training data.
