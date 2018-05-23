@@ -18,6 +18,7 @@ const SpeakerPage = ({ html, title, url, speakers, visible }) => {
       <Helmet title={metaTitle}>
         <meta content="summary_large_image" name="twitter:card"/>
         <meta content="@JSConfUS" name="twitter:site"/>
+        <meta content={img} property="twitter:image"/>
         <meta content={img} property="og:image"/>
         <meta content={metaTitle} property="og:title"/>
       </Helmet>
