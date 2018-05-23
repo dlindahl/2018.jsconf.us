@@ -1,14 +1,30 @@
+@import '../../layouts/variables.css';
+
 .SocialLink {
+  margin-top: var(--spacer-2xs);
   &::before {
+    background-repeat: no-repeat;
+    background-size: contain;
     content: '';
     display: inline-block;
-    height: 2em;
+    height: 1.5em;
+    margin-right: 0.75ch;
     vertical-align: middle;
-    width: 2em;
+    width: 1.5em;
+  }
+  &[data-type='github'] {
+    &::before {
+      background-image: url(/img/icons/github.svg);
+    }
+  }
+  &[data-type='glitch'] {
+    &::before {
+      background-image: url(/img/icons/glitch.svg);
+    }
   }
   &[data-type='twitter'] {
     &::before {
-      background-image: url(/img/icons/Twitter_Logo_Blue.svg);
+      background-image: url(/img/icons/twitter-blue.svg);
     }
   }
 }
