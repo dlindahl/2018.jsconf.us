@@ -1,16 +1,26 @@
+import { absoluteUrl } from '../../util/urlFilters'
 import { arrayOf, bool, shape, string } from 'prop-types'
 import DefaultLayout from '../../layouts/DefaultLayout'
+import Helmet from 'react-helmet'
 import React from 'react'
 import Speaker from './Speaker'
-import { toSentence } from '../../util/string'
+import { slugify, toSentence } from '../../util/string'
 
-const SpeakerPage = ({ html, title, speakers, visible }) => {
+const SpeakerPage = ({ html, title, url, speakers, visible }) => {
   if (!visible) {
     return null // TODO 404? Redirect?
   }
   const names = toSentence(speakers.map((speaker) => speaker.name))
+  const metaTitle = `${names}: ${title}`
+  const img = absoluteUrl(`/img/speakers/${slugify(names)}-plate.png`)
   return (
     <DefaultLayout description={title} title={names}>
+      <Helmet title={metaTitle}>
+        <meta content="summary_large_image" name="twitter:card"/>
+        <meta content="@JSConfUS" name="twitter:site"/>
+        <meta content={img} property="og:image"/>
+        <meta content={metaTitle} property="og:title"/>
+      </Helmet>
       <Speaker html={html} speakers={speakers} title={title}/>
     </DefaultLayout>
   )
@@ -26,6 +36,7 @@ SpeakerPage.propTypes = {
     })
   ),
   title: string.isRequired,
+  url: string.isRequired,
   visible: bool.isRequired
 }
 

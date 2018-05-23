@@ -1,3 +1,4 @@
+import { absoluteUrl } from '../util/urlFilters'
 import { element, node, string } from 'prop-types'
 import Footer from '../components/Footer'
 import Head from 'react-helmet'
@@ -20,6 +21,7 @@ const DefaultLayout = ({ children, description, title, hero }) => {
         <link href="https://fonts.googleapis.com/" rel="preconnect"/>
         <link href="https://ti.to" rel="preconnect"/>
         <link href="https://ti.to/jsconf-us/jsconf-us-2018" rel="prefetch"/>
+        <meta content={absoluteUrl('/')} property="og:url"/>
       </Head>
       <Header>{hero}</Header>
       <main>{children}</main>

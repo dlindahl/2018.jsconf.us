@@ -1,15 +1,18 @@
+import { absoluteUrl } from '../util/urlFilters'
 import { any, arrayOf, bool, shape, string } from 'prop-types'
 import React from 'react'
 import SpeakerPage from '../components/SpeakerPage'
 
 const SpeakerTemplate = ({
   data: { speaker: { frontmatter: { title, speakers, visible }, html } },
+  location,
   ...props
 }) => (
   <SpeakerPage
     html={html}
     speakers={speakers}
     title={title}
+    url={absoluteUrl(location.pathname)}
     visible={visible}
   />
 )
@@ -34,6 +37,9 @@ SpeakerTemplate.propTypes = {
       }).isRequired,
       html: string.isRequired
     }).isRequired
+  }).isRequired,
+  location: shape({
+    pathname: string.isRequired
   }).isRequired
 }
 
