@@ -16,11 +16,12 @@ const SpeakerPage = ({ html, title, url, speakers, visible }) => {
   return (
     <DefaultLayout description={title} title={names}>
       <Helmet title={metaTitle}>
-        <meta content="summary_large_image" name="twitter:card"/>
-        <meta content="@JSConfUS" name="twitter:site"/>
-        <meta content={img} property="twitter:image"/>
-        <meta content={img} property="og:image"/>
         <meta content={metaTitle} property="og:title"/>
+        <meta content={img} property="og:image"/>
+        <meta content="summary_large_image" name="twitter:card"/>
+        <meta content={metaTitle} property="twitter:title"/>
+        <meta content={img} property="twitter:image"/>
+        <meta content="@JSConfUS" name="twitter:site"/>
       </Helmet>
       <Speaker html={html} speakers={speakers} title={title}/>
     </DefaultLayout>
