@@ -8,11 +8,11 @@ speakers:
   twitter: buritica
   url: https://buriti.ca
 - avatar: /img/speakers/julian-duque.jpg
-  github:
+  github: julianduque
   glitch:
   name: Julián David Duque
-  twitter:
-  url:
+  twitter: julian_duque
+  url: https://about.me/julianduque
 visible: false
 ---
 
