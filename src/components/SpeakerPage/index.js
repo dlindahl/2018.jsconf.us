@@ -12,7 +12,7 @@ const SpeakerPage = ({ html, title, url, speakers, visible }) => {
   }
   const names = toSentence(speakers.map((speaker) => speaker.name))
   const metaTitle = `${names}: ${title}`
-  const img = absoluteUrl(`/img/speakers/${slugify(names)}-plate.png`)
+  const img = absoluteUrl(`/img/speakers/${slugify(names)}-plate.png?refresh`)
   return (
     <DefaultLayout description={title} title={names}>
       <Helmet title={metaTitle}>
