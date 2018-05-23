@@ -1,9 +1,16 @@
 [
   {
-    "company": "",
+    "company": "Lifeway",
     "href": "https://twitter.com/kevinold",
     "name": "Kevin Old",
     "profileUrl": "/img/team/kevin.jpg",
     "twitter": "kevinold"
+  },
+  {
+    "company": "",
+    "href": "https://twitter.com/sandeepmistry",
+    "name": "Sandeep Mistry",
+    "profileUrl": "/img/team/smistry.jpg",
+    "twitter": "sandeepmistry"
   }
 ]
