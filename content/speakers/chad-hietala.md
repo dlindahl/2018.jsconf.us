@@ -8,7 +8,7 @@ speakers:
   name: Chad Hietala
   twitter: chadhietala
   url:
-visible: false
+visible: true
 ---
 
 Web Developers have been reliant on compilers for the better part of a decade. But what actually is a compiler? Why are they important? How do compilers fit in with the emergence of WebAssembly? This talk will look at how this fundamental building block will unlock the next evolution of web performance.
