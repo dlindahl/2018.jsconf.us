@@ -1,5 +1,5 @@
 ---
-description: Take a look at how compilers are unlocking the next evolution of web performance.
+description: What actually is a compiler? Why are they important? Take a look at how compilers are unlocking the next evolution of web performance.
 title: "Compilers: The Next Frontier In Web Performance"
 speakers:
 - avatar: /img/speakers/chad-hietala.jpg
