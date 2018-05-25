@@ -1,6 +1,9 @@
 const React = require('react')
 
 function slugify (str) {
+  if (!str) {
+    return undefined
+  }
   return str
     .trim()
     .toLowerCase()
