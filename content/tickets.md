@@ -33,6 +33,24 @@ JSConf US 2018 will be held at the [Omni La Costa Spa & Resort](https://www.omni
 >
 > The Omni La Costa has provided JSConf US attendees a special room rate of $239 a night for the duration of the conference. Once you have purchased your ticket, be sure to book your hotel room in [the official JSConf US room block](https://www.omnihotels.com/hotels/san-diego-la-costa/meetings/js-conference)!
 
+#### Alternative Lodging
+
+While we highly recommend staying at the Omni La Costa due to the immediate proximity to all of our activities, there are several nearby alternatives available to you:
+
+* [AirBNB][airbnb]
+* [Holiday Inn Express][hie]
+* [La Quinta Inn & Suites][laquinta]
+* [Ramada Inn][ramada]
+* [Courtyard Marriott][marriott]
+* [Quality Inn][qualityinn]
+* [Motel 6][motel6]
+
+Please note that you will be responsible for your own transportation to and from the venue if you stay off-site.
+
+#### Staying Off-Site?
+
+If you are staying in a nearby hotel, or are local to the Carlsbad area, valet and self-parking is available for free during the course of the conference. All overnight parking is subject to the [posted parking rates of the Omni La Costa](https://www.omnihotels.com/hotels/san-diego-la-costa/property-details/directions).
+
 ## The Program
 
 ### The Talks
@@ -144,3 +162,11 @@ By purchasing, you agree to the following terms and conditions:
 > I understand and agree that my ticket covers admittance to all conference talks, activities, social events, and meals only for myself and any travel support personnel that I may require and **does not** cover any travel companions or family members. I understand that if I am caught admitting non-ticketed individuals to any of the aforementioned activities and meals that I may be asked to immediately leave the conference without a refund.
 >
 > I understand and agree to try to have an amazing time!
+
+[airbnb]: https://www.airbnb.com/s/Carlsbad--CA--United-States/homes?refinement_paths%5B%5D=%2Fhomes&query=Carlsbad%2C%20CA%2C%20United%20States&allow_override%5B%5D=&ne_lat=33.12782411598079&ne_lng=-117.2302325085534&sw_lat=33.05944898272838&sw_lng=-117.30336025513543&zoom=13&search_by_map=true&checkin=2018-08-20&checkout=2018-08-24&s_tag=0CAdfYxC
+[hie]: https://www.ihg.com/holidayinnexpress/hotels/us/en/carlsbad/ocnes/hoteldetail
+[motel6]: https://www.motel6.com/en/motels.ca.carlsbad.471.html?lid=X_PMG_NaturalSearch_Local_Google_471&utm_source=local&utm_medium=local&utm_campaign=googlelocal-471
+[ramada]: https://www.wyndhamhotels.com/ramada/carlsbad-california/ramada-carlsbad-by-the-sea/overview?CID=LC:RA::GGL:RIO:National:01067&iata=00065402
+[laquinta]: https://www.lq.com/en/hotels/california/carlsbad/carlsbad-legoland-area?indate=08%2F20%2F2018&outdate=08%2F24%2F2018&searchType=GEO&bookingPage=address&lat=33.10635&lon=-117.31404&hotelId=6120&adults=1&numChildren=0&rooms=1&specialRates=RAC&from=%2Fcontent%2Flq%2Flq-com%2Fen%2Fnavigation%2Ffindandbook%2Fdynamic-pages%2Fhotel-search-results¤cyCode=USD&searchRadius=40&smokingPreference=NSMK&searchWithReturns=false&excludeFromStart=&corridorRadius=10&searchDCity=&searchDState=&searchOCity=&searchOState=&cid=lqms6120
+[marriott]: https://www.marriott.com/hotels/travel/sancs-courtyard-san-diego-carlsbad-mcclellan-palomar-airport/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2
+[qualityinn]: https://www.choicehotels.com/california/encinitas/quality-inn-hotels/ca889/rates?checkInDate=2018-08-20&checkOutDate=2018-08-24
