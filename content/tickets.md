@@ -73,7 +73,7 @@ Below are the pricing tiers for JSConf US 2018. We have tried to tier the ticket
 
 ### ~~$850~~
 
-#### ~~April 3rd, 2018 at 1:00 PM EDT (10:00 AM PDT)~~
+#### ~~Released on April 3rd, 2018 at 1:00 PM EDT (10:00 AM PDT)~~
 
 **SOLD OUT!**
 
@@ -85,7 +85,7 @@ Below are the pricing tiers for JSConf US 2018. We have tried to tier the ticket
 
 ### ~~$1,050~~
 
-#### ~~April 24th, 2018 at 9:00 AM EDT (6:00 AM PDT)~~
+#### ~~Released on April 24th, 2018 at 9:00 AM EDT (6:00 AM PDT)~~
 
 **SOLD OUT!**
 
@@ -97,7 +97,7 @@ Below are the pricing tiers for JSConf US 2018. We have tried to tier the ticket
 
 ### ~~$1,050~~
 
-#### ~~April 24th, 2018 at 2:00 PM EDT (11:00 AM PDT)~~
+#### ~~Released on April 24th, 2018 at 2:00 PM EDT (11:00 AM PDT)~~
 
 **SOLD OUT!**
 
@@ -109,7 +109,7 @@ Below are the pricing tiers for JSConf US 2018. We have tried to tier the ticket
 
 ### $1,600
 
-#### May 15th, 2018 at 9:00 AM EDT (6:00 AM PDT)
+#### Released on May 15th, 2018 at 9:00 AM EDT (6:00 AM PDT)
 
 Fun Fact: The "Humboldt"-class ticket is named after the westernmost county in California, a great place to catch a late sunset!
 
@@ -119,7 +119,7 @@ This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-u
 
 ### $1,999
 
-#### May 15th, 2018 at 1:00 PM EDT (10:00 AM PDT)
+#### Released on May 15th, 2018 at 1:00 PM EDT (10:00 AM PDT)
 
 Fun Fact: The "El Segundo"-class ticket is named after the "A Tribe Called Quest" song, "I Left My Wallet In El Segundo." You gotta get it, you got-got ta get it!
 
