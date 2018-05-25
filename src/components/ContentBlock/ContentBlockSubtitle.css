@@ -1,0 +1,7 @@
+@import '../../layouts/variables.css';
+
+.ContentBlock-Subtitle {
+  @apply --smallcaps-black; 
+  color: var(--accent-secondary-dark);
+  text-align: center;
+}
