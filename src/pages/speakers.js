@@ -1,10 +1,11 @@
 import { arrayOf, object, shape } from 'prop-types'
+import { nodes } from '../util/array'
 import React from 'react'
 import SpeakersPage from '../components/SpeakersPage'
 
 const Speakers = ({ data: { speakers } }) => {
   speakers = speakers || { edges: [] }
-  return <SpeakersPage data={speakers.edges.map((edge) => edge.node)}/>
+  return <SpeakersPage data={nodes(speakers)}/>
 }
 
 Speakers.propTypes = {
@@ -25,7 +26,7 @@ export const query = graphql`
   query SpeakersQuery {
     speakers: allMarkdownRemark(
       filter: {
-        fields: { slug: { regex: "/speakers/" } }
+        fields: { slug: { regex: "/^/speakers/" } }
         frontmatter: { visible: { eq: true } }
       }
       sort: { fields: [fields___slug], order: ASC }

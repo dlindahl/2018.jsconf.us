@@ -4,7 +4,7 @@ import './SpeakerListItem.css'
 import { toSentence } from '../../util/string'
 
 // eslint-disable-next-line react/prop-types
-function avatarize ({ avatar, name, url }) {
+function avatarize ({ avatar, name }) {
   return (
     <img
       alt=""
@@ -42,8 +42,7 @@ SpeakerListItem.propTypes = {
   speakers: arrayOf(
     shape({
       avatar: string.isRequired,
-      name: string.isRequired,
-      url: string.isRequired
+      name: string.isRequired
     })
   ).isRequired,
   title: string.isRequired
