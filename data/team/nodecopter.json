@@ -12,5 +12,12 @@
     "name": "Sandeep Mistry",
     "profileUrl": "/img/team/smistry.jpg",
     "twitter": "sandeepmistry"
+  },
+  {
+    "company": "Iced Dev",
+    "href": "https://twitter.com/monteslu",
+    "name": "Luis Montes",
+    "profileUrl": "/img/team/lmontes.jpg",
+    "twitter": "monteslu"
   }
 ]
