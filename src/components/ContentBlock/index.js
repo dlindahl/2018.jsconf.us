@@ -42,6 +42,7 @@ const ContentBlock = ({
     <GridRow className={`ContentBlock ${className}`} id={slugify(title)}>
       <ContentBlockBody
         actions={actions}
+        align={align}
         feature={feature}
         focus={focus}
         subtitle={subtitle}
