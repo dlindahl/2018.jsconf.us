@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import Head from 'react-helmet'
 import Header from '../components/Header'
 import React from 'react'
+import ScrollToHash from '../components/ScrollToHash'
 import TitleBlock from '../components/TitleBlock'
 
 import './DefaultLayout.css'
@@ -23,6 +24,7 @@ const DefaultLayout = ({ children, description, title, hero }) => {
         <link href="https://ti.to/jsconf-us/jsconf-us-2018" rel="prefetch"/>
         <meta content={absoluteUrl('/')} property="og:url"/>
       </Head>
+      <ScrollToHash/>
       <Header>{hero}</Header>
       <main>{children}</main>
       <Footer/>
