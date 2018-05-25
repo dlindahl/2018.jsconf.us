@@ -58,6 +58,11 @@ export default class Header extends React.Component {
                   </a>
                 </li>
                 <li className="Header-LinkItem">
+                  <a className="Header-Link" href="/speakers/">
+                    Speakers
+                  </a>
+                </li>
+                <li className="Header-LinkItem">
                   <a className="Header-Link" href="/schedule/">
                     Schedule
                   </a>
