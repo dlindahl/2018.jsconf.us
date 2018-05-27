@@ -7,7 +7,7 @@ speakers:
   name: Rachel White
   twitter: ohhoe
   url: http://rachelisaweso.me
-visible: false
+visible: true
 ---
 
 🎶 Imagination, imagination. A dream, can be, a dream come true. With just that spark, in me and you! 🎶

@@ -7,7 +7,7 @@ speakers:
   name: "Kevin O'Neil"
   twitter: __kev__oneil
   url: http://tokyoincode.com/
-visible: false
+visible: true
 ---
 
 As a visually impaired front end developer, our profession can bring its own set of challenges; however, there are many tools and techniques that
