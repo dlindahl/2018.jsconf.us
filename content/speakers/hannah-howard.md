@@ -1,4 +1,5 @@
 ---
+description: Find RxJS conceptually difficult? Hannah wants to help make it easier to understand by sharing tools for RxJS that make the Functional Reactive Programming learning curve simpler.
 title: "RxJS: A Better Way To Write Frontend Applications"
 speakers:
 - avatar: /img/speakers/hannah-howard.jpg
