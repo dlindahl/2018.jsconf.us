@@ -8,7 +8,7 @@ speakers:
   name: Feross Aboukhadijeh
   twitter: feross
   url: https://feross.org/
-visible: false
+visible: true
 ---
 
 It's 2018. The web platform offers dozens of powerful, native-like APIs. What if we used this newfound power for evil? What kind of terrible UX could we create if our goal was to build the worst web page in the world?
