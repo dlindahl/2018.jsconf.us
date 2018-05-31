@@ -1,4 +1,5 @@
 ---
+description: by recognizing pixels as objects with properties, like color and position, and capitalizing on the trend of graphics editors implementing javascript-powered plugin extensions, jenn will reveal how javascript is as much a medium for art then ever before
 title: literally everything is pixel art
 speakers:
 - avatar: /img/speakers/jenn-schiffer.png
