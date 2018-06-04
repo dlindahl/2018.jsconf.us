@@ -17,8 +17,9 @@ function renderTick ({ contentTag, ...item }, key) {
 
 const TimeTable = ({ date, schedule }) => {
   const clock = new Date(date)
+  const slug = `${dateformat(clock, 'UTC:yyyy-mm-dd')}-timetable`
   return (
-    <div className="TimeTable">
+    <div className="TimeTable" id={slug}>
       <header className="TimeTable-Header">
         <h3 className="TimeTable-Heading">
           {dateformat(clock, `UTC:dddd, mmmm dS`)}
