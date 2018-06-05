@@ -1,4 +1,5 @@
 ---
+description: Miriam will turn CSS up to 11 by demonstrating how to inject your CSS with raw data and manipulate layouts on-the-fly.
 title: Data-Driven CSS with Grid & Custom Properties
 speakers:
 - avatar: /img/speakers/miriam-suzanne.jpg
