@@ -14,7 +14,7 @@ speakers:
   name: Malte Ubl
   twitter: cramforce
   url:
-visible: false
+visible: true
 ---
 
 Web Applications are increasingly complicated. The browser main thread has unintentionally become a war zone for application logic, framework, and platform level operations required to raster code into visual representations. As we, the web development industry, have pushed more and more complexity into every frame of end-user experience, the traditional single-threaded model has not held up.
