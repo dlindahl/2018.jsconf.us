@@ -1,5 +1,6 @@
 ---
-title: JavaScript concurrency and the DOM
+description: Kristofer and Malte will explain how to liberate the browser's overburdened UI thread while retaining access to the DOM and frameworks you already know.
+title: JavaScript Concurrency and the DOM
 speakers:
 - avatar: /img/speakers/kristofer-baxter.jpg
   github: kristoferbaxter
