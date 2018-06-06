@@ -8,7 +8,7 @@ speakers:
   name: Caroline Dikibo
   twitter: Carofine247
   url:
-visible: false
+visible: true
 ---
 
 Budgets, Housing, and Hurricanes. What do all of these things have in common? Civic Hacking. These were local problems that were tackled by a village of coding warriors.
