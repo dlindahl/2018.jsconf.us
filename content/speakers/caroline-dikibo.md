@@ -1,4 +1,5 @@
 ---
+description: From budgets, housing, and hurricanes, Caroline will show how Javascript can be used to tackle local problems in your community.
 title: "CivicHacking.JS: Helping your Community using JavaScript"
 speakers:
 - avatar: /img/speakers/caroline-dikibo.jpg
