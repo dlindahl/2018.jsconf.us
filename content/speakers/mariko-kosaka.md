@@ -1,4 +1,5 @@
 ---
+description: Mariko will give a look into how browsers interpret your code so you can create fast & smooth web experiences.
 title: "A quest to be a (web)master: How do you go from simple code to building great web experience?"
 speakers:
 - avatar: /img/speakers/mariko-kosaka.jpg
