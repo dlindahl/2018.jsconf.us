@@ -5,9 +5,8 @@ title: Scholarships
 
 <aside class="Page-CallToAction">
   <strong>
-    Our Opportunity Scholarship Program is now open through June 5th, 2018!
+    Our Opportunity Scholarship Program closed on June 5th, 2018!
   </strong>
-  <a class="LinkButton" href="http://bit.ly/JSConfUS2018Scholarship">Apply Today</a>
 </aside>
 
 We believe that true innovation comes from meeting, and listening to, a variety of perspectives. To that end, we are committed to building a diverse and inclusive conference. This year, we are rolling out our first ever Opportunity Scholarship, a program designed to ensure that anyone, and everyone, has the opportunity to participate in the unique JSConf experience.
@@ -38,9 +37,8 @@ We value your time, and we understand that planning several days away from work 
 
 <aside class="Page-CallToAction">
   <strong>
-    Our Opportunity Scholarship Program is now open through June 5th, 2018!
+    Our Opportunity Scholarship Program closed on June 5th, 2018!
   </strong>
-  <a class="LinkButton" href="http://bit.ly/JSConfUS2018Scholarship">Apply Today</a>
 </aside>
 
 ## Contact

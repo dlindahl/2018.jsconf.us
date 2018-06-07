@@ -2,7 +2,6 @@ import CodeOfConduct from './CodeOfConduct'
 import DefaultLayout from '../../layouts/DefaultLayout'
 import Hero from '../Hero'
 import React from 'react'
-import OpportunityScholarship from './OpportunityScholarship'
 import OurSpeakers from './OurSpeakers'
 import { object, shape } from 'prop-types'
 import SponsorshipPromo from './SponsorshipPromo'
@@ -26,7 +25,6 @@ const Homepage = ({ data: { speakers } }) => (
     <SponsorshipPromo/>
     <OurSpeakers speakers={speakers}/>
     <TicketReleasePromo/>
-    <OpportunityScholarship/>
     <CodeOfConduct/>
   </DefaultLayout>
 )
