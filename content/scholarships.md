@@ -5,7 +5,7 @@ title: Scholarships
 
 <aside class="Page-CallToAction">
   <strong>
-    Our Opportunity Scholarship Program closed on June 5th, 2018!
+    Our Opportunity Scholarship Program closed on June 5th, 2018.
   </strong>
 </aside>
 
@@ -37,7 +37,7 @@ We value your time, and we understand that planning several days away from work 
 
 <aside class="Page-CallToAction">
   <strong>
-    Our Opportunity Scholarship Program closed on June 5th, 2018!
+    Our Opportunity Scholarship Program closed on June 5th, 2018.
   </strong>
 </aside>
 
