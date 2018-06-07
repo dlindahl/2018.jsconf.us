@@ -8,7 +8,7 @@ speakers:
   name: Mariko Kosaka
   twitter: kosamari
   url: https://kosamari.com
-visible: false
+visible: true
 ---
 
 "I just wanted to wiggle a button with jQuery, I don't know anything about magical quartz!" a disciple said to the master in despair. No matter how they try to draw pixels, the master seems to riddle them with esoteric knowledge of gleaming stones...
