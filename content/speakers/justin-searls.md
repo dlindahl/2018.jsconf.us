@@ -1,4 +1,5 @@
 ---
+description: Learn how to design modular, usable code and write better tests with Justin's journey through the good, the bad, and the ugly ways of using test mocks.
 title: "Please don't mock me"
 speakers:
 - avatar: /img/speakers/justin-searls.jpg
