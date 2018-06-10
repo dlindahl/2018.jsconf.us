@@ -36,14 +36,7 @@ const Zoo = () => (
     title="Safari Zoo Adventure"
   >
     <p>
-      The San Diego Safari Park is a one-of-a-kind 2,200 acre wildlife preserve
-      where over 4,000 rare and endangered species can be seen in habitats
-      replicating their native homelands. Take a ride on the African Tram – it’s
-      the absolute best way to see the diverse collection of animals on the
-      African Outpost. Then, take your time checking out the extensive
-      individual animal enclosures or catch a show! There are so many options to
-      choose from such as the Tiger Keeper Talk, Frequent Flyers Bird Show, or
-      the crowd favorite, Shiley’s Cheetah Run!
+      The <a href="http://www.sdzsafaripark.org/" rel="noopener noreferrer" target="_blank">San Diego Safari Park</a> is a one-of-a-kind 2,200 acre wildlife preserve where over 4,000 rare and endangered species can be seen in habitats replicating their native homelands. Take a ride on the African Tram – it’s the absolute best way to see the diverse collection of animals on the African Outpost. Then, take your time checking out the extensive individual animal enclosures or catch a show! There are so many options to choose from such as the Tiger Keeper Talk, Frequent Flyers Bird Show, or the crowd favorite, Shiley’s Cheetah Run!
     </p>
     <p>
       Children and Significant Other tickets will be available for purchase.
