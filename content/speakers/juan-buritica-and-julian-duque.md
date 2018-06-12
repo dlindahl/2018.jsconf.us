@@ -11,7 +11,7 @@ speakers:
 - avatar: /img/speakers/julian-duque.jpg
   github: julianduque
   glitch:
-  name: Julián David Duque
+  name: Julián David Duque
   twitter: julian_duque
   url: https://about.me/julianduque
 visible: true
