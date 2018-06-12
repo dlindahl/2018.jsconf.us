@@ -1,4 +1,5 @@
 ---
+description: With the power of npm data him, Laurie will show us what tools we use, what our best practices are, and our major pain points, all without bias or a sales pitch.
 title: npm and the future of JavaScript
 speakers:
 - avatar: /img/speakers/laurie-voss.jpg
