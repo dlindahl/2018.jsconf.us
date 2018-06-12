@@ -14,7 +14,7 @@ speakers:
   name: Julián David Duque
   twitter: julian_duque
   url: https://about.me/julianduque
-visible: false
+visible: true
 ---
 
 This talk will serve three purposes. First, it will tell the story of the creation of the JavaScript community in Colombia and its journey to becoming one of the largest Spanish-speaking JS communities in the world. It will highlight and explore the impact this community has had in the region, and how it set the stage for other communities to build upon. Finally, it will provide insight into the challenges of building a community in a developing nation where the tech ecosystem is not established, providing a summary of lessons learned which other communities in developing nations can use as a blueprint in their regions.
