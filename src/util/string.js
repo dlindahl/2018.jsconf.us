@@ -8,6 +8,7 @@ function slugify (str) {
     .trim()
     .toLowerCase()
     .replace(/ /g, '-')
+    .replace(/á/g, 'a')
     .replace(/([^a-zA-Z0-9._-]+)/, '')
 }
 
