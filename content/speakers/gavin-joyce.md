@@ -1,4 +1,5 @@
 ---
+description: Using the power of the web platform and the audience's own devices, Gavin will create a real-time, audience-driven musical performance.
 title: Smartphone Symphony
 speakers:
 - avatar: /img/speakers/gavin-joyce.jpg
