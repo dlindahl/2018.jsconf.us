@@ -1,7 +1,7 @@
 ---
 component:
 level: startup
-logo: /img/sponsors/logos/jsf.png
+logo: /img/sponsors/logos/jsf.svg
 name: The JS Foundation
 scholarship: true
 url: https://js.foundation/
