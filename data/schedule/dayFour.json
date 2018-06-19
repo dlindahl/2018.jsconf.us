@@ -12,9 +12,9 @@
   {
     "description":
       "Unfortunately, its time to head home! Our Airport Shuttles will take you from the Omni La Costa directly to San Diego International Airport. Please make sure you leave enough time to board the bus, travel to the airport, check-in, and arrive at your boarding gate. We don't want any one stranded at the airport!",
-    "endTime": 1800,
+    "endTime": 1600,
     "focus": "Times are still tentative",
-    "startTime": 900,
+    "startTime": 700,
     "title": "Airport Shuttles"
   },
   {
