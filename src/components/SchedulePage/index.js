@@ -2,6 +2,7 @@ import { array } from 'prop-types'
 import Day from './Day'
 import DefaultLayout from '../../layouts/DefaultLayout'
 import Golf from './Activities/Golf'
+import LinkButton from '../LinkButton'
 import NodeBoats from './Activities/NodeBoats'
 import NodeBots from './Activities/NodeBots'
 import NodeCopter from './Activities/NodeCopter'
@@ -18,6 +19,11 @@ import TimeTable from './TimeTable'
 import Zoo from './Activities/Zoo'
 
 const CYOA_DAY_MSG = `Our "Choose Your Own Adventure" day is what sets JSConf US apart from other conferences. It provides you with an extraordinary opportunity to socialize with the brightest minds in our community while providing a brief respite from the mind-bending material delivered during our talks. Activities are provided on a first come, first serve basis and registration details will be emailed to all registered attendees.`
+const CYOA_ACTIONS = [
+  <LinkButton href="https://ti.to/jsconf-us/jsconf-us-2018-activity-registration" key={0} primary>
+    Reserve Your Activity
+  </LinkButton>
+]
 
 const SchedulePage = ({ dayFour, dayOne, dayThree, dayTwo, dayZero }) => (
   <DefaultLayout description="Schedule for JSConf US 2018" title="Schedule">
@@ -51,7 +57,7 @@ const SchedulePage = ({ dayFour, dayOne, dayThree, dayTwo, dayZero }) => (
       >
         <TimeTable date="2018-08-21T00:00Z" schedule={dayOne}/>
       </Day>
-      <Day content={CYOA_DAY_MSG} title="Day of Activities">
+      <Day actions={CYOA_ACTIONS} content={CYOA_DAY_MSG} title="Day of Activities">
         <NodeBoats/>
         <NodeBots/>
         <NodeCopter/>
