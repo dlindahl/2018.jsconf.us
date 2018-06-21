@@ -141,6 +141,32 @@ We have provided specially prepared meals for those with specific dietary requir
 
 If you require a specially prepared meal, vegan or otherwise, that cannot be serviced as part of a group buffet, we ask that you purchase a Special Preparation Meal Ticket. With this meal ticket, we will have a specially prepared plate reserved for you at every meal and social event that meets your dietary needs. If you have any questions about this, please [email us directly](mailto:derek@jsconf.us).
 
+Tickets available at https://ti.to/jsconf-us/jsconf-us-2018/with/a1srhzt6df8
+
+## Scholarship Fund Contribution
+
+### Donations Welcome!
+
+We've had a tremendous number of entries to our Opportunity Scholarship program and we want to award as many scholarships as possible! Help us ensure that anyone, and everyone, has the opportunity to participate in the unique JSConf experience. Contributions of all sizes are welcome! Corporate donations are also welcome and you will be added to our official Sponsors page! Contact us for more details.
+
+Tickets available at https://ti.to/jsconf-us/jsconf-us-2018/with/mycokl8s-ia
+
+## Significant Other Meal Ticket
+
+### $350
+
+This meal ticket provides access for your Significant Other to our Welcome Reception, breakfast on both talk days, both evening social activities, and brunch on the last day. If you have any special dietary requirements that cannot be accommodated in a buffet, we ask that you also purchase an additional Special Preparation Meal Ticket.
+
+Tickets available at https://ti.to/jsconf-us/jsconf-us-2018/with/obj2kbi3arq
+
+## Child Meal Ticket (13 and up)
+
+### $175
+
+This meal ticket provides access for your child (13 or older) to our Welcome Reception, breakfast on both talk days, both evening social activities, and brunch on the last day. If your child is enrolled in our on-site child care services, lunch will be provided without the need to purchase this ticket. If there are any special dietary requirements that cannot be accommodated in a buffet, we ask that you also purchase an additional Special Preparation Meal Ticket.
+
+Tickets available at https://ti.to/jsconf-us/jsconf-us-2018/with/23msonajl-i
+
 # Conference Attendance Agreements
 
 ## Transferring a Ticket
