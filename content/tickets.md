@@ -19,7 +19,13 @@ If you are a company, a portion of all sponsorship fees go towards funding our O
 
 ### On-site Childcare
 
-While we are actively planning to offer free on-site childcare, we are still working with our venue and service provider on the exact details. In the event we are unable to work out childcare arrangements, and you require on-site childcare, a full refund for your ticket will be provided.
+Our on-site childcare program will be available to children, 12 years of age or younger, of all attendees from 8am - 7pm on days Tuesday, Wednesday, and Thursday. Our childcare provider, [Sitterwise of San Diego](https://www.sitterwise.com/), will be creating an experience beyond just baby sitting. With themes centered around goal setting and team building, the children will come away with an unforgettable experience.
+
+<center>
+  <a class="LinkButton LinkButton--primary" href="https://ti.to/jsconf-us/jsconf-us-2018/with/lbb9ambkcri">
+    Sign Up Today
+  </a>
+</center>
 
 ## The Venue
 
