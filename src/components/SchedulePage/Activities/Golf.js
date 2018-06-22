@@ -30,12 +30,11 @@ const Golf = () => (
     layout="1/11"
     layoutItems={IMAGES}
     renderLayoutItem={renderLayoutItem}
-    times="Time TBA"
+    times="8:28am"
     title="Golf Tournament"
   >
     <p>
-      Take advantage of either of La Costa's world-class golf courses,
-      "Champions" or "Legends"!
+      Take advantage of either of La Costa's world-class "Legends" golf courses!
     </p>
     <p>
       The tournament will be organized into teams of four (4) with all teams
