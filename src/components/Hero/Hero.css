@@ -26,9 +26,9 @@
 
 .Hero-BackgroundImage {
   background-image: url('/img/splash-image.jpg');
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
   height: 100%;
   mix-blend-mode: color-dodge;
 }
@@ -70,10 +70,10 @@
 
 .Hero-BodyOverlay {
   background-color: var(--js-yellow-light);
-  position: absolute;
   height: 100%;
   mix-blend-mode: darken;
   pointer-events: none;
+  position: absolute;
   top: 0;
   width: 100%;
   z-index: -1;
@@ -83,9 +83,9 @@
   color: var(--accent);
   isolation: isolate;
   padding-bottom: 2vw;
-  padding-top: 2vw;
   padding-left: 4vw;
   padding-right: 4vw;
+  padding-top: 2vw;
   text-align: center;
 }
 
