@@ -74,6 +74,12 @@ const SponsorsPage = ({ data }) => {
   ]
   return (
     <DefaultLayout description="Our Sponsors" title="Our Sponsors">
+      <aside className="Page-CallToAction">
+        <strong>
+          Sponsorships Available!
+        </strong>
+        {actions[0]}
+      </aside>
       <SponsorsListFeature data={data}/>
       <ContentBlock
         actions={actions}
