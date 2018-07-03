@@ -75,29 +75,21 @@ We offer an extraordinary opportunity to socialize with the brightest minds in o
 
 Below are the pricing tiers for JSConf US 2018. We have tried to tier the ticket release batches so that anyone around the world can access them when they first open up. If we have missed something, or you need assistance, please [contact us directly](mailto:derek@jsconf.us).
 
-## ~~San Bernadino~~
+## Humboldt
 
-### ~~$850~~
+### $1,600
 
-#### ~~Released on April 3rd, 2018 at 1:00 PM EDT (10:00 AM PDT)~~
+#### Released on May 15th, 2018 at 9:00 AM EDT (6:00 AM PDT)
 
-**SOLD OUT!**
+Fun Fact: The "Humboldt"-class ticket is named after the westernmost county in California, a great place to catch a late sunset!
 
-~~The "San Bernadino"-class ticket is named after the easternmost county in California, a great place for "Early Birds" to catch their worms!~~
+This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-us-2018.
 
-~~This "Early Bird" batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-us-2018.~~
-
-## ~~Sacramento~~
-
-### ~~$1,050~~
-
-#### ~~Released on April 24th, 2018 at 9:00 AM EDT (6:00 AM PDT)~~
-
-**SOLD OUT!**
-
-~~The "Sacramento"-class ticket is named after Sacramento County, the largest region in the Central Valley region of California!~~
-
-~~This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-us-2018.~~
+<div>
+  <a class="LinkButton LinkButton--primary" href="https://ti.to/jsconf-us/jsconf-us-2018">
+    Buy Ticket
+  </a>
+</div>
 
 ## ~~San Luis Obispo~~
 
@@ -111,25 +103,29 @@ Below are the pricing tiers for JSConf US 2018. We have tried to tier the ticket
 
 ~~This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-us-2018.~~
 
-## Humboldt
+## ~~Sacramento~~
 
-### $1,600
+### ~~$1,050~~
 
-#### Released on May 15th, 2018 at 9:00 AM EDT (6:00 AM PDT)
+#### ~~Released on April 24th, 2018 at 9:00 AM EDT (6:00 AM PDT)~~
 
-Fun Fact: The "Humboldt"-class ticket is named after the westernmost county in California, a great place to catch a late sunset!
+**SOLD OUT!**
 
-This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-us-2018.
+~~The "Sacramento"-class ticket is named after Sacramento County, the largest region in the Central Valley region of California!~~
 
-## El Segundo
+~~This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-us-2018.~~
 
-### $1,999
+## ~~San Bernadino~~
 
-#### Released on May 15th, 2018 at 1:00 PM EDT (10:00 AM PDT)
+### ~~$850~~
 
-Fun Fact: The "El Segundo"-class ticket is named after the "A Tribe Called Quest" song, "I Left My Wallet In El Segundo." You gotta get it, you got-got ta get it!
+#### ~~Released on April 3rd, 2018 at 1:00 PM EDT (10:00 AM PDT)~~
 
-This batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-us-2018.
+**SOLD OUT!**
+
+~~The "San Bernadino"-class ticket is named after the easternmost county in California, a great place for "Early Birds" to catch their worms!~~
+
+~~This "Early Bird" batch of tickets will be made available at https://ti.to/jsconf-us/jsconf-us-2018.~~
 
 # Ticket Add-ons
 
