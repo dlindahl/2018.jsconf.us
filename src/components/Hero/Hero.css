@@ -94,6 +94,16 @@
   white-space: nowrap;
 }
 
+.Hero-BodyFooter {
+  @apply --size--base-3;
+  isolation: isolate;
+  padding-bottom: 2vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 0vw;
+  text-align: center;
+}
+
 @media (--extra-small-screen) {
   .Hero-Lede {
     font-size: 10vw;

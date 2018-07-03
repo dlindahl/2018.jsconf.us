@@ -1,3 +1,4 @@
+import LinkButton from '../LinkButton'
 import { node } from 'prop-types'
 import React from 'react'
 
@@ -15,6 +16,11 @@ const Hero = ({ title, subtitle }) => (
           <div className="Hero-BodyContent">
             <h1 className="Hero-Lede">{title}</h1>
             <h2 className="Hero-Text">{subtitle}</h2>
+          </div>
+          <div className="Hero-BodyFooter">
+            <LinkButton href="https://ti.to/jsconf-us/jsconf-us-2018" primary>
+              Buy Tickets
+            </LinkButton>
           </div>
         </div>
       </div>
