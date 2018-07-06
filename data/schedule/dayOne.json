@@ -35,10 +35,17 @@
     "duration": 45,
     "components": [
       {
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/billy-roh/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/billy-roh.jpg",
+            "name": "Billy Roh"
+          }
+        ],
+        "title": "Learning through Art: An Introduction to VR"
       },
       {
+        "description": "Track B registration opens on July 21st!",
         "speakers": [],
         "title": "TBD"
       }
@@ -48,10 +55,17 @@
     "duration": 45,
     "components": [
       {
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/caroline-dikibo/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/caroline-dikibo.jpg",
+            "name": "Caroline Dikibo"
+          }
+        ],
+        "title": "CivicHacking.JS: Helping your Community using JavaScript"
       },
       {
+        "description": "Track B registration opens on July 21st!",
         "speakers": [],
         "title": "TBD"
       }
@@ -61,10 +75,17 @@
     "duration": 45,
     "components": [
       {
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/kevin-oneil/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/kevin-oneil.jpg",
+            "name": "Kevin O'Neil"
+          }
+        ],
+        "title": "I See: Overcoming Challenges in Software Development"
       },
       {
+        "description": "Track B registration opens on July 21st!",
         "speakers": [],
         "title": "TBD"
       }
@@ -78,10 +99,18 @@
     "duration": 45,
     "components": [
       {
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/feross-aboukhadijeh/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/feross-aboukhadijeh.jpg",
+            "name": "Feross Aboukhadijeh"
+          }
+        ],
+        "title":
+          "The Most Annoying Website (aka \"The Power of the Web Platform\")"
       },
       {
+        "description": "Track B registration opens on July 21st!",
         "speakers": [],
         "title": "TBD"
       }
@@ -91,10 +120,17 @@
     "duration": 45,
     "components": [
       {
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/tyler-bender/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/tyler-bender.jpg",
+            "name": "Tyler Bender"
+          }
+        ],
+        "title": "Package Reputation Tracking"
       },
       {
+        "description": "Track B registration opens on July 21st!",
         "speakers": [],
         "title": "TBD"
       }
@@ -104,10 +140,17 @@
     "duration": 45,
     "components": [
       {
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/laurie-voss/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/laurie-voss.jpg",
+            "name": "Laurie Voss"
+          }
+        ],
+        "title": "npm and the future of JavaScript"
       },
       {
+        "description": "Track B registration opens on July 21st!",
         "speakers": [],
         "title": "TBD"
       }
@@ -117,10 +160,17 @@
     "duration": 45,
     "components": [
       {
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/rachel-white/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/rachel-white.jpg",
+            "name": "Rachel White"
+          }
+        ],
+        "title": "Journey Into Imagination 💫"
       },
       {
+        "description": "Track B registration opens on July 21st!",
         "speakers": [],
         "title": "TBD"
       }
@@ -134,10 +184,21 @@
     "duration": 45,
     "components": [
       {
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/kristofer-baxter-and-malte-ubl/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/kristofer-baxter.jpg",
+            "name": "Kristofer Baxter"
+          },
+          {
+            "avatar": "/img/speakers/malte-ubl.jpg",
+            "name": "Malte Ubl"
+          }
+        ],
+        "title": "JavaScript Concurrency and the DOM"
       },
       {
+        "description": "Track B registration opens on July 21st!",
         "speakers": [],
         "title": "TBD"
       }
@@ -147,10 +208,18 @@
     "duration": 45,
     "components": [
       {
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/mariko-kosaka/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/mariko-kosaka.jpg",
+            "name": "Mariko Kosaka"
+          }
+        ],
+        "title":
+          "A quest to be a (web)master: How do you go from simple code to building great web experience?"
       },
       {
+        "description": "Track B registration opens on July 21st!",
         "speakers": [],
         "title": "TBD"
       }
@@ -160,10 +229,17 @@
     "duration": 45,
     "components": [
       {
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/justin-searls/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/justin-searls.jpg",
+            "name": "Justin Searls"
+          }
+        ],
+        "title": "Please don't mock me"
       },
       {
+        "description": "Track B registration opens on July 21st!",
         "speakers": [],
         "title": "TBD"
       }

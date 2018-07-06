@@ -5,10 +5,10 @@
   border-radius: 50%;
   box-sizing: content-box;
   display: inline-block;
-  height: var(--spacer-md);
+  height: var(--spacer-lg);
   overflow: hidden;
   transition: border-color 0.2s;
-  width: var(--spacer-md);
+  width: var(--spacer-lg);
   &:not(:first-of-type) {
     margin-left: calc(var(--spacer-xs) * -1);
   }

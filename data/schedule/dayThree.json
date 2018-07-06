@@ -35,10 +35,17 @@
     "duration": 45,
     "components": [
       {
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/jenn-schiffer/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/jenn-schiffer.png",
+            "name": "jenn schiffer"
+          }
+        ],
+        "title": "literally everything is pixel art"
       },
       {
+        "description": "Track B registration opens on July 21st!",
         "speakers": [],
         "title": "TBD"
       }
@@ -48,10 +55,17 @@
     "duration": 45,
     "components": [
       {
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/chad-hietala/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/chad-hietala.jpg",
+            "name": "Chad Hietala"
+          }
+        ],
+        "title": "Compilers: The Next Frontier In Web Performance"
       },
       {
+        "description": "Track B registration opens on July 21st!",
         "speakers": [],
         "title": "TBD"
       }
@@ -61,10 +75,17 @@
     "duration": 45,
     "components": [
       {
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/miriam-suzanne/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/miriam-suzanne.jpg",
+            "name": "Miriam Suzanne"
+          }
+        ],
+        "title": "Data-Driven CSS with Grid & Custom Properties"
       },
       {
+        "description": "Track B registration opens on July 21st!",
         "speakers": [],
         "title": "TBD"
       }
@@ -78,10 +99,17 @@
     "duration": 45,
     "components": [
       {
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/gavin-joyce/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/gavin-joyce.jpg",
+            "name": "Gavin Joyce"
+          }
+        ],
+        "title": "Smartphone Symphony"
       },
       {
+        "description": "Track B registration opens on July 21st!",
         "speakers": [],
         "title": "TBD"
       }
@@ -91,10 +119,17 @@
     "duration": 45,
     "components": [
       {
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/hannah-howard/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/hannah-howard.jpg",
+            "name": "Hannah Howard"
+          }
+        ],
+        "title": "RxJS: A Better Way To Write Frontend Applications"
       },
       {
+        "description": "Track B registration opens on July 21st!",
         "speakers": [],
         "title": "TBD"
       }
@@ -104,10 +139,17 @@
     "duration": 45,
     "components": [
       {
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/neha-nivedita/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/neha-nivedita.jpg",
+            "name": "Neha Nivedita"
+          }
+        ],
+        "title": "How to be an a11y - Creating Accessible React Apps"
       },
       {
+        "description": "Track B registration opens on July 21st!",
         "speakers": [],
         "title": "TBD"
       }
@@ -117,10 +159,17 @@
     "duration": 45,
     "components": [
       {
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/myles-borins/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/myles-borins.jpg",
+            "name": "Myles Borins"
+          }
+        ],
+        "title": "Adventures in Ethical Computing"
       },
       {
+        "description": "Track B registration opens on July 21st!",
         "speakers": [],
         "title": "TBD"
       }
@@ -134,10 +183,21 @@
     "duration": 45,
     "components": [
       {
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/juan-buritica-and-julian-duque/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/juan-buritica.jpg",
+            "name": "Juan Pablo Buriticá"
+          },
+          {
+            "avatar": "/img/speakers/julian-duque.jpg",
+            "name": "Julián David Duque"
+          }
+        ],
+        "title": "The Butterfly.js Effect"
       },
       {
+        "description": "Track B registration opens on July 21st!",
         "speakers": [],
         "title": "TBD"
       }
@@ -147,10 +207,17 @@
     "duration": 45,
     "components": [
       {
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/zachary-berry/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/zachary-berry.jpg",
+            "name": "Zachary Berry"
+          }
+        ],
+        "title": "Building a Javascript Video Synthesizer for Live Performance"
       },
       {
+        "description": "Track B registration opens on July 21st!",
         "speakers": [],
         "title": "TBD"
       }
@@ -160,10 +227,22 @@
     "duration": 45,
     "components": [
       {
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/burke-holland-and-jasmine-greenway/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/burke-holland.jpg",
+            "name": "Burke Holland"
+          },
+          {
+            "avatar": "/img/speakers/jasmine-greenway.jpg",
+            "name": "Jasmine Greenway"
+          }
+        ],
+        "title":
+          "Discovering the true identity of @horse_js using Machine Learning"
       },
       {
+        "description": "Track B registration opens on July 21st!",
         "speakers": [],
         "title": "TBD"
       }

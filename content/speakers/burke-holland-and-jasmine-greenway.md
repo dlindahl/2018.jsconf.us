@@ -2,7 +2,7 @@
 description: Jasmine and Burke will walk you through how they used data science and machine learning to determine the true identity of @horse_js.
 title: Discovering the true identity of @horse_js using Machine Learning
 speakers:
-- avatar: /img/speakers/burke-holland.png
+- avatar: /img/speakers/burke-holland.jpg
   glitch:
   github:
   name: Burke Holland
