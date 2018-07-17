@@ -21,7 +21,7 @@ const GridLayout = ({ className, items, layout, renderItem, maxCols }) => {
       maxCols = items.length
     }
   }
-  if (layout === 'flex') {
+  if (layout === 'flex' && maxCols) {
     layout = `${layout}-${maxCols}`
   }
   return (
