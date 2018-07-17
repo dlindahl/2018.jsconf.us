@@ -76,9 +76,9 @@
     margin-right: calc((var(--spacer-xs) / 2) * -1);
     & .GridLayout-Item {
       margin-bottom: calc(var(--spacer-xs) * 2);
-      margin-left: calc(var(--spacer-xs) / 2);
-      margin-right: calc(var(--spacer-xs) / 2);
-      width: calc(50% - var(--spacer-xs));
+      margin-left: calc(var(--spacer-sm) / 2);
+      margin-right: calc(var(--spacer-sm) / 2);
+      width: calc(50% - var(--spacer-sm));
       @media (--extra-small-screen) {
         margin-bottom: var(--spacer-xs);
         width: 75%;
