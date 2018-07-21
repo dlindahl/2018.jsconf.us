@@ -20,7 +20,11 @@ import Zoo from './Activities/Zoo'
 
 const CYOA_DAY_MSG = `Our "Choose Your Own Adventure" day is what sets JSConf US apart from other conferences. It provides you with an extraordinary opportunity to socialize with the brightest minds in our community while providing a brief respite from the mind-bending material delivered during our talks. Activities are provided on a first come, first serve basis and registration details will be emailed to all registered attendees.`
 const CYOA_ACTIONS = [
-  <LinkButton href="https://ti.to/jsconf-us/jsconf-us-2018-activity-registration" key={0} primary>
+  <LinkButton
+    href="https://ti.to/jsconf-us/jsconf-us-2018-activity-registration"
+    key={0}
+    primary
+  >
     Reserve Your Activity
   </LinkButton>
 ]
@@ -47,8 +51,18 @@ const SchedulePage = ({ dayFour, dayOne, dayThree, dayTwo, dayZero }) => (
               We have a very unique format in that we let anyone register to
               speak in a first-come, first-speaking format. These talks are
               generally from the full range of Node.js development and are some
-              of the most exciting talks at JSConf. Registration opens about one
-              month before the event, so keep your eyes peeled!
+              of the most exciting talks at JSConf.
+            </p>
+            <p>Registration opens on July 21st at 12pm ET / 9am PT!</p>
+            <p>
+              <center>
+                <LinkButton
+                  href="https://ti.to/jsconf-us/jsconf-us-2018-track-b"
+                  primary
+                >
+                  Track B Registration
+                </LinkButton>
+              </center>
             </p>
           </div>
         }
@@ -57,7 +71,11 @@ const SchedulePage = ({ dayFour, dayOne, dayThree, dayTwo, dayZero }) => (
       >
         <TimeTable date="2018-08-21T00:00Z" schedule={dayOne}/>
       </Day>
-      <Day actions={CYOA_ACTIONS} content={CYOA_DAY_MSG} title="Day of Activities">
+      <Day
+        actions={CYOA_ACTIONS}
+        content={CYOA_DAY_MSG}
+        title="Day of Activities"
+      >
         <NodeBoats/>
         <NodeBots/>
         <NodeCopter/>
