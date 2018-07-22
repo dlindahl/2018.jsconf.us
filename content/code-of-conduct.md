@@ -67,7 +67,7 @@ You can [make an anonymous report here][2018-report-form]. We cannot directly fo
 You can make a personal report by:
 
 * Contacting a staff member, identified by staff badges, buttons, or shirts.
-* Emailing us: [derek@jsconf.us](mailto:derek@jsconf.us).
+* Emailing us: [report@jsconf.us](mailto:report@jsconf.us).
 * Calling us: We’ll publish a phone number that is staffed during main conference hours.
 
 When taking a personal report, our staff will ensure you are safe and cannot be overheard. They may involve other event staff to ensure your report is managed properly. Once safe, we’ll ask you to tell us about what happened. This can be upsetting, but we’ll handle it as respectfully as possible, and you can bring someone to support you. You won’t be asked to confront anyone and we won’t tell anyone who you are.
