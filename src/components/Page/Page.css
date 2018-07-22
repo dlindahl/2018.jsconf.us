@@ -107,8 +107,8 @@
     }
   }
   & img {
-    width: 100%;
     margin: 0 auto;
+    width: 100%;
   }
   & p {
     margin-bottom: var(--spacer-sm);
@@ -136,7 +136,7 @@
   padding: var(--spacer-sm);
   text-align: center;
   @nest .Page-Content & {
-    &:first-of-type {
+    &:first-child {
       margin-bottom: var(--spacer-lg);
       margin-top: calc(var(--spacer-lg) * -1);
     }
