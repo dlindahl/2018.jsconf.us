@@ -1,6 +1,7 @@
 ---
 description: Watch Billy recreate an interactive art piece by Yayoi Kusama in A-Frame, a browser-based Virtual Reality framework.
 title: "Learning through Art: An Introduction to VR"
+track: a
 speakers:
 - avatar: /img/speakers/billy-roh.jpg
   github: billyroh

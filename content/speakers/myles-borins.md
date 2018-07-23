@@ -1,6 +1,7 @@
 ---
 description: Myles will discuss the types of bias that can enter into the systems that we build and suggest ways to avoid bias, create better user experiences, and avoid jail time.
 title: Adventures in Ethical Computing
+track: a
 speakers:
 - avatar: /img/speakers/myles-borins.jpg
   github: mylesborins
