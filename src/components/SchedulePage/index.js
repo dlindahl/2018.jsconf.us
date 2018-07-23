@@ -53,17 +53,6 @@ const SchedulePage = ({ dayFour, dayOne, dayThree, dayTwo, dayZero }) => (
               generally from the full range of Node.js development and are some
               of the most exciting talks at JSConf.
             </p>
-            <p>Registration opens on July 21st at 12pm ET / 9am PT!</p>
-            <p>
-              <center>
-                <LinkButton
-                  href="https://ti.to/jsconf-us/jsconf-us-2018-track-b"
-                  primary
-                >
-                  Track B Registration
-                </LinkButton>
-              </center>
-            </p>
           </div>
         }
         focus="Track B registrations opens July 21st"

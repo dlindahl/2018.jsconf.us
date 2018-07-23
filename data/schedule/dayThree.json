@@ -45,9 +45,14 @@
         "title": "literally everything is pixel art"
       },
       {
-        "description": "Track B registration opens on July 21st!",
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/bernie-cheng/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/bernie-cheng.png",
+            "name": "Bernie Cheng"
+          }
+        ],
+        "title": "To Be Announced"
       }
     ]
   },
@@ -85,9 +90,14 @@
         "title": "Data-Driven CSS with Grid & Custom Properties"
       },
       {
-        "description": "Track B registration opens on July 21st!",
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/guedis-cardenas/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/guedis-cardenas.jpg",
+            "name": "Guedis Cardenas"
+          }
+        ],
+        "title": "The joy of mentoring by taking the pressure off of it"
       }
     ]
   },
@@ -109,9 +119,14 @@
         "title": "Smartphone Symphony"
       },
       {
-        "description": "Track B registration opens on July 21st!",
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/bradley-spaulding/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/bradley-spaulding.jpg",
+            "name": "Bradley Spaulding"
+          }
+        ],
+        "title": "Universal React Applications with Redux"
       }
     ]
   },
@@ -129,9 +144,14 @@
         "title": "RxJS: A Better Way To Write Frontend Applications"
       },
       {
-        "description": "Track B registration opens on July 21st!",
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/juan-caicedo/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/juan-caicedo.jpg",
+            "name": "Juan Caicedo"
+          }
+        ],
+        "title": "Pattern matching in JS"
       }
     ]
   },
@@ -149,9 +169,14 @@
         "title": "How to be an a11y - Creating Accessible React Apps"
       },
       {
-        "description": "Track B registration opens on July 21st!",
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/dylan-schiemann/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/dylan-schiemann.jpg",
+            "name": "Dylan Schiemann"
+          }
+        ],
+        "title": "React already did that - Developer ergonomics in 2018"
       }
     ]
   },
@@ -169,9 +194,14 @@
         "title": "Adventures in Ethical Computing"
       },
       {
-        "description": "Track B registration opens on July 21st!",
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/christina-kayastha/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/christina-kayastha.png",
+            "name": "Christina Kayastha"
+          }
+        ],
+        "title": "Democratizing Augmented Reality"
       }
     ]
   },
@@ -197,9 +227,14 @@
         "title": "The Butterfly.js Effect"
       },
       {
-        "description": "Track B registration opens on July 21st!",
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/binam-kayastha/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/binam-kayastha.jpg",
+            "name": "Binam Kayastha"
+          }
+        ],
+        "title": "To Be Announced"
       }
     ]
   },
@@ -217,9 +252,14 @@
         "title": "Building a Javascript Video Synthesizer for Live Performance"
       },
       {
-        "description": "Track B registration opens on July 21st!",
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/brian-peterson/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/brian-peterson.jpg",
+            "name": "Brian Peterson"
+          }
+        ],
+        "title": "To Be Announced"
       }
     ]
   },
@@ -240,11 +280,6 @@
         ],
         "title":
           "Discovering the true identity of @horse_js using Machine Learning"
-      },
-      {
-        "description": "Track B registration opens on July 21st!",
-        "speakers": [],
-        "title": "TBD"
       }
     ]
   },
