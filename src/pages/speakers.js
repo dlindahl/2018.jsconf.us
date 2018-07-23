@@ -45,6 +45,7 @@ export const query = graphql`
               url
             }
             title
+            track
             visible
           }
         }

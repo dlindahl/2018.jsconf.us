@@ -1,6 +1,7 @@
 ---
 description: Using concepts that Disney instills in its Imagineering process, Rachel will take us on a journey through our own imaginations to see what we can make.
 title: "Journey Into Imagination 💫"
+track: a
 speakers:
 - avatar: /img/speakers/rachel-white.jpg
   github: rachelnicole

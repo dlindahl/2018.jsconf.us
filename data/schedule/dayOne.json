@@ -51,9 +51,14 @@
         "title": "Learning through Art: An Introduction to VR"
       },
       {
-        "description": "Track B registration opens on July 21st!",
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/michael-chan/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/michael-chan.jpg",
+            "name": "Michael Chan"
+          }
+        ],
+        "title": "Hot Garbage: Clean Code is Dead"
       }
     ]
   },
@@ -71,9 +76,14 @@
         "title": "CivicHacking.JS: Helping your Community using JavaScript"
       },
       {
-        "description": "Track B registration opens on July 21st!",
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/matt-claypotch/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/matt-claypotch.jpg",
+            "name": "Matt Claypotch"
+          }
+        ],
+        "title": "Browser Extensions"
       }
     ]
   },
@@ -91,9 +101,14 @@
         "title": "I See: Overcoming Challenges in Software Development"
       },
       {
-        "description": "Track B registration opens on July 21st!",
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/bryan-hughes/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/bryan-hughes.jpg",
+            "name": "Bryan Hughes"
+          }
+        ],
+        "title": "Hacking With My Anxiety"
       }
     ]
   },
@@ -116,9 +131,14 @@
           "The Most Annoying Website (aka \"The Power of the Web Platform\")"
       },
       {
-        "description": "Track B registration opens on July 21st!",
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/nick-nisi/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/nick-nisi.jpg",
+            "name": "Nick Nisi"
+          }
+        ],
+        "title": "No Time for Types"
       }
     ]
   },
@@ -136,9 +156,15 @@
         "title": "Package Reputation Tracking"
       },
       {
-        "description": "Track B registration opens on July 21st!",
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/amir-rustamzadeh/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/amir-rustamzadeh.jpg",
+            "name": "Amir Rustamzadeh"
+          }
+        ],
+        "title":
+          "I like my tests, like I like my friends, reliable and flake-free"
       }
     ]
   },
@@ -156,9 +182,14 @@
         "title": "npm and the future of JavaScript"
       },
       {
-        "description": "Track B registration opens on July 21st!",
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/robert-deluca/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/robert-deluca.jpg",
+            "name": "Robert DeLuca"
+          }
+        ],
+        "title": "Testing Big in JavaScript"
       }
     ]
   },
@@ -176,9 +207,14 @@
         "title": "Journey Into Imagination 💫"
       },
       {
-        "description": "Track B registration opens on July 21st!",
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/ravi-lachman/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/ravi-lachman.jpg",
+            "name": "Ravi Lachhman"
+          }
+        ],
+        "title": "What's in your JS?"
       }
     ]
   },
@@ -204,9 +240,14 @@
         "title": "JavaScript Concurrency and the DOM"
       },
       {
-        "description": "Track B registration opens on July 21st!",
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/tim-doherty/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/tim-doherty.jpg",
+            "name": "Tim Doherty"
+          }
+        ],
+        "title": "ES6 In Practice"
       }
     ]
   },
@@ -225,9 +266,14 @@
           "A quest to be a (web)master: How do you go from simple code to building great web experience?"
       },
       {
-        "description": "Track B registration opens on July 21st!",
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/jeffrey-hoffer/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/jeffrey-hoffer.jpg",
+            "name": "Jeffrey Hoffer"
+          }
+        ],
+        "title": "The best project I never want to do again"
       }
     ]
   },
@@ -245,9 +291,14 @@
         "title": "Please don't mock me"
       },
       {
-        "description": "Track B registration opens on July 21st!",
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/jeff-barczewski/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/jeff-barczewski.jpg",
+            "name": "Jeff Barczewski"
+          }
+        ],
+        "title": "Unlock the power of feature based JS development"
       }
     ]
   },

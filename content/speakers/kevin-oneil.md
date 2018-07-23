@@ -1,6 +1,7 @@
 ---
 description: Based on his experiences as a visually impaired developer, Kevin will share with us tools, techniques, and his own experiences to help other visually challenged engineers and inspire others to pursue a career in development.
 title: "I See: Overcoming Challenges in Software Development"
+track: a
 speakers:
 - avatar: /img/speakers/kevin-oneil.jpg
   github: kevoneil
