@@ -1,6 +1,7 @@
 ---
 description: Feross will demonstrate how to use the Web's powerful, native-like APIs to create the worst, most evil web page in the world.
 title: "The Most Annoying Website (aka \"The Power of the Web Platform\")"
+track: a
 speakers:
 - avatar: /img/speakers/feross-aboukhadijeh.jpg
   github: feross

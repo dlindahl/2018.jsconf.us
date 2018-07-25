@@ -1,6 +1,7 @@
 ---
 description: How much do you know about the npm package you're about to install? Do you trust the author? Tyler and his team are working on tools to help developers answer these questions, streamlining the process of monitoring your dependencies
 title: Package Reputation Tracking
+track: a
 speakers:
 - avatar: /img/speakers/tyler-bender.jpg
   github:

@@ -1,6 +1,7 @@
 ---
 description: Hear the story of how the JS community was built in Colombia and the impact it has had in the region and learn what it takes to start a meetup in your region and the impact the JS community will have on its organizers, speakers, and attendees.
 title: The Butterfly.js Effect
+track: a
 speakers:
 - avatar: /img/speakers/juan-buritica.jpg
   github: buritica

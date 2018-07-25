@@ -1,6 +1,7 @@
 ---
 description: Zachary will take us through the weird world of hardware music visualizers & recreate them in a browser with Javascript, WebMIDI, & a gamepad.
 title: Building a Javascript Video Synthesizer for Live Performance
+track: a
 speakers:
 - avatar: /img/speakers/zachary-berry.jpg
   github: zachberry
