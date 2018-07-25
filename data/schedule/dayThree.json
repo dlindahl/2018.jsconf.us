@@ -70,9 +70,14 @@
         "title": "Compilers: The Next Frontier In Web Performance"
       },
       {
-        "description": "Track B registration opens on July 21st!",
-        "speakers": [],
-        "title": "TBD"
+        "href": "/speakers/francis-gulotta/",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/francis-gulotta.jpg",
+            "name": "Francis Gulotta"
+          }
+        ],
+        "title": "We Live in Memory: Making λ and GraphQL respond in 70ms"
       }
     ]
   },
