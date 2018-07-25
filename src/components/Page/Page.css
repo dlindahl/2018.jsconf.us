@@ -130,12 +130,12 @@
 }
 
 .Page-CallToAction {
-  @apply --full-width;
   background-color: var(--js-yellow-lighter);
   margin-bottom: var(--spacer-sm);
   padding: var(--spacer-sm);
   text-align: center;
   @nest .Page-Content & {
+    @apply --full-width;
     &:first-child {
       margin-bottom: var(--spacer-lg);
       margin-top: calc(var(--spacer-lg) * -1);
