@@ -4,6 +4,13 @@
     "components": [
       {
         "description": "",
+        "href": "",
+        "sponsors": [
+          {
+            "logo": "",
+            "name": ""
+          }
+        ],
         "title": ""
       }
     ],
@@ -41,7 +48,18 @@
   {
     "endTime": 1600,
     "startTime": 1000,
-    "title": "Poolside Relaxation"
+    "components": [
+      {
+        "href": "/sponsors/pwc/",
+        "sponsors": [
+          {
+            "logo": "/img/sponsors/logos/pwc.svg",
+            "name": "PwC"
+          }
+        ],
+        "title": "Poolside Relaxation"
+      }
+    ]
   },
   {
     "endTime": 1600,

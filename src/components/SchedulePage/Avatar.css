@@ -4,12 +4,22 @@
   border: solid 3px var(--white);
   border-radius: 50%;
   box-sizing: content-box;
-  display: inline-block;
+  display: inline-flex;
   height: var(--spacer-lg);
   overflow: hidden;
   transition: border-color 0.2s;
   width: var(--spacer-lg);
   &:not(:first-of-type) {
     margin-left: calc(var(--spacer-xs) * -1);
+  }
+  & > img {
+    flex: 1;
+    margin: auto;
+  }
+}
+
+.Avatar--noclip {
+  &> img {
+    max-width: 80%;
   }
 }

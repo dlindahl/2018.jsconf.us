@@ -38,6 +38,15 @@ export const query = graphql`
       edges {
         node {
           anchor
+          components {
+            description
+            href
+            sponsors {
+              logo
+              name
+            }
+            title
+          }
           contentTag
           description
           duration
@@ -51,6 +60,15 @@ export const query = graphql`
       edges {
         node {
           anchor
+          components {
+            description
+            href
+            sponsors {
+              logo
+              name
+            }
+            title
+          }
           contentTag
           description
           duration
@@ -69,6 +87,10 @@ export const query = graphql`
             href
             speakers {
               avatar
+              name
+            }
+            sponsors {
+              logo
               name
             }
             title
@@ -93,6 +115,10 @@ export const query = graphql`
               avatar
               name
             }
+            sponsors {
+              logo
+              name
+            }
             title
           }
           contentTag
@@ -110,6 +136,11 @@ export const query = graphql`
           anchor
           components {
             description
+            href
+            sponsors {
+              logo
+              name
+            }
             title
           }
           contentTag

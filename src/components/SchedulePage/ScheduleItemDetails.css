@@ -37,6 +37,16 @@
   }
 }
 
+.ScheduleItemDetails-ByLine {
+  color: var(--light-darkest);
+  display: flex;
+  font-weight: 300;
+  margin-top: var(--spacer-2xs);
+  &:empty {
+    display: none;
+  }
+}
+
 .ScheduleItemDetails-Descr {
   color: var(--light-darkest);
   display: flex;
