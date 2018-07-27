@@ -5,7 +5,6 @@ import './ScheduleItemDetails.css'
 import { slugify, toSentence } from '../../util/string'
 
 function componentize (entity) {
-  console.info(entity.name, {entity})
   if (entity.avatar) {
     return <Avatar key={entity.avatar} src={entity.avatar}/>
   }
