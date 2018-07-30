@@ -2,11 +2,14 @@
 
 .SponsorsListItem {
   color: var(--color-cta);
+  margin-left: var(--spacer-xs) !important;
+  margin-right: var(--spacer-xs) !important;
+  margin-top: var(--spacer-xs) !important;
   text-align: center;
 }
 
 .SponsorListItem-Img {
-  max-height: var(--spacer-2xl);
+  max-height: var(--spacer-xl);
 }
 
 .SponsorListItem-Name {
