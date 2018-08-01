@@ -35,6 +35,13 @@
         "title": "NodeBoats"
       },
       {
+        "href": "/sponsors/bocoup/",
+        "sponsors": [
+          {
+            "logo": "/img/sponsors/logos/bocoup.png",
+            "name": "Bocoup"
+          }
+        ],
         "title": "NodeBots"
       },
       {
