@@ -58,6 +58,7 @@
 }
 
 .ScheduleItemDetails-Speakers {
+  display: flex;
   margin-left: var(--spacer-md);
   &:empty {
     display: none;
