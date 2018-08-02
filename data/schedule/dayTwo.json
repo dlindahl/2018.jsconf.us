@@ -32,6 +32,13 @@
     "startTime": 900,
     "components": [
       {
+        "href": "/sponsors/cloudreach/",
+        "sponsors": [
+          {
+            "logo": "/img/sponsors/logos/cloudreach_glyph.svg",
+            "name": "Cloudreach"
+          }
+        ],
         "title": "NodeBoats"
       },
       {
