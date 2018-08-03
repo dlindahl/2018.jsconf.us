@@ -39,9 +39,11 @@ const SchedulePage = ({ dayFour, dayOne, dayThree, dayTwo, dayZero }) => (
         align="left"
         content={
           <div>
-            <h3 className="Day-Subheading">What is Track A?</h3>
+            <h3 className="Day-Subheading">
+              What is the <a href="/sponsors/amp/">AMP</a> Track?
+            </h3>
             <p>
-              Track A includes a curated set of speakers that have submitted
+              The AMP Track includes a curated set of speakers that have submitted
               their proposals and have successfully made it through our
               selection process.
             </p>

@@ -1,5 +1,5 @@
 ---
-component:
+component: Track A
 level: gold
 logo: /img/sponsors/logos/amp.svg
 name: AMP
