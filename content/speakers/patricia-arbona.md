@@ -9,5 +9,5 @@ speakers:
   name: Patricia Arbona
   twitter:
   url:
-visible: true
+visible: false
 ---
