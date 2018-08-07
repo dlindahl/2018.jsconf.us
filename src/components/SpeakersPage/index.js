@@ -11,9 +11,9 @@ const SpeakersPage = ({ data }) => {
   const trackB = data.filter(({ frontmatter }) => frontmatter.track === TRACK_B)
   return (
     <DefaultLayout description="Our Speakers" title="Our Speakers">
-      <SpeakersList items={trackA} title="Track A">
+      <SpeakersList items={trackA} title="AMP Track">
         <p>
-          Track A includes a curated set of speakers that have submitted their
+          The <a href="/sponsors/amp/">AMP</a> Track includes a curated set of speakers that have submitted their
           proposals and have successfully made it through our selection process.
         </p>
       </SpeakersList>
