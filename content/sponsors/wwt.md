@@ -4,7 +4,7 @@ level: conference
 logo: /img/sponsors/logos/wwt.svg
 name: WWT
 scholarship: true
-url: https://www2.wwt.com/all-news/press-kit/
+url: https://www2.wwt.com/
 visible: true
 ---
 
