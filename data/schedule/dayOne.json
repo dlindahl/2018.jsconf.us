@@ -114,7 +114,34 @@
   },
   {
     "duration": 60,
-    "title": "Lunch"
+    "components": [
+      {
+        "title": "Lunch"
+      },
+      {
+        "description": "Join us in the AMP Track for a LIVE recording of your favorite podcast, JS Party!",
+        "href": "https://changelog.com/jsparty",
+        "speakers": [
+          {
+            "avatar": "/img/speakers/feross-aboukhadijeh.jpg",
+            "name": "Feross Aboukhadijeh"
+          },
+          {
+            "avatar": "/img/speakers/kevin-ball.jpg",
+            "name": "Kevin Ball"
+          },
+          {
+            "avatar": "/img/speakers/nick-nisi.jpg",
+            "name": "Nick Nisi"
+          },
+          {
+            "avatar": "/img/team/shinton.jpg",
+            "name": "Suz Hinton"
+          }
+        ],
+        "title": "JS Party: Live!"
+      }
+    ]
   },
   {
     "duration": 45,

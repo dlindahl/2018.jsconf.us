@@ -10,7 +10,11 @@
   transition: border-color 0.2s;
   width: var(--spacer-lg);
   &:not(:first-of-type) {
-    margin-left: calc(var(--spacer-xs) * -1);
+    margin-top: calc(var(--spacer-xs) * -1);
+    @media (--medium-screen) {
+      margin-left: calc(var(--spacer-xs) * -1);
+      margin-top: unset;
+    }
   }
   & > img {
     flex: 1;
