@@ -33,7 +33,7 @@
   {
     "description":
       "Come enjoy brunch food with everyone at JSConf as a final gathering. The internet can be a stressful place and programmers often make it worse, but here at Brunch.js you can hang out with some of the best and brightest and have a wonderful conversation over pancakes. Plan the rest of your day, show off some Node(Rocket|Bot|Boat|Copter) moves, or just discuss modules; whatever your final goals, the key is finish out the event happily.",
-    "duration": 240,
+    "duration": 180,
     "startTime": 1000,
     "title": "Brunch.js"
   }
